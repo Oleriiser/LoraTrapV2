@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>com.microchip.mplab.nbide.embedded.makeproject</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/make-project/1">
+            <name>Lorafrom0</name>
+            <creation-uuid>2febc951-b07a-4aa1-9f3d-d75b4b70e172</creation-uuid>
+            <make-project-type>0</make-project-type>
+            <sourceEncoding>ISO-8859-1</sourceEncoding>
+            <make-dep-projects/>
+            <sourceRootList>
+                <sourceRootElem>../src/config/default/Lora</sourceRootElem>
+                <sourceRootElem>../src/config/default/Lora/Common</sourceRootElem>
+                <sourceRootElem>../src/config/default/Lora/mac</sourceRootElem>
+                <sourceRootElem>../src/config/default/Lora/module_config</sourceRootElem>
+                <sourceRootElem>../src/config/default/Lora/regparams</sourceRootElem>
+                <sourceRootElem>../src/config/default/Lora/tal</sourceRootElem>
+                <sourceRootElem>../src/config/default/Lora/tal/sx1276</sourceRootElem>
+                <sourceRootElem>../src/config/default/peripheral</sourceRootElem>
+                <sourceRootElem>../src/config/default/system</sourceRootElem>
+            </sourceRootList>
+            <confList>
+                <confElem>
+                    <name>default</name>
+                    <type>2</type>
+                </confElem>
+            </confList>
+            <formatting>
+                <project-formatting-style>false</project-formatting-style>
+            </formatting>
+        </data>
+    </configuration>
+</project>
