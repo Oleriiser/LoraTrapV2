@@ -202,12 +202,12 @@ void RADIO_InitDefaultAttributes(void)
     radioConfiguration.frequencyDeviation = 25000;
     radioConfiguration.bitRate = 50000;
     radioConfiguration.modulation = MODULATION_LORA;
-    radioConfiguration.bandWidth = BW_125KHZ;
+    radioConfiguration.bandWidth = BW_125KHZ;// ok
     radioConfiguration.outputPower = 1;
     radioConfiguration.errorCodingRate = CR_4_5;
     radioConfiguration.implicitHeaderMode = 0;
     radioConfiguration.preambleLen = RADIO_PHY_PREAMBLE_LENGTH;
-    radioConfiguration.dataRate = SF_7;
+    radioConfiguration.dataRate = SF_7; //This is the same as spreading factor. reciever is at 11
     radioConfiguration.crcOn = 1;
     radioConfiguration.paBoost = 0;
     radioConfiguration.iqInverted = 0;

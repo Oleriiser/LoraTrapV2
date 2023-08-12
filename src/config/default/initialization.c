@@ -177,6 +177,8 @@ void SYS_Initialize ( void* data )
     /* Initialize the Software Timer Module */
     SystemTimerInit();
     /* MISRAC 2012 deviation block end */
+    //LORAReg_InitEU(ISM_EU868);
+    RADIO_InitDefaultAttributes();
 }
 
 /*******************************************************************************

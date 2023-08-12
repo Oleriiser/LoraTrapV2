@@ -106,6 +106,11 @@ build/default/debug/_ext/22805713/radio_driver_sx1276.o: \
  ../src/config/default/system/int/sys_int_mapping.h \
  ../src/config/default/Lora/Common/stack_common.h \
  ../src/config/default/Lora/sys/system_task_manager.h \
+ ../src/config/default/Lora/regparams/lorawan_multiband.h \
+ ../src/config/default/Lora/mac/lorawan.h \
+ ../src/config/default/Lora/regparams/lorawan_reg_params.h \
+ ../src/config/default/Lora/module_config/conf_regparams.h \
+ ../src/config/default/Lora/regparams/lorawan_reg_params.h \
  ../src/config/default/Lora/tal/radio_get_set.h \
  ../src/config/default/Lora/tal/radio_transaction.h \
  ../src/config/default/Lora/tal/radio_interface.h \
@@ -324,6 +329,16 @@ build/default/debug/_ext/22805713/radio_driver_sx1276.o: \
 ../src/config/default/Lora/Common/stack_common.h:
 
 ../src/config/default/Lora/sys/system_task_manager.h:
+
+../src/config/default/Lora/regparams/lorawan_multiband.h:
+
+../src/config/default/Lora/mac/lorawan.h:
+
+../src/config/default/Lora/regparams/lorawan_reg_params.h:
+
+../src/config/default/Lora/module_config/conf_regparams.h:
+
+../src/config/default/Lora/regparams/lorawan_reg_params.h:
 
 ../src/config/default/Lora/tal/radio_get_set.h:
 

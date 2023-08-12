@@ -64,6 +64,8 @@
 #include "peripheral/rstc/plib_rstc.h"
 #include "interrupts.h"
 #include "Lora/services/sw_timer/sw_timer.h"
+#include "Lora/regparams/lorawan_multiband.h"
+#include "Lora/regparams/lorawan_reg_params.h"
 
 // DOM-IGNORE-BEGIN
 #ifdef __cplusplus  // Provide C++ Compatibility
