@@ -1,15 +1,5 @@
-build/default/production/_ext/1824799587/radio_lbt.o: \
- ../src/config/default/Lora/tal/radio_lbt.c \
- ../src/config/default/Lora/tal/radio_lbt.h \
- ../src/config/default/Lora/sys/system_task_manager.h \
- ../src/config/default/Lora/tal/radio_task_manager.h \
- ../src/config/default/Lora/tal/sx1276/radio_driver_SX1276.h \
- ../src/config/default/Lora/tal/radio_interface.h \
- ../src/config/default/Lora/tal/sx1276/radio_registers_SX1276.h \
- ../src/config/default/Lora/tal/radio_interface.h \
- ../src/config/default/Lora/tal/radio_transaction.h \
- ../src/config/default/Lora/services/sw_timer/sw_timer.h \
- ../src/config/default/definitions.h \
+build/default/production/_ext/1530445869/tasks.o: \
+ ../src/config/default/Lora/tasks.c ../src/config/default/definitions.h \
  ../src/config/default/peripheral/nvmctrl/plib_nvmctrl.h \
  ../src/config/default/device.h \
  ../src/packs/ATSAMR34J18B_DFP/samr34j18b.h \
@@ -106,35 +96,18 @@ build/default/production/_ext/1824799587/radio_lbt.o: \
  ../src/config/default/peripheral/rstc/plib_rstc.h \
  ../src/config/default/interrupts.h \
  ../src/config/default/Lora/services/sw_timer/sw_timer.h \
- ../src/config/default/Lora/regparams/lorawan_multiband.h \
- ../src/config/default/Lora/mac/lorawan.h \
- ../src/config/default/Lora/Common/stack_common.h \
- ../src/config/default/Lora/regparams/lorawan_reg_params.h \
- ../src/config/default/Lora/module_config/conf_regparams.h \
- ../src/config/default/Lora/regparams/lorawan_reg_params.h \
  ../src/config/default/Lora/hal/sys.h \
  ../src/config/default/system/int/sys_int.h \
  ../src/config/default/system/int/sys_int_mapping.h \
- ../src/config/default/Lora/hal/radio_driver_hal.h \
- ../src/config/default/Lora/tal/radio_get_set.h
-
-../src/config/default/Lora/tal/radio_lbt.h:
-
-../src/config/default/Lora/sys/system_task_manager.h:
-
-../src/config/default/Lora/tal/radio_task_manager.h:
-
-../src/config/default/Lora/tal/sx1276/radio_driver_SX1276.h:
-
-../src/config/default/Lora/tal/radio_interface.h:
-
-../src/config/default/Lora/tal/sx1276/radio_registers_SX1276.h:
-
-../src/config/default/Lora/tal/radio_interface.h:
-
-../src/config/default/Lora/tal/radio_transaction.h:
-
-../src/config/default/Lora/services/sw_timer/sw_timer.h:
+ ../src/config/default/Lora/Common/stack_common.h \
+ ../src/config/default/Lora/sys/system_task_manager.h \
+ ../src/config/default/Lora/regparams/lorawan_multiband.h \
+ ../src/config/default/Lora/mac/lorawan.h \
+ ../src/config/default/Lora/tal/radio_interface.h \
+ ../src/config/default/Lora/regparams/lorawan_reg_params.h \
+ ../src/config/default/Lora/module_config/conf_regparams.h \
+ ../src/config/default/Lora/regparams/lorawan_reg_params.h \
+ ../src/config/default/Lora/app.h
 
 ../src/config/default/definitions.h:
 
@@ -332,11 +305,21 @@ build/default/production/_ext/1824799587/radio_lbt.o: \
 
 ../src/config/default/Lora/services/sw_timer/sw_timer.h:
 
+../src/config/default/Lora/hal/sys.h:
+
+../src/config/default/system/int/sys_int.h:
+
+../src/config/default/system/int/sys_int_mapping.h:
+
+../src/config/default/Lora/Common/stack_common.h:
+
+../src/config/default/Lora/sys/system_task_manager.h:
+
 ../src/config/default/Lora/regparams/lorawan_multiband.h:
 
 ../src/config/default/Lora/mac/lorawan.h:
 
-../src/config/default/Lora/Common/stack_common.h:
+../src/config/default/Lora/tal/radio_interface.h:
 
 ../src/config/default/Lora/regparams/lorawan_reg_params.h:
 
@@ -344,12 +327,4 @@ build/default/production/_ext/1824799587/radio_lbt.o: \
 
 ../src/config/default/Lora/regparams/lorawan_reg_params.h:
 
-../src/config/default/Lora/hal/sys.h:
-
-../src/config/default/system/int/sys_int.h:
-
-../src/config/default/system/int/sys_int_mapping.h:
-
-../src/config/default/Lora/hal/radio_driver_hal.h:
-
-../src/config/default/Lora/tal/radio_get_set.h:
+../src/config/default/Lora/app.h:

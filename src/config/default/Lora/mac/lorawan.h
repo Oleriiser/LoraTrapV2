@@ -163,29 +163,6 @@ typedef enum _TransmissionType
     LORAWAN_CNF
 } TransmissionType_t;
 
-/** Error Coding Configuration
- * This structure is used to override the error coding rate
- * in RADIO layer when transmitting the packet.
- * The override variable is used to inform MAC layer to SET
- * ecr value in the structure.
- * In general, ecr value will not be SET for every transmission.
- **/
-typedef struct _ecrConfig
-{
-    uint8_t ecr;
-    bool override;
-}ecrConfig_t;
-
-typedef struct _radioConfig
-{
-    uint32_t frequency;
-    uint16_t freq_hop_period;
-    ecrConfig_t ecrConfig;
-    int8_t txPower;
-    uint8_t modulation;
-    uint8_t bandwidth;
-    uint8_t sf;
-}radioConfig_t;
 
 typedef enum _EdClass
 {

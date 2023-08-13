@@ -108,6 +108,8 @@ build/default/debug/_ext/1824788055/sleep_timer.o: \
  ../src/config/default/Lora/regparams/lorawan_reg_params.h \
  ../src/config/default/Lora/module_config/conf_regparams.h \
  ../src/config/default/Lora/regparams/lorawan_reg_params.h \
+ ../src/config/default/Lora/radioconfig.h \
+ ../src/config/default/Lora/tal/sx1276/radio_driver_SX1276.h \
  ../src/config/default/Lora/hal/sleep_timer.h \
  ../src/config/default/Lora/module_config/conf_pmm.h
 
@@ -328,6 +330,10 @@ build/default/debug/_ext/1824788055/sleep_timer.o: \
 ../src/config/default/Lora/module_config/conf_regparams.h:
 
 ../src/config/default/Lora/regparams/lorawan_reg_params.h:
+
+../src/config/default/Lora/radioconfig.h:
+
+../src/config/default/Lora/tal/sx1276/radio_driver_SX1276.h:
 
 ../src/config/default/Lora/hal/sleep_timer.h:
 

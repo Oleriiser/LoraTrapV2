@@ -115,6 +115,8 @@ build/default/debug/_ext/1824799587/radio_transaction.o: \
  ../src/config/default/Lora/regparams/lorawan_reg_params.h \
  ../src/config/default/Lora/module_config/conf_regparams.h \
  ../src/config/default/Lora/regparams/lorawan_reg_params.h \
+ ../src/config/default/Lora/radioconfig.h \
+ ../src/config/default/Lora/tal/sx1276/radio_driver_SX1276.h \
  ../src/config/default/Lora/tal/radio_lbt.h \
  ../src/config/default/Lora/services/sw_timer/sw_timer.h \
  ../src/config/default/Lora/hal/atomic.h
@@ -350,6 +352,10 @@ build/default/debug/_ext/1824799587/radio_transaction.o: \
 ../src/config/default/Lora/module_config/conf_regparams.h:
 
 ../src/config/default/Lora/regparams/lorawan_reg_params.h:
+
+../src/config/default/Lora/radioconfig.h:
+
+../src/config/default/Lora/tal/sx1276/radio_driver_SX1276.h:
 
 ../src/config/default/Lora/tal/radio_lbt.h:
 

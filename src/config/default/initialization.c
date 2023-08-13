@@ -177,8 +177,12 @@ void SYS_Initialize ( void* data )
     /* Initialize the Software Timer Module */
     SystemTimerInit();
     /* MISRAC 2012 deviation block end */
-    //LORAReg_InitEU(ISM_EU868);
-    RADIO_InitDefaultAttributes();
+    
+    RADIO_Init();
+    //status = RADIO_SetAttr(RADIO_CALLBACK, (void *)&radioCallback);
+    //PORT_PinPeripheralFunctionConfig(PORT_PIN_PB16,PERIPHERAL_FUNCTION_A);//remove this when radio tasks works!!
+    //srand (RADIO_ReadRandom ());  // for the loRa random function we need a seed that is obtained from the radio
+    NVIC_Initialize();
 }
 
 /*******************************************************************************

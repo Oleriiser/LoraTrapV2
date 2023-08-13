@@ -1,16 +1,7 @@
-build/default/production/_ext/1824799587/radio_lbt.o: \
- ../src/config/default/Lora/tal/radio_lbt.c \
- ../src/config/default/Lora/tal/radio_lbt.h \
- ../src/config/default/Lora/sys/system_task_manager.h \
- ../src/config/default/Lora/tal/radio_task_manager.h \
- ../src/config/default/Lora/tal/sx1276/radio_driver_SX1276.h \
- ../src/config/default/Lora/tal/radio_interface.h \
- ../src/config/default/Lora/tal/sx1276/radio_registers_SX1276.h \
- ../src/config/default/Lora/tal/radio_interface.h \
- ../src/config/default/Lora/tal/radio_transaction.h \
- ../src/config/default/Lora/services/sw_timer/sw_timer.h \
- ../src/config/default/definitions.h \
- ../src/config/default/peripheral/nvmctrl/plib_nvmctrl.h \
+build/default/debug/_ext/1530445869/radioconfig.o: \
+ ../src/config/default/Lora/radioconfig.c \
+ ../src/config/default/Lora/../definitions.h \
+ ../src/config/default/Lora/../peripheral/nvmctrl/plib_nvmctrl.h \
  ../src/config/default/device.h \
  ../src/packs/ATSAMR34J18B_DFP/samr34j18b.h \
  ../src/packs/CMSIS/CMSIS/Core/Include/core_cm0plus.h \
@@ -88,57 +79,42 @@ build/default/production/_ext/1824799587/radio_lbt.o: \
  ../src/config/default/device_cache.h ../src/config/default/device.h \
  ../src/config/default/toolchain_specifics.h \
  ../src/packs/CMSIS/CMSIS/Core/Include/cmsis_compiler.h \
- ../src/config/default/peripheral/evsys/plib_evsys.h \
- ../src/config/default/peripheral/port/plib_port.h \
- ../src/config/default/peripheral/clock/plib_clock.h \
- ../src/config/default/peripheral/nvic/plib_nvic.h \
- ../src/config/default/peripheral/pm/plib_pm.h \
- ../src/config/default/peripheral/tc/plib_tc0.h \
- ../src/config/default/peripheral/tc/plib_tc_common.h \
- ../src/config/default/peripheral/rtc/plib_rtc.h \
- ../src/config/default/peripheral/systick/plib_systick.h \
- ../src/config/default/peripheral/sercom/spi_master/plib_sercom4_spi_master.h \
- ../src/config/default/peripheral/sercom/spi_master/plib_sercom_spi_master_common.h \
- ../src/config/default/peripheral/sercom/usart/plib_sercom0_usart.h \
- ../src/config/default/peripheral/sercom/usart/plib_sercom_usart_common.h \
- ../src/config/default/peripheral/supc/plib_supc.h \
- ../src/config/default/peripheral/eic/plib_eic.h \
- ../src/config/default/peripheral/rstc/plib_rstc.h \
- ../src/config/default/interrupts.h \
- ../src/config/default/Lora/services/sw_timer/sw_timer.h \
- ../src/config/default/Lora/regparams/lorawan_multiband.h \
- ../src/config/default/Lora/mac/lorawan.h \
- ../src/config/default/Lora/Common/stack_common.h \
- ../src/config/default/Lora/regparams/lorawan_reg_params.h \
- ../src/config/default/Lora/module_config/conf_regparams.h \
- ../src/config/default/Lora/regparams/lorawan_reg_params.h \
- ../src/config/default/Lora/hal/sys.h \
+ ../src/config/default/Lora/../peripheral/evsys/plib_evsys.h \
+ ../src/config/default/Lora/../peripheral/port/plib_port.h \
+ ../src/config/default/Lora/../peripheral/clock/plib_clock.h \
+ ../src/config/default/Lora/../peripheral/nvic/plib_nvic.h \
+ ../src/config/default/Lora/../peripheral/pm/plib_pm.h \
+ ../src/config/default/Lora/../peripheral/tc/plib_tc0.h \
+ ../src/config/default/Lora/../peripheral/tc/plib_tc_common.h \
+ ../src/config/default/Lora/../peripheral/rtc/plib_rtc.h \
+ ../src/config/default/Lora/../peripheral/systick/plib_systick.h \
+ ../src/config/default/Lora/../peripheral/sercom/spi_master/plib_sercom4_spi_master.h \
+ ../src/config/default/Lora/../peripheral/sercom/spi_master/plib_sercom_spi_master_common.h \
+ ../src/config/default/Lora/../peripheral/sercom/usart/plib_sercom0_usart.h \
+ ../src/config/default/Lora/../peripheral/sercom/usart/plib_sercom_usart_common.h \
+ ../src/config/default/Lora/../peripheral/supc/plib_supc.h \
+ ../src/config/default/Lora/../peripheral/eic/plib_eic.h \
+ ../src/config/default/Lora/../peripheral/rstc/plib_rstc.h \
+ ../src/config/default/Lora/../interrupts.h \
+ ../src/config/default/Lora/../Lora/services/sw_timer/sw_timer.h \
+ ../src/config/default/definitions.h ../src/config/default/Lora/hal/sys.h \
  ../src/config/default/system/int/sys_int.h \
  ../src/config/default/system/int/sys_int_mapping.h \
- ../src/config/default/Lora/hal/radio_driver_hal.h \
- ../src/config/default/Lora/tal/radio_get_set.h
+ ../src/config/default/Lora/Common/stack_common.h \
+ ../src/config/default/Lora/sys/system_task_manager.h \
+ ../src/config/default/Lora/../Lora/regparams/lorawan_multiband.h \
+ ../src/config/default/Lora/mac/lorawan.h \
+ ../src/config/default/Lora/tal/radio_interface.h \
+ ../src/config/default/Lora/../Lora/regparams/lorawan_reg_params.h \
+ ../src/config/default/Lora/module_config/conf_regparams.h \
+ ../src/config/default/Lora/../Lora/regparams/lorawan_reg_params.h \
+ ../src/config/default/Lora/../Lora/radioconfig.h \
+ ../src/config/default/Lora/../Lora/tal/sx1276/radio_driver_SX1276.h \
+ ../src/config/default/Lora/radioconfig.h
 
-../src/config/default/Lora/tal/radio_lbt.h:
+../src/config/default/Lora/../definitions.h:
 
-../src/config/default/Lora/sys/system_task_manager.h:
-
-../src/config/default/Lora/tal/radio_task_manager.h:
-
-../src/config/default/Lora/tal/sx1276/radio_driver_SX1276.h:
-
-../src/config/default/Lora/tal/radio_interface.h:
-
-../src/config/default/Lora/tal/sx1276/radio_registers_SX1276.h:
-
-../src/config/default/Lora/tal/radio_interface.h:
-
-../src/config/default/Lora/tal/radio_transaction.h:
-
-../src/config/default/Lora/services/sw_timer/sw_timer.h:
-
-../src/config/default/definitions.h:
-
-../src/config/default/peripheral/nvmctrl/plib_nvmctrl.h:
+../src/config/default/Lora/../peripheral/nvmctrl/plib_nvmctrl.h:
 
 ../src/config/default/device.h:
 
@@ -296,53 +272,43 @@ build/default/production/_ext/1824799587/radio_lbt.o: \
 
 ../src/packs/CMSIS/CMSIS/Core/Include/cmsis_compiler.h:
 
-../src/config/default/peripheral/evsys/plib_evsys.h:
+../src/config/default/Lora/../peripheral/evsys/plib_evsys.h:
 
-../src/config/default/peripheral/port/plib_port.h:
+../src/config/default/Lora/../peripheral/port/plib_port.h:
 
-../src/config/default/peripheral/clock/plib_clock.h:
+../src/config/default/Lora/../peripheral/clock/plib_clock.h:
 
-../src/config/default/peripheral/nvic/plib_nvic.h:
+../src/config/default/Lora/../peripheral/nvic/plib_nvic.h:
 
-../src/config/default/peripheral/pm/plib_pm.h:
+../src/config/default/Lora/../peripheral/pm/plib_pm.h:
 
-../src/config/default/peripheral/tc/plib_tc0.h:
+../src/config/default/Lora/../peripheral/tc/plib_tc0.h:
 
-../src/config/default/peripheral/tc/plib_tc_common.h:
+../src/config/default/Lora/../peripheral/tc/plib_tc_common.h:
 
-../src/config/default/peripheral/rtc/plib_rtc.h:
+../src/config/default/Lora/../peripheral/rtc/plib_rtc.h:
 
-../src/config/default/peripheral/systick/plib_systick.h:
+../src/config/default/Lora/../peripheral/systick/plib_systick.h:
 
-../src/config/default/peripheral/sercom/spi_master/plib_sercom4_spi_master.h:
+../src/config/default/Lora/../peripheral/sercom/spi_master/plib_sercom4_spi_master.h:
 
-../src/config/default/peripheral/sercom/spi_master/plib_sercom_spi_master_common.h:
+../src/config/default/Lora/../peripheral/sercom/spi_master/plib_sercom_spi_master_common.h:
 
-../src/config/default/peripheral/sercom/usart/plib_sercom0_usart.h:
+../src/config/default/Lora/../peripheral/sercom/usart/plib_sercom0_usart.h:
 
-../src/config/default/peripheral/sercom/usart/plib_sercom_usart_common.h:
+../src/config/default/Lora/../peripheral/sercom/usart/plib_sercom_usart_common.h:
 
-../src/config/default/peripheral/supc/plib_supc.h:
+../src/config/default/Lora/../peripheral/supc/plib_supc.h:
 
-../src/config/default/peripheral/eic/plib_eic.h:
+../src/config/default/Lora/../peripheral/eic/plib_eic.h:
 
-../src/config/default/peripheral/rstc/plib_rstc.h:
+../src/config/default/Lora/../peripheral/rstc/plib_rstc.h:
 
-../src/config/default/interrupts.h:
+../src/config/default/Lora/../interrupts.h:
 
-../src/config/default/Lora/services/sw_timer/sw_timer.h:
+../src/config/default/Lora/../Lora/services/sw_timer/sw_timer.h:
 
-../src/config/default/Lora/regparams/lorawan_multiband.h:
-
-../src/config/default/Lora/mac/lorawan.h:
-
-../src/config/default/Lora/Common/stack_common.h:
-
-../src/config/default/Lora/regparams/lorawan_reg_params.h:
-
-../src/config/default/Lora/module_config/conf_regparams.h:
-
-../src/config/default/Lora/regparams/lorawan_reg_params.h:
+../src/config/default/definitions.h:
 
 ../src/config/default/Lora/hal/sys.h:
 
@@ -350,6 +316,24 @@ build/default/production/_ext/1824799587/radio_lbt.o: \
 
 ../src/config/default/system/int/sys_int_mapping.h:
 
-../src/config/default/Lora/hal/radio_driver_hal.h:
+../src/config/default/Lora/Common/stack_common.h:
 
-../src/config/default/Lora/tal/radio_get_set.h:
+../src/config/default/Lora/sys/system_task_manager.h:
+
+../src/config/default/Lora/../Lora/regparams/lorawan_multiband.h:
+
+../src/config/default/Lora/mac/lorawan.h:
+
+../src/config/default/Lora/tal/radio_interface.h:
+
+../src/config/default/Lora/../Lora/regparams/lorawan_reg_params.h:
+
+../src/config/default/Lora/module_config/conf_regparams.h:
+
+../src/config/default/Lora/../Lora/regparams/lorawan_reg_params.h:
+
+../src/config/default/Lora/../Lora/radioconfig.h:
+
+../src/config/default/Lora/../Lora/tal/sx1276/radio_driver_SX1276.h:
+
+../src/config/default/Lora/radioconfig.h:

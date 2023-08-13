@@ -90,7 +90,15 @@
 #define LED_AMBER_InputEnable()       (PORT_REGS->GROUP[0].PORT_DIRCLR = ((uint32_t)1U << 19U))
 #define LED_AMBER_Get()               (((PORT_REGS->GROUP[0].PORT_IN >> 19U)) & 0x01U)
 #define LED_AMBER_PIN                  PORT_PIN_PA19
-
+//       
+///*** Macros for LED_RED pin ***/
+//#define LED_RED_Set()               (PORT_REGS->GROUP[0].PORT_OUTSET = ((uint32_t)1U << 55U))
+//#define LED_RED_Clear()             (PORT_REGS->GROUP[0].PORT_OUTCLR = ((uint32_t)1U << 55U))
+//#define LED_RED_Toggle()            (PORT_REGS->GROUP[0].PORT_OUTTGL = ((uint32_t)1U << 55U))
+//#define LED_RED_OutputEnable()      (PORT_REGS->GROUP[0].PORT_DIRSET = ((uint32_t)1U << 55U))
+//#define LED_RED_InputEnable()       (PORT_REGS->GROUP[0].PORT_DIRCLR = ((uint32_t)1U << 55U))
+//#define LED_RED_Get()               (((PORT_REGS->GROUP[0].PORT_IN >> 55U)) & 0x01U)
+//#define LED_RED_PIN                  PORT_PIN_PB23
 // *****************************************************************************
 /* PORT Group
 

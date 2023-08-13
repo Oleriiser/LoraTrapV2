@@ -50,6 +50,11 @@
               <itemPath>../src/config/default/Lora/sys/system_assert.h</itemPath>
               <itemPath>../src/config/default/Lora/sys/system_init.h</itemPath>
             </logicalFolder>
+            <logicalFolder name="tal" displayName="tal" projectFiles="true">
+              <logicalFolder name="sx1276" displayName="sx1276" projectFiles="true">
+              </logicalFolder>
+              <itemPath>../src/config/default/Lora/radioconfig.h</itemPath>
+            </logicalFolder>
           </logicalFolder>
           <logicalFolder name="peripheral" displayName="peripheral" projectFiles="true">
             <logicalFolder name="adc" displayName="adc" projectFiles="true">
@@ -285,6 +290,7 @@
               <itemPath>../src/config/default/Lora/tal/radio_lbt.c</itemPath>
               <itemPath>../src/config/default/Lora/tal/radio_task_manager.c</itemPath>
               <itemPath>../src/config/default/Lora/tal/radio_transaction.c</itemPath>
+              <itemPath>../src/config/default/Lora/radioconfig.c</itemPath>
             </logicalFolder>
           </logicalFolder>
           <logicalFolder name="peripheral" displayName="peripheral" projectFiles="true">
@@ -646,7 +652,7 @@
         <property key="debugoptions.debug-startup" value="Use system settings"/>
         <property key="debugoptions.reset-behaviour" value="Use system settings"/>
         <property key="debugoptions.simultaneous.debug" value="false"/>
-        <property key="debugoptions.useswbreakpoints" value="false"/>
+        <property key="debugoptions.useswbreakpoints" value="true"/>
         <property key="event.recorder.enabled" value="false"/>
         <property key="event.recorder.scvd.files" value=""/>
         <property key="freeze.timers" value="false"/>

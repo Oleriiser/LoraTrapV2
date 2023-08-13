@@ -66,6 +66,9 @@
 #include "Lora/services/sw_timer/sw_timer.h"
 #include "Lora/regparams/lorawan_multiband.h"
 #include "Lora/regparams/lorawan_reg_params.h"
+#include "peripheral/port/plib_port.h"
+#include "Lora/radioconfig.h"
+#include "Lora/tal/sx1276/radio_driver_SX1276.h"
 
 // DOM-IGNORE-BEGIN
 #ifdef __cplusplus  // Provide C++ Compatibility

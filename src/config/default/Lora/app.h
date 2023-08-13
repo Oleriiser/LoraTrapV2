@@ -62,7 +62,10 @@ typedef enum
 {
     /* Application's state machine's initial state. */
     APP_STATE_INIT=0,
-    APP_STATE_SERVICE_TASKS,
+    APP_STATE_GET_MICE_COUNT,
+            APP_STATE_GET_BATTERY_VOLTAGE,
+            APP_STATE_REPORT,
+            APP_STATE_ENTER_SLEEP,
     /* TODO: Define states used by the application state machine. */
 
 } APP_STATES;

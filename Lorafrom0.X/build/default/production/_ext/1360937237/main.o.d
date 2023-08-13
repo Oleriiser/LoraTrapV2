@@ -100,7 +100,13 @@ build/default/production/_ext/1360937237/main.o: ../src/main.c \
  ../src/config/default/system/int/sys_int.h \
  ../src/config/default/system/int/sys_int_mapping.h \
  ../src/config/default/Lora/Common/stack_common.h \
- ../src/config/default/Lora/sys/system_task_manager.h
+ ../src/config/default/Lora/sys/system_task_manager.h \
+ ../src/config/default/Lora/regparams/lorawan_multiband.h \
+ ../src/config/default/Lora/mac/lorawan.h \
+ ../src/config/default/Lora/tal/radio_interface.h \
+ ../src/config/default/Lora/regparams/lorawan_reg_params.h \
+ ../src/config/default/Lora/module_config/conf_regparams.h \
+ ../src/config/default/Lora/regparams/lorawan_reg_params.h
 
 ../src/config/default/definitions.h:
 
@@ -307,3 +313,15 @@ build/default/production/_ext/1360937237/main.o: ../src/main.c \
 ../src/config/default/Lora/Common/stack_common.h:
 
 ../src/config/default/Lora/sys/system_task_manager.h:
+
+../src/config/default/Lora/regparams/lorawan_multiband.h:
+
+../src/config/default/Lora/mac/lorawan.h:
+
+../src/config/default/Lora/tal/radio_interface.h:
+
+../src/config/default/Lora/regparams/lorawan_reg_params.h:
+
+../src/config/default/Lora/module_config/conf_regparams.h:
+
+../src/config/default/Lora/regparams/lorawan_reg_params.h:

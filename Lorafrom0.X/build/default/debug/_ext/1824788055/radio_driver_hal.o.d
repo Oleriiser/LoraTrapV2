@@ -109,6 +109,8 @@ build/default/debug/_ext/1824788055/radio_driver_hal.o: \
  ../src/config/default/Lora/regparams/lorawan_reg_params.h \
  ../src/config/default/Lora/module_config/conf_regparams.h \
  ../src/config/default/Lora/regparams/lorawan_reg_params.h \
+ ../src/config/default/Lora/radioconfig.h \
+ ../src/config/default/Lora/tal/sx1276/radio_driver_SX1276.h \
  ../src/config/default/Lora/hal/sys.h \
  ../src/config/default/Lora/module_config/conf_pmm.h \
  ../src/config/default/peripheral/eic/plib_eic.h \
@@ -336,6 +338,10 @@ build/default/debug/_ext/1824788055/radio_driver_hal.o: \
 ../src/config/default/Lora/module_config/conf_regparams.h:
 
 ../src/config/default/Lora/regparams/lorawan_reg_params.h:
+
+../src/config/default/Lora/radioconfig.h:
+
+../src/config/default/Lora/tal/sx1276/radio_driver_SX1276.h:
 
 ../src/config/default/Lora/hal/sys.h:
 

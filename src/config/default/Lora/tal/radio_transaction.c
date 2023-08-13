@@ -207,7 +207,7 @@ void RADIO_InitDefaultAttributes(void)
     radioConfiguration.errorCodingRate = CR_4_5;
     radioConfiguration.implicitHeaderMode = 0;
     radioConfiguration.preambleLen = RADIO_PHY_PREAMBLE_LENGTH;
-    radioConfiguration.dataRate = SF_7; //This is the same as spreading factor. reciever is at 11
+    radioConfiguration.dataRate = SF_11; //This is the same as spreading factor. reciever is at 11
     radioConfiguration.crcOn = 1;
     radioConfiguration.paBoost = 0;
     radioConfiguration.iqInverted = 0;
@@ -357,7 +357,8 @@ RadioError_t RADIO_Transmit(RadioTransmitParam_t *param)
 	/*          separated for Rx and Tx, they are reused.					*/
 	/************************************************************************/
     if (RADIO_STATE_IDLE != RADIO_GetState())
-    {
+    {   
+        delay_us(1);
         return ERR_RADIO_BUSY;
     }
 
@@ -558,8 +559,8 @@ SYSTEM_TaskStatus_t RADIO_TxHandler(void)
 	// Setting it to 4 is a valid option.
 	Radio_WriteConfiguration(4);
 
-	if (MODULATION_LORA == radioConfiguration.modulation)
-	{
+//	if (MODULATION_LORA == radioConfiguration.modulation)
+//	{
 		RADIO_RegisterWrite(REG_LORA_PAYLOADLENGTH, txBufferLen);
 
 		// Configure PaRamp
@@ -577,35 +578,35 @@ SYSTEM_TaskStatus_t RADIO_TxHandler(void)
 #ifndef UT
 		RADIO_FrameWrite(REG_FIFO_ADDRESS, transmitBufferPtr, txBufferLen);
 #endif //UT_D
-	} 
-	else // if (MODULATION_FSK == radioConfiguration.modulation)
-	{
-        //Radio_WriteMode(MODE_STANDBY, radioConfiguration.modulation, 1);
-        
-		radioConfiguration.fskPayloadIndex = 0;
-        RADIO_FrameWrite(REG_FIFO, &txBufferLen, 1);
-        if (txBufferLen > RADIO_TX_FIFO_LEVEL)
-        {
-            RADIO_FrameWrite(REG_FIFO, transmitBufferPtr, RADIO_TX_FIFO_LEVEL);
-            radioConfiguration.fskPayloadIndex += RADIO_TX_FIFO_LEVEL;
-        }
-        else
-        {
-            RADIO_FrameWrite(REG_FIFO, transmitBufferPtr, txBufferLen);
-            radioConfiguration.fskPayloadIndex = txBufferLen;
-        }              
-        
-        RADIO_RegisterWrite(REG_DIOMAPPING1, 0x14);
-        //    | REG_DIOMAPPING1_DIO0_BITS_00
-        //    | REG_DIOMAPPING1_DIO1_BITS_01
-        //    | REG_DIOMAPPING1_DIO2_BITS_01
-        //    | REG_DIOMAPPING1_DIO3_BITS_00);
-
-        RADIO_RegisterWrite(REG_DIOMAPPING2,
-            (RADIO_RegisterRead(REG_DIOMAPPING2)
-                & REG_DIOMAPPING2_DIO4_BITMASK
-                & REG_DIOMAPPING2_DIO_BITMASK));
-	}
+//	} 
+//	else // if (MODULATION_FSK == radioConfiguration.modulation)
+//	{
+//        //Radio_WriteMode(MODE_STANDBY, radioConfiguration.modulation, 1);
+//        
+//		radioConfiguration.fskPayloadIndex = 0;
+//        RADIO_FrameWrite(REG_FIFO, &txBufferLen, 1);
+//        if (txBufferLen > RADIO_TX_FIFO_LEVEL)
+//        {
+//            RADIO_FrameWrite(REG_FIFO, transmitBufferPtr, RADIO_TX_FIFO_LEVEL);
+//            radioConfiguration.fskPayloadIndex += RADIO_TX_FIFO_LEVEL;
+//        }
+//        else
+//        {
+//            RADIO_FrameWrite(REG_FIFO, transmitBufferPtr, txBufferLen);
+//            radioConfiguration.fskPayloadIndex = txBufferLen;
+//        }              
+//        
+//        RADIO_RegisterWrite(REG_DIOMAPPING1, 0x14);
+//        //    | REG_DIOMAPPING1_DIO0_BITS_00
+//        //    | REG_DIOMAPPING1_DIO1_BITS_01
+//        //    | REG_DIOMAPPING1_DIO2_BITS_01
+//        //    | REG_DIOMAPPING1_DIO3_BITS_00);
+//
+//        RADIO_RegisterWrite(REG_DIOMAPPING2,
+//            (RADIO_RegisterRead(REG_DIOMAPPING2)
+//                & REG_DIOMAPPING2_DIO4_BITMASK
+//                & REG_DIOMAPPING2_DIO_BITMASK));
+//	}
 
 	/****************************************************************************/
 	/*  Non blocking switch. We don't really care when it starts transmitting.  */

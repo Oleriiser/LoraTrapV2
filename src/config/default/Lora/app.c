@@ -35,7 +35,8 @@
 // *****************************************************************************
 // *****************************************************************************
 
-
+bool radio_transmission_active=false;
+bool DIOStatus = 0;
 // *****************************************************************************
 /* Application Data
 
@@ -120,21 +121,92 @@ void APP_Tasks ( void )
         case APP_STATE_INIT:
         {
             bool appInitialized = true;
-
-
+            RADIO_Init();
+            
+            PORT_PinOutputEnable(PORT_PIN_PB23);
             if (appInitialized)
             {
                 
                 
                 /* Do other things */
-                appData.state = APP_STATE_SERVICE_TASKS;
+                appData.state = APP_STATE_GET_MICE_COUNT;
             }
             break;
         }
-
-        case APP_STATE_SERVICE_TASKS:
-        {
+        case APP_STATE_GET_MICE_COUNT:
+        {   
+            delay_ms(500);
             
+                    
+            appData.state = APP_STATE_GET_BATTERY_VOLTAGE;
+            break;
+        }
+
+        case APP_STATE_GET_BATTERY_VOLTAGE:
+        {
+            appData.state = APP_STATE_REPORT;
+            break;
+        }
+        case APP_STATE_REPORT:
+        {
+            //PORT_PinWrite(PORT_PIN_PB23, true);
+            uint8_t macBuffer[5]={0,1,2,3,4};
+            
+            
+            RadioTransmitParam_t RadioTransmitParam;
+            ConfigureRadioTx();
+            RadioTransmitParam.bufferLen = 5;
+            RadioTransmitParam.bufferPtr = &macBuffer[5];
+            //resend the last packet
+            if (RADIO_Transmit(&RadioTransmitParam) == ERR_NONE)
+            {
+                //radio_transmission_active=true;
+                PORT_PinWrite(PORT_PIN_PB23, true);
+                delay_ms(100);
+                PORT_PinWrite(PORT_PIN_PB23, false);
+                delay_ms(100);
+            }
+            else
+            {
+                
+                delay_ms(1000);
+                PORT_PinWrite(PORT_PIN_PB23, false);
+                delay_ms(100);
+                PORT_PinWrite(PORT_PIN_PB23, true);
+                delay_ms(100);
+                PORT_PinWrite(PORT_PIN_PB23, false);
+                delay_ms(100);
+                PORT_PinWrite(PORT_PIN_PB23, true);
+                delay_ms(100);
+                PORT_PinWrite(PORT_PIN_PB23, false);
+                delay_ms(100);
+                PORT_PinWrite(PORT_PIN_PB23, true);
+                delay_ms(100);
+                PORT_PinWrite(PORT_PIN_PB23, false);
+                delay_ms(100);
+                PORT_PinWrite(PORT_PIN_PB23, true);
+                delay_ms(100);
+                delay_ms(1000);
+            }
+            
+            appData.state = APP_STATE_ENTER_SLEEP;
+            
+            break;
+            }
+        case APP_STATE_ENTER_SLEEP:
+        {   
+            if(RADIO_STATE_IDLE == RADIO_GetState())
+            {
+                delay_ms(500);
+                //radio_transmission_active=false;
+                appData.state = APP_STATE_GET_MICE_COUNT;
+                PORT_PinWrite(PORT_PIN_PB23, false);
+            }
+            else
+            {
+                DIOStatus = PORT_PinRead(PORT_PIN_PB16);
+                PORT_PinWrite(PORT_PIN_PB23,DIOStatus);
+            }
             break;
         }
 

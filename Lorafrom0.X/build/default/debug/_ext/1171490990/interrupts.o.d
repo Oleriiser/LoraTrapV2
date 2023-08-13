@@ -107,7 +107,9 @@ build/default/debug/_ext/1171490990/interrupts.o: \
  ../src/config/default/Lora/tal/radio_interface.h \
  ../src/config/default/Lora/regparams/lorawan_reg_params.h \
  ../src/config/default/Lora/module_config/conf_regparams.h \
- ../src/config/default/Lora/regparams/lorawan_reg_params.h
+ ../src/config/default/Lora/regparams/lorawan_reg_params.h \
+ ../src/config/default/Lora/radioconfig.h \
+ ../src/config/default/Lora/tal/sx1276/radio_driver_SX1276.h
 
 ../src/config/default/device_vectors.h:
 
@@ -330,3 +332,7 @@ build/default/debug/_ext/1171490990/interrupts.o: \
 ../src/config/default/Lora/module_config/conf_regparams.h:
 
 ../src/config/default/Lora/regparams/lorawan_reg_params.h:
+
+../src/config/default/Lora/radioconfig.h:
+
+../src/config/default/Lora/tal/sx1276/radio_driver_SX1276.h:
