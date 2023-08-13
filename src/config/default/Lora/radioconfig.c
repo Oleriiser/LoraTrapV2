@@ -72,7 +72,7 @@ int global_data;
 void ConfigureRadioTx(void)
 {
     uint8_t crcEnabled,iqInverted;
-    crcEnabled = 1;//ENABLED;
+    crcEnabled = 0;//ENABLED;
     iqInverted = 0;//DISABLED;
 
     ConfigureRadio();

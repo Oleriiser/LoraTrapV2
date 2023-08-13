@@ -198,7 +198,7 @@ RadioError_t RADIO_StopCW(void)
 void RADIO_InitDefaultAttributes(void)
 {
     RadioSetState(RADIO_STATE_IDLE);
-    radioConfiguration.frequency = RADIO_DEFAULT_FREQ;
+    radioConfiguration.frequency = FREQ_868000KHZ;
     radioConfiguration.frequencyDeviation = 25000;
     radioConfiguration.bitRate = 50000;
     radioConfiguration.modulation = MODULATION_LORA;
@@ -208,7 +208,7 @@ void RADIO_InitDefaultAttributes(void)
     radioConfiguration.implicitHeaderMode = 0;
     radioConfiguration.preambleLen = RADIO_PHY_PREAMBLE_LENGTH;
     radioConfiguration.dataRate = SF_11; //This is the same as spreading factor. reciever is at 11
-    radioConfiguration.crcOn = 1;
+    radioConfiguration.crcOn = 0;
     radioConfiguration.paBoost = 0;
     radioConfiguration.iqInverted = 0;
     radioConfiguration.syncWord[0] = 0xC1;

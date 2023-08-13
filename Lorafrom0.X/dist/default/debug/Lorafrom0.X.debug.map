@@ -165,10 +165,11 @@ section                    address  length [bytes]      (dec)  Description
 .text.HAL_RegisterDioIn     0x4880           0x2c          44   
 .text.Radio_RxFSKTimeou     0x48ac           0x2c          44   
 .text.Radio_SetClockInp     0x48d8           0x2c          44   
-.text.ConfigureRadioTx      0x4904           0x2c          44   
-.text.RTC_Initialize        0x4930           0x2c          44   
-.text.RTC_InterruptHand     0x495c           0x2c          44   
-.text.SERCOM4_SPI_Initi     0x4988           0x2c          44   
+.text.RTC_Initialize        0x4904           0x2c          44   
+.text.RTC_InterruptHand     0x4930           0x2c          44   
+.text.SERCOM4_SPI_Initi     0x495c           0x2c          44   
+.text.ConfigureRadioTx      0x4988           0x2a          42   
+.text.Dummy_App_Func        0x49b2            0x2           2   
 .text.RADIO_RegisterWri     0x49b4           0x28          40   
 .text.HAL_EnableRFCtrl      0x49dc           0x28          40   
 .text.SwTimerCreate         0x4a04           0x28          40   
@@ -183,7 +184,6 @@ section                    address  length [bytes]      (dec)  Description
 .text.SystemTimerInit       0x4b64           0x24          36   
 .text.NVIC_Initialize       0x4b88           0x24          36   
 .text.RADIO_UnhandledIn     0x4bac           0x22          34   
-.text.Dummy_App_Func        0x4bce            0x2           2   
 .text.HAL_RadioDIO2Call     0x4bd0           0x20          32   
 .text.HAL_RadioDIO1Call     0x4bf0           0x20          32   
 .text.HAL_RadioDIO0Call     0x4c10           0x20          32   
@@ -230,18 +230,18 @@ section                    address  length [bytes]      (dec)  Description
 .text.SystemBlockingWai     0x4f32            0x8           8   
 .text.SYS_INT_Disable       0x4f3a            0x8           8   
 .text.SYS_INT_Restore       0x4f42            0x8           8   
-.rodata                     0x4f4c            0x8           8  Read-only const 
-.text.SYSTICK_TimerFreq     0x4f54            0x6           6   
-.text.HAL_GetRadioClkSt     0x4f5a            0x4           4   
-.text.HAL_GetRadioClkSr     0x4f5e            0x4           4   
-.text.PORT_GroupRead        0x4f62            0x4           4   
-.text.PORT_GroupOutputE     0x4f66            0x4           4   
-.text.NonMaskableInt_Ha     0x4f6a            0x4           4   
-.text.HardFault_Handler     0x4f6e            0x4           4   
-.text                       0x4f74            0x4           4  App's exec code 
-      Total ROM used  :      0x4f70       20336  7.8% of 0x40000
+.text.SYSTICK_TimerFreq     0x4f4a            0x6           6   
+.text.HAL_GetRadioClkSt     0x4f50            0x4           4   
+.text.HAL_GetRadioClkSr     0x4f54            0x4           4   
+.text.PORT_GroupRead        0x4f58            0x4           4   
+.text.PORT_GroupOutputE     0x4f5c            0x4           4   
+.text.NonMaskableInt_Ha     0x4f60            0x4           4   
+.text.HardFault_Handler     0x4f64            0x4           4   
+.rodata                     0x4f68            0x4           4  Read-only const 
+.text                       0x4f6c            0x4           4  App's exec code 
+      Total ROM used  :      0x4f6a       20330  7.8% of 0x40000
         --------------------------------------------------------------------------
-         Total Program Memory used  :      0x4f70       20336  7.8% of 0x40000
+         Total Program Memory used  :      0x4f6a       20330  7.8% of 0x40000
         --------------------------------------------------------------------------
 
 
@@ -2760,29 +2760,29 @@ LOAD data_init
                 0x000048d8       0x2c build/default/debug/_ext/1824799587/radio_transaction.o
                 0x000048d8                Radio_SetClockInput
 
-.text.ConfigureRadioTx%131
+.text.RTC_Initialize%131
                 0x00004904       0x2c
- .text.ConfigureRadioTx
-                0x00004904       0x2c build/default/debug/_ext/1530445869/radioconfig.o
-                0x00004904                ConfigureRadioTx
-
-.text.RTC_Initialize%132
-                0x00004930       0x2c
  .text.RTC_Initialize
-                0x00004930       0x2c build/default/debug/_ext/60180175/plib_rtc_timer.o
-                0x00004930                RTC_Initialize
+                0x00004904       0x2c build/default/debug/_ext/60180175/plib_rtc_timer.o
+                0x00004904                RTC_Initialize
 
-.text.RTC_InterruptHandler%133
-                0x0000495c       0x2c
+.text.RTC_InterruptHandler%132
+                0x00004930       0x2c
  .text.RTC_InterruptHandler
-                0x0000495c       0x2c build/default/debug/_ext/60180175/plib_rtc_timer.o
-                0x0000495c                RTC_InterruptHandler
+                0x00004930       0x2c build/default/debug/_ext/60180175/plib_rtc_timer.o
+                0x00004930                RTC_InterruptHandler
 
-.text.SERCOM4_SPI_Initialize%134
-                0x00004988       0x2c
+.text.SERCOM4_SPI_Initialize%133
+                0x0000495c       0x2c
  .text.SERCOM4_SPI_Initialize
-                0x00004988       0x2c build/default/debug/_ext/17022449/plib_sercom4_spi_master.o
-                0x00004988                SERCOM4_SPI_Initialize
+                0x0000495c       0x2c build/default/debug/_ext/17022449/plib_sercom4_spi_master.o
+                0x0000495c                SERCOM4_SPI_Initialize
+
+.text.ConfigureRadioTx%134
+                0x00004988       0x2a
+ .text.ConfigureRadioTx
+                0x00004988       0x2a build/default/debug/_ext/1530445869/radioconfig.o
+                0x00004988                ConfigureRadioTx
 
 .text.RADIO_RegisterWrite%135
                 0x000049b4       0x28
@@ -3131,55 +3131,55 @@ LOAD data_init
                 0x00004f42        0x8 build/default/debug/_ext/1881668453/sys_int.o
                 0x00004f42                SYS_INT_Restore
 
-.rodata%195     0x00004f4c        0x8
- .rodata        0x00004f4c        0x8 build/default/debug/_ext/1530445869/app.o
-
-.text.SYSTICK_TimerFrequencyGet%196
-                0x00004f54        0x6
+.text.SYSTICK_TimerFrequencyGet%195
+                0x00004f4a        0x6
  .text.SYSTICK_TimerFrequencyGet
-                0x00004f54        0x6 build/default/debug/_ext/1827571544/plib_systick.o
-                0x00004f54                SYSTICK_TimerFrequencyGet
+                0x00004f4a        0x6 build/default/debug/_ext/1827571544/plib_systick.o
+                0x00004f4a                SYSTICK_TimerFrequencyGet
 
-.text.HAL_GetRadioClkStabilizationDelay%197
-                0x00004f5a        0x4
+.text.HAL_GetRadioClkStabilizationDelay%196
+                0x00004f50        0x4
  .text.HAL_GetRadioClkStabilizationDelay
-                0x00004f5a        0x4 build/default/debug/_ext/1824788055/radio_driver_hal.o
-                0x00004f5a                HAL_GetRadioClkStabilizationDelay
+                0x00004f50        0x4 build/default/debug/_ext/1824788055/radio_driver_hal.o
+                0x00004f50                HAL_GetRadioClkStabilizationDelay
 
-.text.HAL_GetRadioClkSrc%198
-                0x00004f5e        0x4
+.text.HAL_GetRadioClkSrc%197
+                0x00004f54        0x4
  .text.HAL_GetRadioClkSrc
-                0x00004f5e        0x4 build/default/debug/_ext/1824788055/radio_driver_hal.o
-                0x00004f5e                HAL_GetRadioClkSrc
+                0x00004f54        0x4 build/default/debug/_ext/1824788055/radio_driver_hal.o
+                0x00004f54                HAL_GetRadioClkSrc
 
-.text.PORT_GroupRead%199
-                0x00004f62        0x4
+.text.PORT_GroupRead%198
+                0x00004f58        0x4
  .text.PORT_GroupRead
-                0x00004f62        0x4 build/default/debug/_ext/1865521619/plib_port.o
-                0x00004f62                PORT_GroupRead
+                0x00004f58        0x4 build/default/debug/_ext/1865521619/plib_port.o
+                0x00004f58                PORT_GroupRead
 
-.text.PORT_GroupOutputEnable%200
-                0x00004f66        0x4
+.text.PORT_GroupOutputEnable%199
+                0x00004f5c        0x4
  .text.PORT_GroupOutputEnable
-                0x00004f66        0x4 build/default/debug/_ext/1865521619/plib_port.o
-                0x00004f66                PORT_GroupOutputEnable
+                0x00004f5c        0x4 build/default/debug/_ext/1865521619/plib_port.o
+                0x00004f5c                PORT_GroupOutputEnable
 
-.text.NonMaskableInt_Handler%201
-                0x00004f6a        0x4
+.text.NonMaskableInt_Handler%200
+                0x00004f60        0x4
  .text.NonMaskableInt_Handler
-                0x00004f6a        0x4 build/default/debug/_ext/1171490990/exceptions.o
-                0x00004f6a                NonMaskableInt_Handler
+                0x00004f60        0x4 build/default/debug/_ext/1171490990/exceptions.o
+                0x00004f60                NonMaskableInt_Handler
 
-.text.HardFault_Handler%202
-                0x00004f6e        0x4
+.text.HardFault_Handler%201
+                0x00004f64        0x4
  .text.HardFault_Handler
-                0x00004f6e        0x4 build/default/debug/_ext/1171490990/exceptions.o
-                0x00004f6e                HardFault_Handler
+                0x00004f64        0x4 build/default/debug/_ext/1171490990/exceptions.o
+                0x00004f64                HardFault_Handler
 
-.text%203       0x00004f74        0x4
- .text          0x00004f74        0x4 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
-                0x00004f74                __aeabi_idiv0
-                0x00004f74                __aeabi_ldiv0
+.rodata%202     0x00004f68        0x4
+ .rodata        0x00004f68        0x4 build/default/debug/_ext/1530445869/app.o
+
+.text%203       0x00004f6c        0x4
+ .text          0x00004f6c        0x4 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+                0x00004f6c                __aeabi_idiv0
+                0x00004f6c                __aeabi_ldiv0
 
 .text.EVSYS_Initialize%204
                 0x00002f86        0x2
@@ -3229,11 +3229,11 @@ LOAD data_init
                 0x00004852                AES_Handler
 
 .text.Dummy_App_Func%207
-                0x00004bce        0x2
+                0x000049b2        0x2
  .text.Dummy_App_Func
-                0x00004bce        0x2 build/default/debug/_ext/1171490990/startup_xc32.o
-                0x00004bce                _on_reset
-                0x00004bce                _on_bootstrap
-                0x00004bce                __xc32_on_reset
-                0x00004bce                Dummy_App_Func
-                0x00004bce                __xc32_on_bootstrap
+                0x000049b2        0x2 build/default/debug/_ext/1171490990/startup_xc32.o
+                0x000049b2                _on_reset
+                0x000049b2                _on_bootstrap
+                0x000049b2                __xc32_on_reset
+                0x000049b2                Dummy_App_Func
+                0x000049b2                __xc32_on_bootstrap

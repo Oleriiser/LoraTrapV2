@@ -288,6 +288,9 @@ typedef enum _IsmBand
 #ifndef FREQ_868100KHZ
 #define FREQ_868100KHZ                          868100000
 #endif
+#ifndef FREQ_868000KHZ
+#define FREQ_868000KHZ                          868000000
+#endif
 #ifndef FREQ_869525KHZ
 #define FREQ_869525KHZ                          869525000
 #endif

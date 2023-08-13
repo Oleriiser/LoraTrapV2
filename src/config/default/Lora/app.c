@@ -150,13 +150,13 @@ void APP_Tasks ( void )
         case APP_STATE_REPORT:
         {
             //PORT_PinWrite(PORT_PIN_PB23, true);
-            uint8_t macBuffer[5]={0,1,2,3,4};
+            uint8_t macBuffer[3]={0,1,2};
             
             
             RadioTransmitParam_t RadioTransmitParam;
             ConfigureRadioTx();
-            RadioTransmitParam.bufferLen = 5;
-            RadioTransmitParam.bufferPtr = &macBuffer[5];
+            RadioTransmitParam.bufferLen = 3;
+            RadioTransmitParam.bufferPtr = &macBuffer[3];
             //resend the last packet
             if (RADIO_Transmit(&RadioTransmitParam) == ERR_NONE)
             {
