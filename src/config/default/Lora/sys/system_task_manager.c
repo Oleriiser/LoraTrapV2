@@ -46,16 +46,16 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 extern SYSTEM_TaskStatus_t RADIO_TaskHandler(void);
 
 //! This function is called to process LORAWAN task. SHOULD be defined in LORAWAN.
-extern SYSTEM_TaskStatus_t LORAWAN_TaskHandler(void);
+//extern SYSTEM_TaskStatus_t LORAWAN_TaskHandler(void);
 
 //! This function is called to process system timer task. SHOULD be defined in TIMER.
 extern SYSTEM_TaskStatus_t TIMER_TaskHandler(void);
 
 //! This function is called to process pds task. SHOULD be defined in PDS.
-extern SYSTEM_TaskStatus_t PDS_TaskHandler(void);
+//extern SYSTEM_TaskStatus_t PDS_TaskHandler(void);
 
 //! This function is called to process APP task. SHOULD be defined in APP.
-extern SYSTEM_TaskStatus_t APP_TaskHandler(void);
+//extern SYSTEM_TaskStatus_t APP_TaskHandler(void);
 
 /************************************************************************/
 /*  Static variables                                                    */
@@ -64,9 +64,9 @@ static SYSTEM_TaskStatus_t (*taskHandlers[SYSTEM_TASK_ID_COUNT])(void) ={
   /* In the order of descending priority */
     TIMER_TaskHandler,
     RADIO_TaskHandler,
-    LORAWAN_TaskHandler,
-    PDS_TaskHandler,
-    APP_TaskHandler,
+    //LORAWAN_TaskHandler,
+    //PDS_TaskHandler,
+    //APP_TaskHandler,
 };
 
 static volatile uint16_t sysTaskFlag = 0u;

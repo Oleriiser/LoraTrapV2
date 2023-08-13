@@ -131,9 +131,8 @@ extern "C" {
 
 void SYS_Initialize( void *data );
 
-/* Nullify SYS_Tasks() if only PLIBs are used. */
-#define     SYS_Tasks()
 
+void SYS_Tasks ( void );
 // *****************************************************************************
 // *****************************************************************************
 // Section: extern declarations
