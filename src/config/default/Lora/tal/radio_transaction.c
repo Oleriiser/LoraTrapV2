@@ -207,7 +207,7 @@ void RADIO_InitDefaultAttributes(void)
     radioConfiguration.errorCodingRate = CR_4_5;
     radioConfiguration.implicitHeaderMode = 0;
     radioConfiguration.preambleLen = RADIO_PHY_PREAMBLE_LENGTH;
-    radioConfiguration.dataRate = SF_11; //This is the same as spreading factor. reciever is at 11
+    radioConfiguration.dataRate = SF_7; //This is the same as spreading factor. reciever is at 11
     radioConfiguration.crcOn = 0;
     radioConfiguration.paBoost = 0;
     radioConfiguration.iqInverted = 0;

@@ -35,6 +35,8 @@
 // Section: Global Data Definitions
 // *****************************************************************************
 // *****************************************************************************
+//uint8_t macBuffer[16]={'A','B','C','D','A','B','C','D','A','B','C','D','A','B','C','D'};
+uint8_t macBuffer[16]={22,33,44,55,22,33,44,55,22,33,44,55,22,33,44,55};
 
 bool radio_transmission_active=false;
 //bool DIOStatus = 0;
@@ -96,7 +98,7 @@ void APP_Initialize ( void )
 {
     /* Place the App state machine in its initial state. */
     appData.state = APP_STATE_INIT;
-    defaultSleep.sleepTimeMs =2000u;
+    defaultSleep.sleepTimeMs =1000;
     defaultSleep.sleep_mode = SLEEP_MODE_STANDBY;
     defaultSleep.pmmWakeupCallback = MlsAppSleepCallback;
 
@@ -153,21 +155,21 @@ void APP_Tasks ( void )
         case APP_STATE_REPORT:
         {
             //PORT_PinWrite(PORT_PIN_PB23, true);
-            uint8_t macBuffer[5]={0,1,2,3,4};
             
             
+            macBuffer[4]+=10;
             RadioTransmitParam_t RadioTransmitParam;
             ConfigureRadioTx();
-            RadioTransmitParam.bufferLen = 3;
-            RadioTransmitParam.bufferPtr = &macBuffer[3];
+            RadioTransmitParam.bufferLen = 16;
+            RadioTransmitParam.bufferPtr = macBuffer;
             //resend the last packet
             if (RADIO_Transmit(&RadioTransmitParam) == ERR_NONE)
             {
                 radio_transmission_active=true;
                 PORT_PinWrite(PORT_PIN_PB23, true);
-                delay_ms(100);
-                PORT_PinWrite(PORT_PIN_PB23, false);
-                delay_ms(100);
+//                delay_ms(100);
+//                PORT_PinWrite(PORT_PIN_PB23, false);
+//                delay_ms(100);
             }
             else
             {
@@ -190,21 +192,24 @@ void APP_Tasks ( void )
         case APP_STATE_ENTER_SLEEP:
         {   
             if (MlsAppSleep() == PMM_SLEEP_REQ_DENIED) {
+//                PORT_PinWrite(PORT_PIN_PB23, false);
+//                delay_ms(50);
+//                PORT_PinWrite(PORT_PIN_PB23, true);
+//                delay_ms(50);
+//                PORT_PinWrite(PORT_PIN_PB23, false);
+//                delay_ms(50);
+//                PORT_PinWrite(PORT_PIN_PB23, true);
+//                delay_ms(100);
+//                PORT_PinWrite(PORT_PIN_PB23, false);
+//                delay_ms(100);
+//                PORT_PinWrite(PORT_PIN_PB23, true);
+//                delay_ms(100);
+//                PORT_PinWrite(PORT_PIN_PB23, false);
+//                delay_ms(100);
+//                PORT_PinWrite(PORT_PIN_PB23, true);
+            }
+            else{
                 PORT_PinWrite(PORT_PIN_PB23, false);
-                delay_ms(100);
-                PORT_PinWrite(PORT_PIN_PB23, true);
-                delay_ms(100);
-                PORT_PinWrite(PORT_PIN_PB23, false);
-                delay_ms(100);
-                PORT_PinWrite(PORT_PIN_PB23, true);
-                delay_ms(100);
-                PORT_PinWrite(PORT_PIN_PB23, false);
-                delay_ms(100);
-                PORT_PinWrite(PORT_PIN_PB23, true);
-                delay_ms(100);
-                PORT_PinWrite(PORT_PIN_PB23, false);
-                delay_ms(100);
-                PORT_PinWrite(PORT_PIN_PB23, true);
             }
             
             break;
