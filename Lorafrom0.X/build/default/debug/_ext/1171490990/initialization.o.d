@@ -110,10 +110,19 @@ build/default/debug/_ext/1171490990/initialization.o: \
  ../src/config/default/Lora/regparams/lorawan_reg_params.h \
  ../src/config/default/Lora/radioconfig.h \
  ../src/config/default/Lora/tal/sx1276/radio_driver_SX1276.h \
+ ../src/config/default/Lora/pmm/pmm.h \
+ ../src/config/default/Lora/hal/sleep.h \
+ ../src/config/default/peripheral/rtc/plib_rtc.h \
+ ../src/config/default/Lora/hal/radio_driver_hal.h \
+ ../src/config/default/Lora/hal/sleep.h \
+ ../src/config/default/Lora/hal/sleep_timer.h \
+ ../src/config/default/Lora/module_config/conf_pmm.h \
  ../src/config/default/Lora/regparams/lorawan_multiband.h \
  ../src/config/default/Lora/hal/radio_driver_hal.h \
  ../src/config/default/Lora/services/sw_timer/sw_timer.h \
- ../src/config/default/peripheral/pm/plib_pm.h
+ ../src/config/default/peripheral/pm/plib_pm.h \
+ ../src/config/default/Lora/Common/../app.h \
+ ../src/config/default/Lora/Common/../../definitions.h
 
 ../src/config/default/definitions.h:
 
@@ -339,6 +348,20 @@ build/default/debug/_ext/1171490990/initialization.o: \
 
 ../src/config/default/Lora/tal/sx1276/radio_driver_SX1276.h:
 
+../src/config/default/Lora/pmm/pmm.h:
+
+../src/config/default/Lora/hal/sleep.h:
+
+../src/config/default/peripheral/rtc/plib_rtc.h:
+
+../src/config/default/Lora/hal/radio_driver_hal.h:
+
+../src/config/default/Lora/hal/sleep.h:
+
+../src/config/default/Lora/hal/sleep_timer.h:
+
+../src/config/default/Lora/module_config/conf_pmm.h:
+
 ../src/config/default/Lora/regparams/lorawan_multiband.h:
 
 ../src/config/default/Lora/hal/radio_driver_hal.h:
@@ -346,3 +369,7 @@ build/default/debug/_ext/1171490990/initialization.o: \
 ../src/config/default/Lora/services/sw_timer/sw_timer.h:
 
 ../src/config/default/peripheral/pm/plib_pm.h:
+
+../src/config/default/Lora/Common/../app.h:
+
+../src/config/default/Lora/Common/../../definitions.h:

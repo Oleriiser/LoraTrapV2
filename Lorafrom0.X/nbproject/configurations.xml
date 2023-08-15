@@ -258,13 +258,13 @@
                    projectFiles="true">
       <logicalFolder name="config" displayName="config" projectFiles="true">
         <logicalFolder name="default" displayName="default" projectFiles="true">
-          <logicalFolder name="hal" displayName="hal" projectFiles="true">
-            <itemPath>../src/config/default/Lora/hal/radio_driver_hal.c</itemPath>
-            <itemPath>../src/config/default/Lora/hal/sleep.c</itemPath>
-            <itemPath>../src/config/default/Lora/hal/sleep_timer.c</itemPath>
-            <itemPath>../src/config/default/Lora/hal/sys.c</itemPath>
-          </logicalFolder>
           <logicalFolder name="Lora" displayName="Lora" projectFiles="true">
+            <logicalFolder name="hal" displayName="hal" projectFiles="true">
+              <itemPath>../src/config/default/Lora/hal/radio_driver_hal.c</itemPath>
+              <itemPath>../src/config/default/Lora/hal/sleep.c</itemPath>
+              <itemPath>../src/config/default/Lora/hal/sleep_timer.c</itemPath>
+              <itemPath>../src/config/default/Lora/hal/sys.c</itemPath>
+            </logicalFolder>
             <logicalFolder name="mac" displayName="mac" projectFiles="true">
             </logicalFolder>
             <logicalFolder name="pmm" displayName="pmm" projectFiles="true">
@@ -652,7 +652,7 @@
         <property key="debugoptions.debug-startup" value="Use system settings"/>
         <property key="debugoptions.reset-behaviour" value="Use system settings"/>
         <property key="debugoptions.simultaneous.debug" value="false"/>
-        <property key="debugoptions.useswbreakpoints" value="true"/>
+        <property key="debugoptions.useswbreakpoints" value="false"/>
         <property key="event.recorder.enabled" value="false"/>
         <property key="event.recorder.scvd.files" value=""/>
         <property key="freeze.timers" value="false"/>
@@ -671,6 +671,8 @@
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="0-3ffff"/>
         <property key="poweroptions.powerenable" value="true"/>
+        <property key="programmerToGoFilePath"
+                  value="C:/Users/ole_r/HarmonyProjects/MyProject_3/firmware/Lorafrom0.X/debug/default/222_ptg"/>
         <property key="programmerToGoImageName" value="222_ptg"/>
         <property key="programoptions.donoteraseauxmem" value="false"/>
         <property key="programoptions.eraseb4program" value="true"/>

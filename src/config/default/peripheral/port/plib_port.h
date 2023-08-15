@@ -100,7 +100,56 @@
 //#define LED_RED_Get()               (((PORT_REGS->GROUP[0].PORT_IN >> 55U)) & 0x01U)
 //#define LED_RED_PIN                  PORT_PIN_PB23
 // *****************************************************************************
-/* PORT Group
+/*** Macros for RED_LED pin ***/
+#define RED_LED_Set()               (PORT_REGS->GROUP[1].PORT_OUTSET = ((uint32_t)1U << 23U))
+#define RED_LED_Clear()             (PORT_REGS->GROUP[1].PORT_OUTCLR = ((uint32_t)1U << 23U))
+#define RED_LED_Toggle()            (PORT_REGS->GROUP[1].PORT_OUTTGL = ((uint32_t)1U << 23U))
+#define RED_LED_OutputEnable()      (PORT_REGS->GROUP[1].PORT_DIRSET = ((uint32_t)1U << 23U))
+#define RED_LED_InputEnable()       (PORT_REGS->GROUP[1].PORT_DIRCLR = ((uint32_t)1U << 23U))
+#define RED_LED_Get()               (((PORT_REGS->GROUP[1].PORT_IN >> 23U)) & 0x01U)
+#define RED_LED_PIN                  PORT_PIN_PB23
+
+/*** Macros for NC_SW1 pin ***/
+#define NC_SW1_Get()               (((PORT_REGS->GROUP[0].PORT_IN >> 6U)) & 0x01U)
+#define NC_SW1_PIN                  PORT_PIN_PA06
+
+/*** Macros for EN_Vbat_reading pin ***/
+#define EN_Vbat_reading_Set()               (PORT_REGS->GROUP[0].PORT_OUTSET = ((uint32_t)1U << 27U))
+#define EN_Vbat_reading_Clear()             (PORT_REGS->GROUP[0].PORT_OUTCLR = ((uint32_t)1U << 27U))
+#define EN_Vbat_reading_Toggle()            (PORT_REGS->GROUP[0].PORT_OUTTGL = ((uint32_t)1U << 27U))
+#define EN_Vbat_reading_OutputEnable()      (PORT_REGS->GROUP[0].PORT_DIRSET = ((uint32_t)1U << 27U))
+#define EN_Vbat_reading_InputEnable()       (PORT_REGS->GROUP[0].PORT_DIRCLR = ((uint32_t)1U << 27U))
+#define EN_Vbat_reading_Get()               (((PORT_REGS->GROUP[0].PORT_IN >> 27U)) & 0x01U)
+#define EN_Vbat_reading_PIN                  PORT_PIN_PA27
+
+/*** Macros for SW1_COM pin ***/
+#define SW1_COM_Set()               (PORT_REGS->GROUP[0].PORT_OUTSET = ((uint32_t)1U << 18U))
+#define SW1_COM_Clear()             (PORT_REGS->GROUP[0].PORT_OUTCLR = ((uint32_t)1U << 18U))
+#define SW1_COM_Toggle()            (PORT_REGS->GROUP[0].PORT_OUTTGL = ((uint32_t)1U << 18U))
+#define SW1_COM_OutputEnable()      (PORT_REGS->GROUP[0].PORT_DIRSET = ((uint32_t)1U << 18U))
+#define SW1_COM_InputEnable()       (PORT_REGS->GROUP[0].PORT_DIRCLR = ((uint32_t)1U << 18U))
+#define SW1_COM_Get()               (((PORT_REGS->GROUP[0].PORT_IN >> 18U)) & 0x01U)
+#define SW1_COM_PIN                  PORT_PIN_PA18
+
+/*** Macros for SW2_COM pin ***/
+#define SW2_COM_Set()               (PORT_REGS->GROUP[0].PORT_OUTSET = ((uint32_t)1U << 19U))
+#define SW2_COM_Clear()             (PORT_REGS->GROUP[0].PORT_OUTCLR = ((uint32_t)1U << 19U))
+#define SW2_COM_Toggle()            (PORT_REGS->GROUP[0].PORT_OUTTGL = ((uint32_t)1U << 19U))
+#define SW2_COM_OutputEnable()      (PORT_REGS->GROUP[0].PORT_DIRSET = ((uint32_t)1U << 19U))
+#define SW2_COM_InputEnable()       (PORT_REGS->GROUP[0].PORT_DIRCLR = ((uint32_t)1U << 19U))
+#define SW2_COM_Get()               (((PORT_REGS->GROUP[0].PORT_IN >> 19U)) & 0x01U)
+#define SW2_COM_PIN                  PORT_PIN_PA19
+
+/*** Macros for NC_SW2 pin ***/
+#define NC_SW2_Get()               (((PORT_REGS->GROUP[0].PORT_IN >> 7U)) & 0x01U)
+#define NC_SW2_PIN                  PORT_PIN_PA07
+
+/*** Macros for VBat_reading pin ***/
+#define VBat_reading_Get()               (((PORT_REGS->GROUP[0].PORT_IN >> 8U)) & 0x01U)
+#define VBat_reading_PIN                  PORT_PIN_PA08
+        
+        
+        /* PORT Group
 
   Summary:
     Identifies the port groups available on the device.

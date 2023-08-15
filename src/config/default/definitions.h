@@ -69,7 +69,10 @@
 #include "peripheral/port/plib_port.h"
 #include "Lora/radioconfig.h"
 #include "Lora/tal/sx1276/radio_driver_SX1276.h"
-
+#include "Lora/pmm/pmm.h"
+#include "Lora/hal/radio_driver_hal.h"
+#include "Lora/hal/sleep.h"
+#include "Lora/hal/sleep_timer.h"
 // DOM-IGNORE-BEGIN
 #ifdef __cplusplus  // Provide C++ Compatibility
 
@@ -83,7 +86,7 @@ extern "C" {
 #define DEVICE_ARCH			 "CORTEX-M0PLUS"
 #define DEVICE_FAMILY		 "SAMR"
 #define DEVICE_SERIES		 "SAMR34"
-
+#define CONF_PMM_ENABLE
 /* CPU clock frequency */
 #define CPU_CLOCK_FREQUENCY 48000000
 

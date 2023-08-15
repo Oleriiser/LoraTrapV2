@@ -31,6 +31,7 @@
 #include <stdbool.h>
 #include <stddef.h>
 #include <stdlib.h>
+#include "../definitions.h"
 //#include "configuration.h"
 
 // DOM-IGNORE-BEGIN
@@ -70,7 +71,7 @@ typedef enum
 
 } APP_STATES;
 
-
+typedef void (*SleepCallback_t)(uint32_t);
 // *****************************************************************************
 /* Application Data
 
@@ -173,6 +174,12 @@ void APP_Initialize ( void );
 
 void APP_Tasks( void );
 
+PMM_Status_t MlsAppSleep(void);
+void MlsAppSleepCallback(uint32_t sleptDuration);
+void MlsAppSleepCallbackNotifySet(SleepCallback_t func);
+void MlsAppResourceInitialize(void);
+void MlsAppResourceDeinitialize(void);
+//void MlsAppSleepCallbackNotifySet(SleepCallback_t func);
 //DOM-IGNORE-BEGIN
 #ifdef __cplusplus
 }

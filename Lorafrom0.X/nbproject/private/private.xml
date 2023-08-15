@@ -3,23 +3,30 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/ole_r/HarmonyProjects/MyProject_3/firmware/src/config/default/initialization.c</file>
+            <file>file:/C:/Users/ole_r/HarmonyProjects/MyProject_3/firmware/src/config/default/Lora/sys/system_task_manager.h</file>
             <file>file:/C:/Users/ole_r/HarmonyProjects/MyProject_3/firmware/src/config/default/Lora/app.c</file>
+            <file>file:/C:/Users/ole_r/HarmonyProjects/MyProject_3/firmware/src/config/default/Lora/pmm/pmm.c</file>
+            <file>file:/C:/Users/ole_r/HarmonyProjects/MyProject_3/firmware/src/config/default/definitions.h</file>
+            <file>file:/C:/Users/ole_r/HarmonyProjects/MyProject_3/firmware/src/config/default/Lora/services/sw_timer/sw_timer.c</file>
             <file>file:/C:/Users/ole_r/HarmonyProjects/MyProject_3/firmware/src/config/default/Lora/tal/radio_transaction.c</file>
-            <file>file:/C:/Users/ole_r/HarmonyProjects/MyProject_3/firmware/src/config/default/peripheral/port/plib_port.h</file>
-            <file>file:/C:/Users/ole_r/HarmonyProjects/MyProject_3/firmware/src/config/default/Lora/sys/system_task_manager.c</file>
-            <file>file:/C:/Users/ole_r/HarmonyProjects/MyProject_3/firmware/src/config/default/peripheral/port/plib_port.c</file>
+            <file>file:/C:/Users/ole_r/HarmonyProjects/MyProject_3/firmware/src/config/default/Lora/hal/sleep.h</file>
+            <file>file:/C:/Users/ole_r/HarmonyProjects/MyProject_3/firmware/src/config/default/Lora/pmm/pmm.h</file>
+            <file>file:/C:/Users/ole_r/HarmonyProjects/MyProject_3/firmware/src/config/default/peripheral/nvic/plib_nvic.h</file>
+            <file>file:/C:/Users/ole_r/HarmonyProjects/MyProject_3/firmware/src/config/default/Lora/services/sw_timer/sw_timer.h</file>
+            <file>file:/C:/Users/ole_r/HarmonyProjects/MyProject_3/firmware/src/config/default/Lora/hal/sleep_timer.c</file>
+            <file>file:/C:/Users/ole_r/HarmonyProjects/MyProject_3/firmware/src/config/default/interrupts.c</file>
             <file>file:/C:/Users/ole_r/HarmonyProjects/MyProject_3/firmware/src/config/default/Lora/app.h</file>
-            <file>file:/C:/Users/ole_r/HarmonyProjects/MyProject_3/firmware/src/config/default/Lora/tasks.c</file>
-            <file>file:/C:/Users/ole_r/HarmonyProjects/MyProject_3/firmware/src/config/default/Lora/hal/radio_driver_hal.c</file>
+            <file>file:/C:/Users/ole_r/HarmonyProjects/MyProject_3/firmware/src/config/default/Lora/tal/radio_task_manager.h</file>
             <file>file:/C:/Users/ole_r/HarmonyProjects/MyProject_3/firmware/src/config/default/Lora/tal/radio_task_manager.c</file>
             <file>file:/C:/Users/ole_r/HarmonyProjects/MyProject_3/firmware/src/main.c</file>
-            <file>file:/C:/Users/ole_r/HarmonyProjects/MyProject_3/firmware/src/config/default/Lora/tal/radio_interface.h</file>
+            <file>file:/C:/Users/ole_r/HarmonyProjects/MyProject_3/firmware/src/config/default/Lora/Common/stack_common.h</file>
             <file>file:/C:/Users/ole_r/HarmonyProjects/MyProject_3/firmware/src/config/default/Lora/tal/radio_get_set.h</file>
-            <file>file:/C:/Users/ole_r/HarmonyProjects/MyProject_3/firmware/src/config/default/Lora/hal/radio_driver_hal.h</file>
+            <file>file:/C:/Users/ole_r/HarmonyProjects/MyProject_3/firmware/src/config/default/Lora/tal/radio_transaction.h</file>
+            <file>file:/C:/Users/ole_r/HarmonyProjects/MyProject_3/firmware/src/config/default/Lora/hal/sleep.c</file>
             <file>file:/C:/Users/ole_r/HarmonyProjects/MyProject_3/firmware/src/config/default/Lora/tal/radio_get_set.c</file>
             <file>file:/C:/Users/ole_r/HarmonyProjects/MyProject_3/firmware/src/config/default/Lora/tal/radio_interface.c</file>
             <file>file:/C:/Users/ole_r/HarmonyProjects/MyProject_3/firmware/src/config/default/Lora/tal/sx1276/radio_driver_sx1276.c</file>
+            <file>file:/C:/Users/ole_r/HarmonyProjects/MyProject_3/firmware/src/config/default/Lora/tal/radio_lbt.c</file>
         </group>
     </open-files>
 </project-private>

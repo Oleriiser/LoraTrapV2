@@ -784,10 +784,10 @@ SYSTEM_TaskStatus_t RADIO_TxDoneHandler(void)
         }
     }
 /*#ifdef LBT*/
-	else if (1 == radioEvents.LbtScanDoneEvent)
-	{
-		radioScanDoneHandler();		
-	}
+//	else if (1 == radioEvents.LbtScanDoneEvent)
+//	{
+//		radioScanDoneHandler();		
+//	}
 /*#endif*/ //LBT
 #ifdef UT_D
     printf("\n Done RADIO_TxDoneHandler() \n");

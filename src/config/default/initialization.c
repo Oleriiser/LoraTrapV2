@@ -51,6 +51,7 @@
 #include "radio_driver_hal.h"
 #include "sw_timer.h"
 #include "plib_pm.h"
+#include "../app.h"
 
 // ****************************************************************************
 // ****************************************************************************
@@ -176,6 +177,7 @@ void SYS_Initialize ( void* data )
     HAL_RadioInit();
     /* Initialize the Software Timer Module */
     SystemTimerInit();
+    SleepTimerInit();
     /* MISRAC 2012 deviation block end */
     
     RADIO_Init();
@@ -183,6 +185,7 @@ void SYS_Initialize ( void* data )
     //PORT_PinPeripheralFunctionConfig(PORT_PIN_PB16,PERIPHERAL_FUNCTION_A);//remove this when radio tasks works!!
     //srand (RADIO_ReadRandom ());  // for the loRa random function we need a seed that is obtained from the radio
     NVIC_Initialize();
+    APP_Initialize();
 }
 
 /*******************************************************************************
