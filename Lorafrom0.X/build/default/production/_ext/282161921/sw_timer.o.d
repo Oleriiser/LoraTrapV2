@@ -115,6 +115,8 @@ build/default/production/_ext/282161921/sw_timer.o: \
  ../src/config/default/peripheral/rtc/plib_rtc.h \
  ../src/config/default/Lora/hal/radio_driver_hal.h \
  ../src/config/default/Lora/hal/sleep.h \
+ ../src/config/default/Lora/hal/sleep_timer.h \
+ ../src/config/default/Lora/module_config/conf_pmm.h \
  ../src/config/default/Lora/hal/atomic.h \
  ../src/config/default/Lora/sys/system_assert.h \
  ../src/config/default/Lora/module_config/conf_sw_timer.h \
@@ -351,6 +353,10 @@ build/default/production/_ext/282161921/sw_timer.o: \
 ../src/config/default/Lora/hal/radio_driver_hal.h:
 
 ../src/config/default/Lora/hal/sleep.h:
+
+../src/config/default/Lora/hal/sleep_timer.h:
+
+../src/config/default/Lora/module_config/conf_pmm.h:
 
 ../src/config/default/Lora/hal/atomic.h:
 

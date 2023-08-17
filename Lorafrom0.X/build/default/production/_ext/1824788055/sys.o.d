@@ -113,6 +113,8 @@ build/default/production/_ext/1824788055/sys.o: \
  ../src/config/default/peripheral/rtc/plib_rtc.h \
  ../src/config/default/Lora/hal/radio_driver_hal.h \
  ../src/config/default/Lora/hal/sleep.h \
+ ../src/config/default/Lora/hal/sleep_timer.h \
+ ../src/config/default/Lora/module_config/conf_pmm.h \
  ../src/config/default/system/int/sys_int.h \
  ../src/config/default/system/int/sys_int_mapping.h \
  ../src/config/default/Lora/hal/atomic.h
@@ -346,6 +348,10 @@ build/default/production/_ext/1824788055/sys.o: \
 ../src/config/default/Lora/hal/radio_driver_hal.h:
 
 ../src/config/default/Lora/hal/sleep.h:
+
+../src/config/default/Lora/hal/sleep_timer.h:
+
+../src/config/default/Lora/module_config/conf_pmm.h:
 
 ../src/config/default/system/int/sys_int.h:
 

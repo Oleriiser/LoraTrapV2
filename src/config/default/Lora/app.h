@@ -89,7 +89,8 @@ typedef struct
 {
     /* The application's current state */
     APP_STATES state;
-
+    uint8_t trappedMice;
+    uint8_t batteryVoltage;
     /* TODO: Define any additional data used by the application. */
 
 } APP_DATA;
@@ -174,6 +175,7 @@ void APP_Initialize ( void );
 
 void APP_Tasks( void );
 
+uint8_t readMouseTraps(void);
 PMM_Status_t MlsAppSleep(void);
 void MlsAppSleepCallback(uint32_t sleptDuration);
 void MlsAppSleepCallbackNotifySet(SleepCallback_t func);

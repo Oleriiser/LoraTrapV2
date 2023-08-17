@@ -37,7 +37,6 @@
 // *****************************************************************************
 //uint8_t macBuffer[16]={'A','B','C','D','A','B','C','D','A','B','C','D','A','B','C','D'};
 uint8_t macBuffer[16]={22,33,44,55,22,33,44,55,22,33,44,55,22,33,44,55};
-
 bool radio_transmission_active=false;
 //bool DIOStatus = 0;
 SleepCallback_t mlsAppSleepWakeupCallback;
@@ -78,7 +77,7 @@ PMM_SleepReq_t defaultSleep;
 
 /* TODO:  Add any necessary local functions.
 */
-
+static void trapTriggerCallback(void);
 
 // *****************************************************************************
 // *****************************************************************************
@@ -98,10 +97,18 @@ void APP_Initialize ( void )
 {
     /* Place the App state machine in its initial state. */
     appData.state = APP_STATE_INIT;
-    defaultSleep.sleepTimeMs =1000;
+    defaultSleep.sleepTimeMs =5000;
     defaultSleep.sleep_mode = SLEEP_MODE_STANDBY;
     defaultSleep.pmmWakeupCallback = MlsAppSleepCallback;
-
+    appData.trappedMice=0;
+    appData.batteryVoltage=0;
+    
+    EIC_CallbackRegister(EIC_PIN_6, (EIC_CALLBACK)trapTriggerCallback, (uintptr_t)NULL);
+    EIC_InterruptDisable(EIC_PIN_6);
+    
+    EIC_CallbackRegister(EIC_PIN_7, (EIC_CALLBACK)trapTriggerCallback, (uintptr_t)NULL);
+    EIC_InterruptDisable(EIC_PIN_7);
+    //EIC_InterruptEnable(EIC_PIN_7);
     /* TODO: Initialize your application's state machine and other
      * parameters.
      */
@@ -140,9 +147,9 @@ void APP_Tasks ( void )
         }
         case APP_STATE_GET_MICE_COUNT:
         {   
-            delay_ms(500);
+            //delay_ms(500);
             
-                    
+            appData.trappedMice=readMouseTraps();    
             appData.state = APP_STATE_GET_BATTERY_VOLTAGE;
             break;
         }
@@ -157,10 +164,10 @@ void APP_Tasks ( void )
             //PORT_PinWrite(PORT_PIN_PB23, true);
             
             
-            macBuffer[4]+=10;
+            macBuffer[4]=appData.trappedMice;
             RadioTransmitParam_t RadioTransmitParam;
             ConfigureRadioTx();
-            RadioTransmitParam.bufferLen = 16;
+            RadioTransmitParam.bufferLen = 5;
             RadioTransmitParam.bufferPtr = macBuffer;
             //resend the last packet
             if (RADIO_Transmit(&RadioTransmitParam) == ERR_NONE)
@@ -191,22 +198,10 @@ void APP_Tasks ( void )
             }
         case APP_STATE_ENTER_SLEEP:
         {   
+            EIC_InterruptEnable(EIC_PIN_6);
+            EIC_InterruptEnable(EIC_PIN_7);
             if (MlsAppSleep() == PMM_SLEEP_REQ_DENIED) {
-//                PORT_PinWrite(PORT_PIN_PB23, false);
-//                delay_ms(50);
-//                PORT_PinWrite(PORT_PIN_PB23, true);
-//                delay_ms(50);
-//                PORT_PinWrite(PORT_PIN_PB23, false);
-//                delay_ms(50);
-//                PORT_PinWrite(PORT_PIN_PB23, true);
-//                delay_ms(100);
-//                PORT_PinWrite(PORT_PIN_PB23, false);
-//                delay_ms(100);
-//                PORT_PinWrite(PORT_PIN_PB23, true);
-//                delay_ms(100);
-//                PORT_PinWrite(PORT_PIN_PB23, false);
-//                delay_ms(100);
-//                PORT_PinWrite(PORT_PIN_PB23, true);
+                
             }
             else{
                 PORT_PinWrite(PORT_PIN_PB23, false);
@@ -225,6 +220,33 @@ void APP_Tasks ( void )
             break;
         }
     }
+}
+
+//We wake up and go through the app states to see if there is any trapped mice.
+static void trapTriggerCallback(void)
+{
+//  if (interruptHandlerDio0)
+//  {
+
+    PMM_Wakeup(0xFFFFFFFF, (uintptr_t)NULL);
+//    interruptHandlerDio0();
+//  }
+}
+
+uint8_t readMouseTraps(void)
+{
+    uint8_t trapped =0;
+    uint8_t sw1=0;
+        uint8_t sw2=0;
+
+    SW1_COM_OutputEnable();
+    SW1_COM_Set();
+    SW2_COM_OutputEnable();
+    SW2_COM_Set();
+    sw1=NC_SW1_Get();
+    sw2=NC_SW2_Get();
+    trapped = sw1+sw2;
+    return trapped;
 }
 
 PMM_Status_t MlsAppSleep(void)
@@ -280,6 +302,7 @@ void MlsAppSleepCallbackNotifySet(SleepCallback_t func)
 
 void MlsAppResourceInitialize(void)
 {
+    INTERRUPT_GlobalInterruptDisable();
     PORT_Initialize();
 
     SERCOM4_SPI_Initialize();
@@ -291,6 +314,7 @@ void MlsAppResourceInitialize(void)
     HAL_Radio_resources_init();
 
     //MlsAppSerialInitialize();
+    INTERRUPT_GlobalInterruptEnable();
 }
 //------------------------------------------------------------------------------
 
@@ -313,6 +337,8 @@ void MlsAppResourceDeinitialize(void)
 //{
 //    mlsAppSleepWakeupCallback = func;
 //}
+
+
 /*******************************************************************************
  End of File
  */

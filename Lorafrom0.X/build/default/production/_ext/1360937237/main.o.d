@@ -113,7 +113,9 @@ build/default/production/_ext/1360937237/main.o: ../src/main.c \
  ../src/config/default/Lora/hal/sleep.h \
  ../src/config/default/peripheral/rtc/plib_rtc.h \
  ../src/config/default/Lora/hal/radio_driver_hal.h \
- ../src/config/default/Lora/hal/sleep.h
+ ../src/config/default/Lora/hal/sleep.h \
+ ../src/config/default/Lora/hal/sleep_timer.h \
+ ../src/config/default/Lora/module_config/conf_pmm.h
 
 ../src/config/default/definitions.h:
 
@@ -346,3 +348,7 @@ build/default/production/_ext/1360937237/main.o: ../src/main.c \
 ../src/config/default/Lora/hal/radio_driver_hal.h:
 
 ../src/config/default/Lora/hal/sleep.h:
+
+../src/config/default/Lora/hal/sleep_timer.h:
+
+../src/config/default/Lora/module_config/conf_pmm.h:

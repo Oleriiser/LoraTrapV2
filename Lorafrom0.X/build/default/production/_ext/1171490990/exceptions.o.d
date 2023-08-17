@@ -113,7 +113,9 @@ build/default/production/_ext/1171490990/exceptions.o: \
  ../src/config/default/Lora/hal/sleep.h \
  ../src/config/default/peripheral/rtc/plib_rtc.h \
  ../src/config/default/Lora/hal/radio_driver_hal.h \
- ../src/config/default/Lora/hal/sleep.h
+ ../src/config/default/Lora/hal/sleep.h \
+ ../src/config/default/Lora/hal/sleep_timer.h \
+ ../src/config/default/Lora/module_config/conf_pmm.h
 
 ../src/config/default/interrupts.h:
 
@@ -348,3 +350,7 @@ build/default/production/_ext/1171490990/exceptions.o: \
 ../src/config/default/Lora/hal/radio_driver_hal.h:
 
 ../src/config/default/Lora/hal/sleep.h:
+
+../src/config/default/Lora/hal/sleep_timer.h:
+
+../src/config/default/Lora/module_config/conf_pmm.h:
