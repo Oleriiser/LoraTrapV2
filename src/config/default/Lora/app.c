@@ -36,7 +36,9 @@
 // *****************************************************************************
 // *****************************************************************************
 //uint8_t macBuffer[16]={'A','B','C','D','A','B','C','D','A','B','C','D','A','B','C','D'};
-uint8_t macBuffer[16]={22,33,44,55,22,33,44,55,22,33,44,55,22,33,44,55};
+uint8_t macBuffer[5]={22,33,44,55,22};
+//uint8_t macBuffer[16]={22,33,44,55,22,33,44,55,22,33,44,55,22,33,44,55};
+
 bool radio_transmission_active=false;
 //bool DIOStatus = 0;
 SleepCallback_t mlsAppSleepWakeupCallback;
@@ -154,17 +156,22 @@ void APP_Tasks ( void )
             break;
         }
 
-        case APP_STATE_GET_BATTERY_VOLTAGE:
+        case APP_STATE_GET_BATTERY_VOLTAGE: //This should be skipped 49/50 times we run the events, no need to check often.
         {
+            ADC_Initialize();
+            ADC_Enable();
+            ADC_ConversionStart();
+            while(!ADC_ConversionSequenceIsFinished())
+            {
+                
+            }
+            appData.batteryVoltage=ADC_ConversionResultGet()>>8;
             appData.state = APP_STATE_REPORT;
             break;
         }
         case APP_STATE_REPORT:
-        {
-            //PORT_PinWrite(PORT_PIN_PB23, true);
-            
-            
-            macBuffer[4]=appData.trappedMice;
+        {          
+            buildLoraMessage(macBuffer);
             RadioTransmitParam_t RadioTransmitParam;
             ConfigureRadioTx();
             RadioTransmitParam.bufferLen = 5;
@@ -174,9 +181,6 @@ void APP_Tasks ( void )
             {
                 radio_transmission_active=true;
                 PORT_PinWrite(PORT_PIN_PB23, true);
-//                delay_ms(100);
-//                PORT_PinWrite(PORT_PIN_PB23, false);
-//                delay_ms(100);
             }
             else
             {
@@ -247,6 +251,15 @@ uint8_t readMouseTraps(void)
     sw2=NC_SW2_Get();
     trapped = sw1+sw2;
     return trapped;
+}
+
+void buildLoraMessage(uint8_t *message)
+{
+    message[0]=0x70;//appData.unitID;
+    message[1]=MESSAGE_ID;
+    message[2]=appData.trappedMice;
+    message[3]=appData.batteryVoltage;
+    message[4]=222;//appData.sleepTime;
 }
 
 PMM_Status_t MlsAppSleep(void)

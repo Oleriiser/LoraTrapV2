@@ -121,6 +121,9 @@ build/default/debug/_ext/1824799587/radio_lbt.o: \
  ../src/config/default/Lora/hal/sleep.h \
  ../src/config/default/Lora/hal/sleep_timer.h \
  ../src/config/default/Lora/module_config/conf_pmm.h \
+ ../src/config/default/peripheral/adc/plib_adc.h \
+ ../src/config/default/peripheral/adc/plib_adc_common.h \
+ ../src/config/default/peripheral/adc/plib_adc_common.h \
  ../src/config/default/Lora/hal/sys.h \
  ../src/config/default/system/int/sys_int.h \
  ../src/config/default/system/int/sys_int_mapping.h \
@@ -370,6 +373,12 @@ build/default/debug/_ext/1824799587/radio_lbt.o: \
 ../src/config/default/Lora/hal/sleep_timer.h:
 
 ../src/config/default/Lora/module_config/conf_pmm.h:
+
+../src/config/default/peripheral/adc/plib_adc.h:
+
+../src/config/default/peripheral/adc/plib_adc_common.h:
+
+../src/config/default/peripheral/adc/plib_adc_common.h:
 
 ../src/config/default/Lora/hal/sys.h:
 

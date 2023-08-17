@@ -73,6 +73,8 @@
 #include "Lora/hal/radio_driver_hal.h"
 #include "Lora/hal/sleep.h"
 #include "Lora/hal/sleep_timer.h"
+#include "peripheral/adc/plib_adc.h"
+#include "peripheral/adc/plib_adc_common.h"
 // DOM-IGNORE-BEGIN
 #ifdef __cplusplus  // Provide C++ Compatibility
 

@@ -41,7 +41,15 @@ extern "C" {
 
 #endif
 // DOM-IGNORE-END
-
+// *****************************************************************************
+// *****************************************************************************
+// Section: Data types and constants
+// *****************************************************************************
+// *****************************************************************************
+    
+#define MESSAGE_ID 1    
+    
+    
 // *****************************************************************************
 // *****************************************************************************
 // Section: Type Definitions
@@ -174,7 +182,7 @@ void APP_Initialize ( void );
  */
 
 void APP_Tasks( void );
-
+void buildLoraMessage(uint8_t *message);
 uint8_t readMouseTraps(void);
 PMM_Status_t MlsAppSleep(void);
 void MlsAppSleepCallback(uint32_t sleptDuration);
