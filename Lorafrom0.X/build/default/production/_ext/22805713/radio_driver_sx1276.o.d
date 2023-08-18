@@ -120,6 +120,9 @@ build/default/production/_ext/22805713/radio_driver_sx1276.o: \
  ../src/config/default/Lora/hal/sleep.h \
  ../src/config/default/Lora/hal/sleep_timer.h \
  ../src/config/default/Lora/module_config/conf_pmm.h \
+ ../src/config/default/peripheral/adc/plib_adc.h \
+ ../src/config/default/peripheral/adc/plib_adc_common.h \
+ ../src/config/default/peripheral/adc/plib_adc_common.h \
  ../src/config/default/Lora/tal/radio_get_set.h \
  ../src/config/default/Lora/tal/radio_transaction.h \
  ../src/config/default/Lora/tal/radio_interface.h \
@@ -366,6 +369,12 @@ build/default/production/_ext/22805713/radio_driver_sx1276.o: \
 ../src/config/default/Lora/hal/sleep_timer.h:
 
 ../src/config/default/Lora/module_config/conf_pmm.h:
+
+../src/config/default/peripheral/adc/plib_adc.h:
+
+../src/config/default/peripheral/adc/plib_adc_common.h:
+
+../src/config/default/peripheral/adc/plib_adc_common.h:
 
 ../src/config/default/Lora/tal/radio_get_set.h:
 

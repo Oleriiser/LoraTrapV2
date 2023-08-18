@@ -99,7 +99,7 @@ void ADC_Initialize( void )
     ADC_REGS->ADC_REFCTRL = (uint8_t)ADC_REFCTRL_REFSEL_INTVCC2;
 
     /* Input pin */
-    ADC_REGS->ADC_INPUTCTRL = (uint16_t) ADC_POSINPUT_BANDGAP;
+    ADC_REGS->ADC_INPUTCTRL = (uint16_t) ADC_POSINPUT_BANDGAP | ADC_NEGINPUT_GND;
 
     /* Resolution & Operation Mode */
     ADC_REGS->ADC_CTRLC = (uint16_t)(ADC_CTRLC_RESSEL_12BIT | ADC_CTRLC_WINMODE(0UL) | ADC_CTRLC_FREERUN_Msk);
@@ -108,7 +108,6 @@ void ADC_Initialize( void )
     /* Clear all interrupt flags */
     ADC_REGS->ADC_INTFLAG = (uint8_t)ADC_INTFLAG_Msk;
 
-    ADC_REGS->ADC_CTRLA |= (uint8_t)(ADC_CTRLA_ONDEMAND_Msk);
     while(0U != ADC_REGS->ADC_SYNCBUSY)
     {
         /* Wait for Synchronization */

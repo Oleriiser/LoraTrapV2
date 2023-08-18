@@ -152,21 +152,35 @@ void APP_Tasks ( void )
             //delay_ms(500);
             
             appData.trappedMice=readMouseTraps();    
-            appData.state = APP_STATE_GET_BATTERY_VOLTAGE;
+            appData.state = APP_STATE_REQUEST_BATTERY_VOLTAGE;
             break;
         }
 
-        case APP_STATE_GET_BATTERY_VOLTAGE: //This should be skipped 49/50 times we run the events, no need to check often.
+        case APP_STATE_REQUEST_BATTERY_VOLTAGE: //This should be skipped 49/50 times we run the events, no need to check often.
         {
             ADC_Initialize();
+            //ADC_ChannelSelect(ADC_POSINPUT_BANDGAP,ADC_NEGINPUT_GND);
             ADC_Enable();
             ADC_ConversionStart();
-            while(!ADC_ConversionSequenceIsFinished())
+            appData.state =APP_STATE_READ_BATTERY_VOLTAGE;
+            break;
+        }
+        case APP_STATE_READ_BATTERY_VOLTAGE:
+        {
+           
+            if(ADC_ConversionSequenceIsFinished())
             {
                 
+                delay_ms(1);
+                if(ADC_ConversionResultGet()>0)
+                {
+                appData.batteryVoltage=(4095*10)/ADC_ConversionResultGet();
+                appData.state = APP_STATE_REPORT;
+                //ADC_InterruptsClear(ADC_INTFLAG_Msk);
+                }
             }
-            appData.batteryVoltage=ADC_ConversionResultGet()>>8;
-            appData.state = APP_STATE_REPORT;
+                
+            
             break;
         }
         case APP_STATE_REPORT:

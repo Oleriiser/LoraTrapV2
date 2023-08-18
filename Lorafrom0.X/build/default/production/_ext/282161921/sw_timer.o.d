@@ -117,6 +117,9 @@ build/default/production/_ext/282161921/sw_timer.o: \
  ../src/config/default/Lora/hal/sleep.h \
  ../src/config/default/Lora/hal/sleep_timer.h \
  ../src/config/default/Lora/module_config/conf_pmm.h \
+ ../src/config/default/peripheral/adc/plib_adc.h \
+ ../src/config/default/peripheral/adc/plib_adc_common.h \
+ ../src/config/default/peripheral/adc/plib_adc_common.h \
  ../src/config/default/Lora/hal/atomic.h \
  ../src/config/default/Lora/sys/system_assert.h \
  ../src/config/default/Lora/module_config/conf_sw_timer.h \
@@ -357,6 +360,12 @@ build/default/production/_ext/282161921/sw_timer.o: \
 ../src/config/default/Lora/hal/sleep_timer.h:
 
 ../src/config/default/Lora/module_config/conf_pmm.h:
+
+../src/config/default/peripheral/adc/plib_adc.h:
+
+../src/config/default/peripheral/adc/plib_adc_common.h:
+
+../src/config/default/peripheral/adc/plib_adc_common.h:
 
 ../src/config/default/Lora/hal/atomic.h:
 

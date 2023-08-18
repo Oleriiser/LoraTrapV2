@@ -116,6 +116,9 @@ build/default/production/_ext/1530445869/tasks.o: \
  ../src/config/default/Lora/hal/sleep.h \
  ../src/config/default/Lora/hal/sleep_timer.h \
  ../src/config/default/Lora/module_config/conf_pmm.h \
+ ../src/config/default/peripheral/adc/plib_adc.h \
+ ../src/config/default/peripheral/adc/plib_adc_common.h \
+ ../src/config/default/peripheral/adc/plib_adc_common.h \
  ../src/config/default/Lora/app.h \
  ../src/config/default/Lora/../definitions.h
 
@@ -354,6 +357,12 @@ build/default/production/_ext/1530445869/tasks.o: \
 ../src/config/default/Lora/hal/sleep_timer.h:
 
 ../src/config/default/Lora/module_config/conf_pmm.h:
+
+../src/config/default/peripheral/adc/plib_adc.h:
+
+../src/config/default/peripheral/adc/plib_adc_common.h:
+
+../src/config/default/peripheral/adc/plib_adc_common.h:
 
 ../src/config/default/Lora/app.h:
 

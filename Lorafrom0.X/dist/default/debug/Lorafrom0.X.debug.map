@@ -91,187 +91,187 @@ section                    address  length [bytes]      (dec)  Description
 .text.RADIO_TxHandler       0x2450          0x164         356   
 .text.CLOCK_Initialize      0x25b4          0x164         356   
 .text.RADIO_FSKPayloadR     0x2718          0x144         324   
-.text.RADIO_RxHandler       0x285c          0x128         296   
-.text.APP_Tasks             0x2984          0x11c         284   
-.text                       0x2aa0          0x114         276  App's exec code 
-.text.RADIO_TxDoneHandl     0x2bb4           0xe0         224   
-.text                       0x2c94          0x1bc         444  App's exec code 
-.text.Radio_WriteMode       0x2e50           0xd6         214   
-.text.EVSYS_Initialize      0x2f26            0x2           2   
-.text.HAL_RadioInit         0x2f28           0xd4         212   
-.text.PMM_Sleep             0x2ffc           0xc4         196   
-.text.RADIO_FSKFifoLeve     0x30c0           0xb4         180   
-.text.SwTimerStart          0x3174           0xa4         164   
-.text                       0x3218           0xa4         164  App's exec code 
-.text.EIC_Initialize        0x32bc           0xa0         160   
-.text.SystemTimerSync       0x335c           0x9c         156   
-.text                       0x33f8          0x12c         300  App's exec code 
-.text.__pic32c_data_ini     0x3524           0x90         144   
-.text                       0x35b4           0x90         144  App's exec code 
-.text.Radio_LBTScanTime     0x3644           0x88         136   
-.text                       0x36cc          0x178         376  App's exec code 
-.rodata.RADIO_SetAttr       0x3844           0x78         120   
-.text.RADIO_DIO0            0x38bc           0x78         120   
-.text.PORT_Initialize       0x3934           0x78         120   
-.text.hwTimerIrqHandler     0x39ac           0x74         116   
-.text.RADIO_DIO1            0x3a20           0x74         116   
-.text                       0x3a94           0x74         116  App's exec code 
-.text.RADIO_RxDone          0x3b08           0x70         112   
-.text.SwTimerUpdate         0x3b78           0x6c         108   
-.text.RADIO_FSKPacketSe     0x3be4           0x6c         108   
-.text                       0x3c50           0x6c         108  App's exec code 
-.text.PMM_Wakeup            0x3cbc           0x68         104   
-.text.RADIO_TaskHandler     0x3d24           0x68         104   
-.text.RADIO_TxDone          0x3d8c           0x68         104   
-.text.SYSTEM_RunTasks       0x3df4           0x64         100   
-.text.RADIO_FSKFifoEmpt     0x3e58           0x60          96   
-.text                       0x3eb8           0x60          96  App's exec code 
-.text.RADIO_ScanHandler     0x3f18           0x5c          92   
-.text.SYS_Initialize        0x3f74           0x5c          92   
-.text.RADIO_Init            0x3fd0           0x58          88   
-.text.ADC_Initialize        0x4028           0x58          88   
-.text.RADIO_DIO2            0x4080           0x56          86   
-.text.RSTC_Initialize       0x40d6            0x2           2   
-.text.SwTimerReset          0x40d8           0x54          84   
-.text.SUPC_Initialize       0x412c           0x54          84   
-.text.MlsAppSleep           0x4180           0x54          84   
-.text.APP_Initialize        0x41d4           0x50          80   
-.text                       0x4224           0x50          80  App's exec code 
-.text.SwTimerNextExpiry     0x4274           0x4c          76   
-.text.RADIO_Transmit        0x42c0           0x4c          76   
-.text.Radio_WatchdogTim     0x430c           0x4c          76   
-.text.ConfigureRadio        0x4358           0x4c          76   
-.text                       0x43a4           0x48          72  App's exec code 
-.text.EIC_InterruptHand     0x43ec           0x48          72   
-.text.Reset_Handler         0x4434           0x48          72   
-.text.__libc_init_array     0x447c           0x48          72   
-.text.SwTimersExecute       0x44c4           0x44          68   
-.text.RADIO_FHSSChangeC     0x4508           0x44          68   
-.text.Radio_WriteFreque     0x454c           0x44          68   
-.text.TC0_CompareInitia     0x4590           0x44          68   
-.text.SwTimerInterrupt      0x45d4           0x40          64   
-.text.RADIO_FrameWrite      0x4614           0x40          64   
-.text                       0x4654           0x80         128  App's exec code 
-.rodata                     0x46d4           0x40          64  Read-only const 
-.text                       0x4714           0x40          64  App's exec code 
-.rodata                     0x4754           0x40          64  Read-only const 
-.text.SystemTimerSuspen     0x4794           0x3c          60   
-.text.NVIC_Initialize       0x47d0           0x3c          60   
-.text.RADIO_FrameRead       0x480c           0x3c          60   
-.text                       0x4848           0x78         120  App's exec code 
-.text.Radio_EnableRfCon     0x48c0           0x34          52   
-.text.Radio_DisableRfCo     0x48f4           0x34          52   
-.text.RADIO_RxTimeout       0x4928           0x34          52   
-.text.delay_init            0x495c           0x34          52   
-.text.HAL_RadioDeInit       0x4990           0x30          48   
-.text.delay_us              0x49c0           0x30          48   
-.text.delay_ms              0x49f0           0x30          48   
-.text                       0x4a20           0x30          48  App's exec code 
-.text.PM_Initialize         0x4a50           0x2e          46   
-.text.Dummy_Handler         0x4a7e            0x2           2   
-.text.Radio_RxFSKTimeou     0x4a80           0x2c          44   
-.text.Radio_SetClockInp     0x4aac           0x2c          44   
-.text.RTC_Initialize        0x4ad8           0x2c          44   
-.text.RTC_InterruptHand     0x4b04           0x2c          44   
-.text.SERCOM4_SPI_Initi     0x4b30           0x2c          44   
-.text.RADIO_Reset           0x4b5c           0x2c          44   
-.text.HAL_RegisterDioIn     0x4b88           0x2c          44   
-.text.ConfigureRadioTx      0x4bb4           0x2a          42   
-.text.Dummy_App_Func        0x4bde            0x2           2   
-.text.SwTimerCreate         0x4be0           0x28          40   
-.text.RADIO_DIO3            0x4c08           0x28          40   
-.text.RADIO_DIO4            0x4c30           0x28          40   
-.text.RADIO_DIO5            0x4c58           0x28          40   
-.text.RADIO_FSKSyncAddr     0x4c80           0x28          40   
-.text.EIC_CallbackRegis     0x4ca8           0x28          40   
-.text.TC0_Compare32bitC     0x4cd0           0x28          40   
-.text.readMouseTraps        0x4cf8           0x28          40   
-.text.RADIO_RegisterWri     0x4d20           0x28          40   
-.text.HAL_EnableRFCtrl      0x4d48           0x28          40   
-.text.SystemTimerInit       0x4d70           0x24          36   
-.text.MlsAppSleepCallba     0x4d94           0x24          36   
-.text.HAL_SPISend           0x4db8           0x24          36   
-.text.RADIO_RegisterRea     0x4ddc           0x24          36   
-.text.SleepTimerStart       0x4e00           0x24          36   
-.text.RADIO_UnhandledIn     0x4e24           0x22          34   
-.text.SwTimerStop           0x4e48           0x20          32   
-.text.RADIO_getMappingA     0x4e68           0x20          32   
-.text.radioPostTask         0x4e88           0x20          32   
-.text.HAL_RadioDIO2Call     0x4ea8           0x20          32   
-.text.HAL_RadioDIO1Call     0x4ec8           0x20          32   
-.text.HAL_RadioDIO0Call     0x4ee8           0x20          32   
-.text.HAL_Radio_resourc     0x4f08           0x20          32   
-.text.SwTimerGetTime        0x4f28           0x1c          28   
-.text.SYSTEM_PostTask       0x4f44           0x1c          28   
-.text.ADC_ConversionSta     0x4f60           0x1c          28   
-.text.RTC_Timer32Start      0x4f7c           0x1c          28   
-.text.SYSTICK_TimerInit     0x4f98           0x1c          28   
-.text.TC0_CompareStart      0x4fb4           0x1c          28   
-.text.TC0_CompareStop       0x4fd0           0x1c          28   
-.text.buildLoraMessage      0x4fec           0x1c          28   
-.text.MlsAppResourceIni     0x5008           0x1c          28   
-.text.Radio_ResetClockI     0x5024           0x18          24   
-.text.ADC_Enable            0x503c           0x18          24   
-.text.TC0_Compare32bitM     0x5054           0x18          24   
-.text.HAL_DisableRFCtrl     0x506c           0x18          24   
-.text.HAL_TCXOPowerOn       0x5084           0x18          24   
-.text.HAL_Sleep             0x509c           0x18          24   
-.text                       0x50b4           0x18          24  App's exec code 
-.text.Radio_ReadFSKRssi     0x50cc           0x16          22   
-.text.SYSTEM_ReadyToSle     0x50e4           0x14          20   
-.rodata.taskHandlers        0x50f8           0x14          20   
-.rodata.radioTaskHandle     0x510c           0x14          20   
-.text.NVIC_INT_Restore      0x5120           0x14          20   
-.text.PM_StandbyModeEnt     0x5134           0x14          20   
-.text.PM_BackupModeEnte     0x5148           0x14          20   
-.text.RTC_Timer32Counte     0x515c           0x14          20   
-.text.RTC_Timer32Compar     0x5170           0x14          20   
-.text.RTC_Timer32Counte     0x5184           0x14          20   
-.text.SYSTICK_TimerStar     0x5198           0x14          20   
-.text.TC0_Compare32bitC     0x51ac           0x14          20   
-.rodata.APP_Tasks           0x51c0           0x14          20   
-.text.system_leave_crit     0x51d4           0x14          20   
-.text.NVIC_INT_Disable      0x51e8           0x12          18   
-.text.memcpy                0x51fa           0x12          18   
-.text.RADIO_SetCallback     0x520c           0x10          16   
-.text.ADC_ConversionSeq     0x521c           0x10          16   
-.text.EIC_InterruptEnab     0x522c           0x10          16   
-.text.EIC_InterruptDisa     0x523c           0x10          16   
-.text.SYSTICK_TimerPeri     0x524c           0x10          16   
-.text.HAL_TCXOPowerOff      0x525c           0x10          16   
-.text.SleepTimerInit        0x526c           0x10          16   
-.text.system_enter_crit     0x527c           0x10          16   
-.text.trapTriggerCallba     0x528c            0xe          14   
-.text.main                  0x529a            0xe          14   
-.text.RADIO_GetState        0x52a8            0xc          12   
-.text.ADC_ConversionRes     0x52b4            0xc          12   
-.text.NVMCTRL_Initializ     0x52c0            0xc          12   
-.text.PORT_GroupWrite       0x52cc            0xc          12   
-.text.RTC_Timer32Interr     0x52d8            0xc          12   
-.text.RTC_Timer32Interr     0x52e4            0xc          12   
-.text.RTC_Timer32Callba     0x52f0            0xc          12   
-.text.SYSTICK_TimerPeri     0x52fc            0xc          12   
-.text.TC0_CompareCallba     0x5308            0xc          12   
-.text.SYS_Tasks             0x5314            0xc          12   
-.text.SleepTimerStop        0x5320            0xc          12   
-.text.TIMER_TaskHandler     0x532c            0xa          10   
-.text.HAL_DisbleDIO0Int     0x5336            0xa          10   
-.text.NVIC_INT_Enable       0x5340            0x8           8   
-.text.SYS_INT_Enable        0x5348            0x8           8   
-.text.SYS_INT_Disable       0x5350            0x8           8   
-.text.SYS_INT_Restore       0x5358            0x8           8   
-.text.SleepTimerGetElap     0x5360            0x8           8   
-.text.SystemBlockingWai     0x5368            0x8           8   
-.text.SYSTICK_TimerFreq     0x5370            0x6           6   
-.text.PORT_GroupOutputE     0x5376            0x4           4   
-.text.NonMaskableInt_Ha     0x537a            0x4           4   
-.text.HardFault_Handler     0x537e            0x4           4   
-.text.HAL_GetRadioClkSt     0x5382            0x4           4   
-.text.HAL_GetRadioClkSr     0x5386            0x4           4   
-.text                       0x538c            0x4           4  App's exec code 
-      Total ROM used  :      0x538a       21386  8.2% of 0x40000
+.text.APP_Tasks             0x285c          0x140         320   
+.text.RADIO_RxHandler       0x299c          0x128         296   
+.text                       0x2ac4          0x114         276  App's exec code 
+.text.RADIO_TxDoneHandl     0x2bd8           0xe0         224   
+.text                       0x2cb8          0x1bc         444  App's exec code 
+.text.Radio_WriteMode       0x2e74           0xd6         214   
+.text.EVSYS_Initialize      0x2f4a            0x2           2   
+.text.HAL_RadioInit         0x2f4c           0xd4         212   
+.text.PMM_Sleep             0x3020           0xc4         196   
+.text.RADIO_FSKFifoLeve     0x30e4           0xb4         180   
+.text.SwTimerStart          0x3198           0xa4         164   
+.text                       0x323c           0xa4         164  App's exec code 
+.text.EIC_Initialize        0x32e0           0xa0         160   
+.text.SystemTimerSync       0x3380           0x9c         156   
+.text                       0x341c          0x12c         300  App's exec code 
+.text.__pic32c_data_ini     0x3548           0x90         144   
+.text                       0x35d8           0x90         144  App's exec code 
+.text.Radio_LBTScanTime     0x3668           0x88         136   
+.text                       0x36f0          0x178         376  App's exec code 
+.rodata.RADIO_SetAttr       0x3868           0x78         120   
+.text.RADIO_DIO0            0x38e0           0x78         120   
+.text.PORT_Initialize       0x3958           0x78         120   
+.text.hwTimerIrqHandler     0x39d0           0x74         116   
+.text.RADIO_DIO1            0x3a44           0x74         116   
+.text                       0x3ab8           0x74         116  App's exec code 
+.text.RADIO_RxDone          0x3b2c           0x70         112   
+.text.SwTimerUpdate         0x3b9c           0x6c         108   
+.text.RADIO_FSKPacketSe     0x3c08           0x6c         108   
+.text                       0x3c74           0x6c         108  App's exec code 
+.text.PMM_Wakeup            0x3ce0           0x68         104   
+.text.RADIO_TaskHandler     0x3d48           0x68         104   
+.text.RADIO_TxDone          0x3db0           0x68         104   
+.text.SYSTEM_RunTasks       0x3e18           0x64         100   
+.text.RADIO_FSKFifoEmpt     0x3e7c           0x60          96   
+.text                       0x3edc           0x60          96  App's exec code 
+.text.RADIO_ScanHandler     0x3f3c           0x5c          92   
+.text.SYS_Initialize        0x3f98           0x5c          92   
+.text.RADIO_Init            0x3ff4           0x58          88   
+.text.RADIO_DIO2            0x404c           0x56          86   
+.text.RSTC_Initialize       0x40a2            0x2           2   
+.text.SwTimerReset          0x40a4           0x54          84   
+.text.ADC_Initialize        0x40f8           0x54          84   
+.text.SUPC_Initialize       0x414c           0x54          84   
+.text.MlsAppSleep           0x41a0           0x54          84   
+.text.APP_Initialize        0x41f4           0x50          80   
+.text                       0x4244           0x50          80  App's exec code 
+.text.SwTimerNextExpiry     0x4294           0x4c          76   
+.text.RADIO_Transmit        0x42e0           0x4c          76   
+.text.Radio_WatchdogTim     0x432c           0x4c          76   
+.text.ConfigureRadio        0x4378           0x4c          76   
+.text                       0x43c4           0x48          72  App's exec code 
+.text.EIC_InterruptHand     0x440c           0x48          72   
+.text.Reset_Handler         0x4454           0x48          72   
+.text.__libc_init_array     0x449c           0x48          72   
+.text.SwTimersExecute       0x44e4           0x44          68   
+.text.RADIO_FHSSChangeC     0x4528           0x44          68   
+.text.Radio_WriteFreque     0x456c           0x44          68   
+.text.TC0_CompareInitia     0x45b0           0x44          68   
+.text.SwTimerInterrupt      0x45f4           0x40          64   
+.text.RADIO_FrameWrite      0x4634           0x40          64   
+.text                       0x4674           0x80         128  App's exec code 
+.rodata                     0x46f4           0x40          64  Read-only const 
+.text                       0x4734           0x40          64  App's exec code 
+.rodata                     0x4774           0x40          64  Read-only const 
+.text.SystemTimerSuspen     0x47b4           0x3c          60   
+.text.NVIC_Initialize       0x47f0           0x3c          60   
+.text.RADIO_FrameRead       0x482c           0x3c          60   
+.text                       0x4868           0x78         120  App's exec code 
+.text.Radio_EnableRfCon     0x48e0           0x34          52   
+.text.Radio_DisableRfCo     0x4914           0x34          52   
+.text.RADIO_RxTimeout       0x4948           0x34          52   
+.text.delay_init            0x497c           0x34          52   
+.text.HAL_RadioDeInit       0x49b0           0x30          48   
+.text.delay_us              0x49e0           0x30          48   
+.text.delay_ms              0x4a10           0x30          48   
+.text                       0x4a40           0x30          48  App's exec code 
+.text.PM_Initialize         0x4a70           0x2e          46   
+.text.Dummy_Handler         0x4a9e            0x2           2   
+.text.Radio_RxFSKTimeou     0x4aa0           0x2c          44   
+.text.Radio_SetClockInp     0x4acc           0x2c          44   
+.text.RTC_Initialize        0x4af8           0x2c          44   
+.text.RTC_InterruptHand     0x4b24           0x2c          44   
+.text.SERCOM4_SPI_Initi     0x4b50           0x2c          44   
+.text.RADIO_Reset           0x4b7c           0x2c          44   
+.text.HAL_RegisterDioIn     0x4ba8           0x2c          44   
+.text.ConfigureRadioTx      0x4bd4           0x2a          42   
+.text.Dummy_App_Func        0x4bfe            0x2           2   
+.text.SwTimerCreate         0x4c00           0x28          40   
+.text.RADIO_DIO3            0x4c28           0x28          40   
+.text.RADIO_DIO4            0x4c50           0x28          40   
+.text.RADIO_DIO5            0x4c78           0x28          40   
+.text.RADIO_FSKSyncAddr     0x4ca0           0x28          40   
+.text.EIC_CallbackRegis     0x4cc8           0x28          40   
+.text.TC0_Compare32bitC     0x4cf0           0x28          40   
+.text.readMouseTraps        0x4d18           0x28          40   
+.text.RADIO_RegisterWri     0x4d40           0x28          40   
+.text.HAL_EnableRFCtrl      0x4d68           0x28          40   
+.text.SystemTimerInit       0x4d90           0x24          36   
+.text.MlsAppSleepCallba     0x4db4           0x24          36   
+.text.HAL_SPISend           0x4dd8           0x24          36   
+.text.RADIO_RegisterRea     0x4dfc           0x24          36   
+.text.SleepTimerStart       0x4e20           0x24          36   
+.text.RADIO_UnhandledIn     0x4e44           0x22          34   
+.text.SwTimerStop           0x4e68           0x20          32   
+.text.RADIO_getMappingA     0x4e88           0x20          32   
+.text.radioPostTask         0x4ea8           0x20          32   
+.text.HAL_RadioDIO2Call     0x4ec8           0x20          32   
+.text.HAL_RadioDIO1Call     0x4ee8           0x20          32   
+.text.HAL_RadioDIO0Call     0x4f08           0x20          32   
+.text.HAL_Radio_resourc     0x4f28           0x20          32   
+.text.SwTimerGetTime        0x4f48           0x1c          28   
+.text.SYSTEM_PostTask       0x4f64           0x1c          28   
+.text.ADC_ConversionSta     0x4f80           0x1c          28   
+.text.RTC_Timer32Start      0x4f9c           0x1c          28   
+.text.SYSTICK_TimerInit     0x4fb8           0x1c          28   
+.text.TC0_CompareStart      0x4fd4           0x1c          28   
+.text.TC0_CompareStop       0x4ff0           0x1c          28   
+.text.buildLoraMessage      0x500c           0x1c          28   
+.text.MlsAppResourceIni     0x5028           0x1c          28   
+.text.Radio_ResetClockI     0x5044           0x18          24   
+.text.ADC_Enable            0x505c           0x18          24   
+.text.TC0_Compare32bitM     0x5074           0x18          24   
+.rodata.APP_Tasks           0x508c           0x18          24   
+.text.HAL_DisableRFCtrl     0x50a4           0x18          24   
+.text.HAL_TCXOPowerOn       0x50bc           0x18          24   
+.text.HAL_Sleep             0x50d4           0x18          24   
+.text                       0x50ec           0x18          24  App's exec code 
+.text.Radio_ReadFSKRssi     0x5104           0x16          22   
+.text.SYSTEM_ReadyToSle     0x511c           0x14          20   
+.rodata.taskHandlers        0x5130           0x14          20   
+.rodata.radioTaskHandle     0x5144           0x14          20   
+.text.NVIC_INT_Restore      0x5158           0x14          20   
+.text.PM_StandbyModeEnt     0x516c           0x14          20   
+.text.PM_BackupModeEnte     0x5180           0x14          20   
+.text.RTC_Timer32Counte     0x5194           0x14          20   
+.text.RTC_Timer32Compar     0x51a8           0x14          20   
+.text.RTC_Timer32Counte     0x51bc           0x14          20   
+.text.SYSTICK_TimerStar     0x51d0           0x14          20   
+.text.TC0_Compare32bitC     0x51e4           0x14          20   
+.text.system_leave_crit     0x51f8           0x14          20   
+.text.NVIC_INT_Disable      0x520c           0x12          18   
+.text.memcpy                0x521e           0x12          18   
+.text.RADIO_SetCallback     0x5230           0x10          16   
+.text.ADC_ConversionSeq     0x5240           0x10          16   
+.text.EIC_InterruptEnab     0x5250           0x10          16   
+.text.EIC_InterruptDisa     0x5260           0x10          16   
+.text.SYSTICK_TimerPeri     0x5270           0x10          16   
+.text.HAL_TCXOPowerOff      0x5280           0x10          16   
+.text.SleepTimerInit        0x5290           0x10          16   
+.text.system_enter_crit     0x52a0           0x10          16   
+.text.trapTriggerCallba     0x52b0            0xe          14   
+.text.main                  0x52be            0xe          14   
+.text.RADIO_GetState        0x52cc            0xc          12   
+.text.ADC_ConversionRes     0x52d8            0xc          12   
+.text.NVMCTRL_Initializ     0x52e4            0xc          12   
+.text.PORT_GroupWrite       0x52f0            0xc          12   
+.text.RTC_Timer32Interr     0x52fc            0xc          12   
+.text.RTC_Timer32Interr     0x5308            0xc          12   
+.text.RTC_Timer32Callba     0x5314            0xc          12   
+.text.SYSTICK_TimerPeri     0x5320            0xc          12   
+.text.TC0_CompareCallba     0x532c            0xc          12   
+.text.SYS_Tasks             0x5338            0xc          12   
+.text.SleepTimerStop        0x5344            0xc          12   
+.text.TIMER_TaskHandler     0x5350            0xa          10   
+.text.HAL_DisbleDIO0Int     0x535a            0xa          10   
+.text.NVIC_INT_Enable       0x5364            0x8           8   
+.text.SYS_INT_Enable        0x536c            0x8           8   
+.text.SYS_INT_Disable       0x5374            0x8           8   
+.text.SYS_INT_Restore       0x537c            0x8           8   
+.text.SleepTimerGetElap     0x5384            0x8           8   
+.text.SystemBlockingWai     0x538c            0x8           8   
+.text.SYSTICK_TimerFreq     0x5394            0x6           6   
+.text.PORT_GroupOutputE     0x539a            0x4           4   
+.text.NonMaskableInt_Ha     0x539e            0x4           4   
+.text.HardFault_Handler     0x53a2            0x4           4   
+.text.HAL_GetRadioClkSt     0x53a6            0x4           4   
+.text.HAL_GetRadioClkSr     0x53aa            0x4           4   
+.text                       0x53b0            0x4           4  App's exec code 
+      Total ROM used  :      0x53ae       21422  8.2% of 0x40000
         --------------------------------------------------------------------------
-         Total Program Memory used  :      0x538a       21386  8.2% of 0x40000
+         Total Program Memory used  :      0x53ae       21422  8.2% of 0x40000
         --------------------------------------------------------------------------
 
 
@@ -290,7 +290,7 @@ section                    address  length [bytes]      (dec)  Description
 .bss.timeOnAir          0x200003f8            0x8           8   
 .bss.TC0_CallbackObject 0x20000400            0x8           8   
 .data.macBuffer         0x20000408            0x5           5   
-.bss.compareCallbackEna 0x2000040d            0x1           1   
+.bss.allocatedTimerId   0x2000040d            0x1           1   
 .bss.rxWindowSize       0x2000040e            0x2           2   
 .bss.sleepReq           0x20000410            0x4           4   
 .bss.compareValue       0x20000414            0x4           4   
@@ -298,27 +298,27 @@ section                    address  length [bytes]      (dec)  Description
 .bss.lastCount          0x2000041c            0x4           4   
 .bss.sysTimeOvf         0x20000420            0x4           4   
 .bss.transmitBufferPtr  0x20000424            0x4           4   
-.bss.mlsAppSleepWakeupC 0x20000428            0x4           4   
-.bss.interruptHandlerDi 0x2000042c            0x4           4   
+.bss.appData            0x20000428            0x4           4   
+.bss.mlsAppSleepWakeupC 0x2000042c            0x4           4   
 .bss.interruptHandlerDi 0x20000430            0x4           4   
 .bss.interruptHandlerDi 0x20000434            0x4           4   
-.data.cycles_per_ms     0x20000438            0x4           4   
-.data.cycles_per_us     0x2000043c            0x4           4   
-.bss                    0x20000440            0x4           4  Uninitialized data 
-.bss.appData            0x20000444            0x3           3   
-.bss.allocatedTimerId   0x20000447            0x1           1   
+.bss.interruptHandlerDi 0x20000438            0x4           4   
+.data.cycles_per_ms     0x2000043c            0x4           4   
+.data.cycles_per_us     0x20000440            0x4           4   
+.bss                    0x20000444            0x4           4  Uninitialized data 
 .bss.radioEvents        0x20000448            0x2           2   
 .bss.sysTaskFlag        0x2000044a            0x2           2   
 .bss.radioCallbackMask  0x2000044c            0x1           1   
-.bss.radioState         0x2000044d            0x1           1   
+.bss.compareCallbackEna 0x2000044d            0x1           1   
 .bss.radioTaskFlags     0x2000044e            0x2           2   
 .bss.instRSSI           0x20000450            0x2           2   
-.bss.txBufferLen        0x20000452            0x1           1   
-.bss.radio_transmission 0x20000453            0x1           1   
-.bss.interrupt_flag     0x20000454            0x1           1   
-         Total RAM used  :       0x455        1109  3.4% of 0x8000
+.bss.radioState         0x20000452            0x1           1   
+.bss.txBufferLen        0x20000453            0x1           1   
+.bss.radio_transmission 0x20000454            0x1           1   
+.bss.interrupt_flag     0x20000455            0x1           1   
+         Total RAM used  :       0x456        1110  3.4% of 0x8000
         --------------------------------------------------------------------------
-            Total Data Memory used  :       0x455        1109  3.4% of 0x8000
+            Total Data Memory used  :       0x456        1110  3.4% of 0x8000
         --------------------------------------------------------------------------
 
 
@@ -1489,7 +1489,7 @@ LOAD data_init
  .comment       0x00000053       0x54 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libg_nano.a(lib_a-init.o)
  .comment       0x00000053       0x54 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libg_nano.a(lib_a-memcpy-stub.o)
 
-.debug_info     0x00000000    0x52177
+.debug_info     0x00000000    0x521bb
  .debug_info    0x00000000     0x307d build/default/debug/_ext/1824796116/pmm.o
  .debug_info    0x0000307d     0x4556 build/default/debug/_ext/282161921/sw_timer.o
  .debug_info    0x000075d3      0x542 build/default/debug/_ext/1824799377/system_task_manager.o
@@ -1520,43 +1520,43 @@ LOAD data_init
  .debug_info    0x0002cdfe      0x4a6 build/default/debug/_ext/1171490990/startup_xc32.o
  .debug_info    0x0002d2a4     0x2aba build/default/debug/_ext/1171490990/initialization.o
  .debug_info    0x0002fd5e     0x274a build/default/debug/_ext/1530445869/tasks.o
- .debug_info    0x000324a8     0x3f3f build/default/debug/_ext/1530445869/app.o
- .debug_info    0x000363e7     0x273e build/default/debug/_ext/1360937237/main.o
- .debug_info    0x00038b25     0x4711 build/default/debug/_ext/1824788055/radio_driver_hal.o
- .debug_info    0x0003d236     0x27e7 build/default/debug/_ext/1824788055/sleep.o
- .debug_info    0x0003fa1d     0x293f build/default/debug/_ext/1824788055/sleep_timer.o
- .debug_info    0x0004235c     0x2ed1 build/default/debug/_ext/1824788055/sys.o
- .debug_info    0x0004522d      0x2c3 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(data_init.o)
- .debug_info    0x000454f0       0x26 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
- .debug_info    0x00045516       0x26 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_divsi3.o)
- .debug_info    0x0004553c       0x26 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
- .debug_info    0x00045562       0x26 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_aeabi_uldivmod.o)
- .debug_info    0x00045588     0x1b5e c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_fixunssfsi.o)
- .debug_info    0x000470e6     0x1bb5 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_fixunssfdi.o)
- .debug_info    0x00048c9b     0x1c12 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o)
- .debug_info    0x0004a8ad      0x6e2 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(mulsf3.o)
- .debug_info    0x0004af8f      0x63e c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(subsf3.o)
- .debug_info    0x0004b5cd      0x441 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(fixsfsi.o)
- .debug_info    0x0004ba0e      0x522 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(floatsisf.o)
- .debug_info    0x0004bf30      0x515 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(floatunsisf.o)
- .debug_info    0x0004c445      0xc00 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(muldf3.o)
- .debug_info    0x0004d045      0x90d c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(subdf3.o)
- .debug_info    0x0004d952      0x5b1 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(floatunsidf.o)
- .debug_info    0x0004df03      0x531 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(extendsfdf2.o)
- .debug_info    0x0004e434       0x26 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpsf2.o)
- .debug_info    0x0004e45a       0x26 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_clzsi2.o)
- .debug_info    0x0004e480       0x26 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_clzdi2.o)
- .debug_info    0x0004e4a6     0x1b5e c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_fixunsdfsi.o)
- .debug_info    0x00050004      0x491 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(eqsf2.o)
- .debug_info    0x00050495      0x4c3 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(gesf2.o)
- .debug_info    0x00050958      0x4c3 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(lesf2.o)
- .debug_info    0x00050e1b      0x462 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(fixdfsi.o)
- .debug_info    0x0005127d       0x26 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpdf2.o)
- .debug_info    0x000512a3      0x4ca c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(eqdf2.o)
- .debug_info    0x0005176d      0x505 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(gedf2.o)
- .debug_info    0x00051c72      0x505 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(ledf2.o)
+ .debug_info    0x000324a8     0x3f83 build/default/debug/_ext/1530445869/app.o
+ .debug_info    0x0003642b     0x273e build/default/debug/_ext/1360937237/main.o
+ .debug_info    0x00038b69     0x4711 build/default/debug/_ext/1824788055/radio_driver_hal.o
+ .debug_info    0x0003d27a     0x27e7 build/default/debug/_ext/1824788055/sleep.o
+ .debug_info    0x0003fa61     0x293f build/default/debug/_ext/1824788055/sleep_timer.o
+ .debug_info    0x000423a0     0x2ed1 build/default/debug/_ext/1824788055/sys.o
+ .debug_info    0x00045271      0x2c3 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(data_init.o)
+ .debug_info    0x00045534       0x26 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .debug_info    0x0004555a       0x26 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_divsi3.o)
+ .debug_info    0x00045580       0x26 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+ .debug_info    0x000455a6       0x26 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_aeabi_uldivmod.o)
+ .debug_info    0x000455cc     0x1b5e c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_fixunssfsi.o)
+ .debug_info    0x0004712a     0x1bb5 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_fixunssfdi.o)
+ .debug_info    0x00048cdf     0x1c12 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o)
+ .debug_info    0x0004a8f1      0x6e2 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(mulsf3.o)
+ .debug_info    0x0004afd3      0x63e c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(subsf3.o)
+ .debug_info    0x0004b611      0x441 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(fixsfsi.o)
+ .debug_info    0x0004ba52      0x522 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(floatsisf.o)
+ .debug_info    0x0004bf74      0x515 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(floatunsisf.o)
+ .debug_info    0x0004c489      0xc00 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(muldf3.o)
+ .debug_info    0x0004d089      0x90d c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(subdf3.o)
+ .debug_info    0x0004d996      0x5b1 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(floatunsidf.o)
+ .debug_info    0x0004df47      0x531 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(extendsfdf2.o)
+ .debug_info    0x0004e478       0x26 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpsf2.o)
+ .debug_info    0x0004e49e       0x26 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_clzsi2.o)
+ .debug_info    0x0004e4c4       0x26 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_clzdi2.o)
+ .debug_info    0x0004e4ea     0x1b5e c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_fixunsdfsi.o)
+ .debug_info    0x00050048      0x491 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(eqsf2.o)
+ .debug_info    0x000504d9      0x4c3 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(gesf2.o)
+ .debug_info    0x0005099c      0x4c3 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(lesf2.o)
+ .debug_info    0x00050e5f      0x462 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(fixdfsi.o)
+ .debug_info    0x000512c1       0x26 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpdf2.o)
+ .debug_info    0x000512e7      0x4ca c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(eqdf2.o)
+ .debug_info    0x000517b1      0x505 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(gedf2.o)
+ .debug_info    0x00051cb6      0x505 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(ledf2.o)
 
-.debug_abbrev   0x00000000     0x7336
+.debug_abbrev   0x00000000     0x7352
  .debug_abbrev  0x00000000      0x325 build/default/debug/_ext/1824796116/pmm.o
  .debug_abbrev  0x00000325      0x532 build/default/debug/_ext/282161921/sw_timer.o
  .debug_abbrev  0x00000857      0x11c build/default/debug/_ext/1824799377/system_task_manager.o
@@ -1587,41 +1587,41 @@ LOAD data_init
  .debug_abbrev  0x00003e55      0x11f build/default/debug/_ext/1171490990/startup_xc32.o
  .debug_abbrev  0x00003f74      0x28b build/default/debug/_ext/1171490990/initialization.o
  .debug_abbrev  0x000041ff      0x263 build/default/debug/_ext/1530445869/tasks.o
- .debug_abbrev  0x00004462      0x465 build/default/debug/_ext/1530445869/app.o
- .debug_abbrev  0x000048c7      0x27e build/default/debug/_ext/1360937237/main.o
- .debug_abbrev  0x00004b45      0x4ab build/default/debug/_ext/1824788055/radio_driver_hal.o
- .debug_abbrev  0x00004ff0      0x277 build/default/debug/_ext/1824788055/sleep.o
- .debug_abbrev  0x00005267      0x2b9 build/default/debug/_ext/1824788055/sleep_timer.o
- .debug_abbrev  0x00005520      0x324 build/default/debug/_ext/1824788055/sys.o
- .debug_abbrev  0x00005844       0x2e c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(data_init.o)
- .debug_abbrev  0x00005872       0x14 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
- .debug_abbrev  0x00005886       0x14 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_divsi3.o)
- .debug_abbrev  0x0000589a       0x14 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
- .debug_abbrev  0x000058ae       0x14 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_aeabi_uldivmod.o)
- .debug_abbrev  0x000058c2      0x130 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_fixunssfsi.o)
- .debug_abbrev  0x000059f2      0x144 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_fixunssfdi.o)
- .debug_abbrev  0x00005b36      0x157 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o)
- .debug_abbrev  0x00005c8d      0x161 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(mulsf3.o)
- .debug_abbrev  0x00005dee      0x172 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(subsf3.o)
- .debug_abbrev  0x00005f60      0x153 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(fixsfsi.o)
- .debug_abbrev  0x000060b3      0x14d c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(floatsisf.o)
- .debug_abbrev  0x00006200      0x14d c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(floatunsisf.o)
- .debug_abbrev  0x0000634d      0x16f c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(muldf3.o)
- .debug_abbrev  0x000064bc      0x177 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(subdf3.o)
- .debug_abbrev  0x00006633      0x136 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(floatunsidf.o)
- .debug_abbrev  0x00006769      0x127 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(extendsfdf2.o)
- .debug_abbrev  0x00006890       0x14 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpsf2.o)
- .debug_abbrev  0x000068a4       0x14 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_clzsi2.o)
- .debug_abbrev  0x000068b8       0x14 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_clzdi2.o)
- .debug_abbrev  0x000068cc      0x130 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_fixunsdfsi.o)
- .debug_abbrev  0x000069fc      0x14a c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(eqsf2.o)
- .debug_abbrev  0x00006b46      0x14c c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(gesf2.o)
- .debug_abbrev  0x00006c92      0x14c c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(lesf2.o)
- .debug_abbrev  0x00006dde      0x151 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(fixdfsi.o)
- .debug_abbrev  0x00006f2f       0x14 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpdf2.o)
- .debug_abbrev  0x00006f43      0x15b c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(eqdf2.o)
- .debug_abbrev  0x0000709e      0x14c c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(gedf2.o)
- .debug_abbrev  0x000071ea      0x14c c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(ledf2.o)
+ .debug_abbrev  0x00004462      0x481 build/default/debug/_ext/1530445869/app.o
+ .debug_abbrev  0x000048e3      0x27e build/default/debug/_ext/1360937237/main.o
+ .debug_abbrev  0x00004b61      0x4ab build/default/debug/_ext/1824788055/radio_driver_hal.o
+ .debug_abbrev  0x0000500c      0x277 build/default/debug/_ext/1824788055/sleep.o
+ .debug_abbrev  0x00005283      0x2b9 build/default/debug/_ext/1824788055/sleep_timer.o
+ .debug_abbrev  0x0000553c      0x324 build/default/debug/_ext/1824788055/sys.o
+ .debug_abbrev  0x00005860       0x2e c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(data_init.o)
+ .debug_abbrev  0x0000588e       0x14 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .debug_abbrev  0x000058a2       0x14 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_divsi3.o)
+ .debug_abbrev  0x000058b6       0x14 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+ .debug_abbrev  0x000058ca       0x14 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_aeabi_uldivmod.o)
+ .debug_abbrev  0x000058de      0x130 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_fixunssfsi.o)
+ .debug_abbrev  0x00005a0e      0x144 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_fixunssfdi.o)
+ .debug_abbrev  0x00005b52      0x157 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o)
+ .debug_abbrev  0x00005ca9      0x161 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(mulsf3.o)
+ .debug_abbrev  0x00005e0a      0x172 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(subsf3.o)
+ .debug_abbrev  0x00005f7c      0x153 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(fixsfsi.o)
+ .debug_abbrev  0x000060cf      0x14d c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(floatsisf.o)
+ .debug_abbrev  0x0000621c      0x14d c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(floatunsisf.o)
+ .debug_abbrev  0x00006369      0x16f c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(muldf3.o)
+ .debug_abbrev  0x000064d8      0x177 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(subdf3.o)
+ .debug_abbrev  0x0000664f      0x136 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(floatunsidf.o)
+ .debug_abbrev  0x00006785      0x127 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(extendsfdf2.o)
+ .debug_abbrev  0x000068ac       0x14 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpsf2.o)
+ .debug_abbrev  0x000068c0       0x14 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_clzsi2.o)
+ .debug_abbrev  0x000068d4       0x14 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_clzdi2.o)
+ .debug_abbrev  0x000068e8      0x130 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_fixunsdfsi.o)
+ .debug_abbrev  0x00006a18      0x14a c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(eqsf2.o)
+ .debug_abbrev  0x00006b62      0x14c c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(gesf2.o)
+ .debug_abbrev  0x00006cae      0x14c c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(lesf2.o)
+ .debug_abbrev  0x00006dfa      0x151 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(fixdfsi.o)
+ .debug_abbrev  0x00006f4b       0x14 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpdf2.o)
+ .debug_abbrev  0x00006f5f      0x15b c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(eqdf2.o)
+ .debug_abbrev  0x000070ba      0x14c c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(gedf2.o)
+ .debug_abbrev  0x00007206      0x14c c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(ledf2.o)
 
 .debug_loc      0x00000000     0xaaf6
  .debug_loc     0x00000000      0x2ff build/default/debug/_ext/1824796116/pmm.o
@@ -1864,7 +1864,7 @@ LOAD data_init
  .debug_ranges  0x00001410       0x70 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(gedf2.o)
  .debug_ranges  0x00001480       0x68 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(ledf2.o)
 
-.debug_line     0x00000000     0xd699
+.debug_line     0x00000000     0xd6ac
  .debug_line    0x00000000      0x4c5 build/default/debug/_ext/1824796116/pmm.o
  .debug_line    0x000004c5      0xa99 build/default/debug/_ext/282161921/sw_timer.o
  .debug_line    0x00000f5e      0x1ec build/default/debug/_ext/1824799377/system_task_manager.o
@@ -1875,61 +1875,61 @@ LOAD data_init
  .debug_line    0x00002c34      0x220 build/default/debug/_ext/1824799587/radio_task_manager.o
  .debug_line    0x00002e54     0x1353 build/default/debug/_ext/1824799587/radio_transaction.o
  .debug_line    0x000041a7      0x302 build/default/debug/_ext/1530445869/radioconfig.o
- .debug_line    0x000044a9      0x3bb build/default/debug/_ext/60163342/plib_adc.o
- .debug_line    0x00004864      0x382 build/default/debug/_ext/1984496892/plib_clock.o
- .debug_line    0x00004be6      0x2ee build/default/debug/_ext/60167341/plib_eic.o
- .debug_line    0x00004ed4       0x66 build/default/debug/_ext/1986646378/plib_evsys.o
- .debug_line    0x00004f3a      0x32c build/default/debug/_ext/1865468468/plib_nvic.o
- .debug_line    0x00005266      0x3b2 build/default/debug/_ext/1593096446/plib_nvmctrl.o
- .debug_line    0x00005618      0x2db build/default/debug/_ext/829342769/plib_pm.o
- .debug_line    0x000058f3      0x376 build/default/debug/_ext/1865521619/plib_port.o
- .debug_line    0x00005c69      0x190 build/default/debug/_ext/1865585090/plib_rstc.o
- .debug_line    0x00005df9      0x3eb build/default/debug/_ext/60180175/plib_rtc_timer.o
- .debug_line    0x000061e4      0x55b build/default/debug/_ext/17022449/plib_sercom4_spi_master.o
- .debug_line    0x0000673f      0x233 build/default/debug/_ext/1865616679/plib_supc.o
- .debug_line    0x00006972      0x360 build/default/debug/_ext/1827571544/plib_systick.o
- .debug_line    0x00006cd2      0x3d4 build/default/debug/_ext/829342655/plib_tc0.o
- .debug_line    0x000070a6      0x30f build/default/debug/_ext/1881668453/sys_int.o
- .debug_line    0x000073b5      0x2ab build/default/debug/_ext/1171490990/exceptions.o
- .debug_line    0x00007660      0x2a8 build/default/debug/_ext/1171490990/interrupts.o
- .debug_line    0x00007908      0x1a2 build/default/debug/_ext/1171490990/startup_xc32.o
- .debug_line    0x00007aaa      0x67e build/default/debug/_ext/1171490990/initialization.o
- .debug_line    0x00008128      0x2db build/default/debug/_ext/1530445869/tasks.o
- .debug_line    0x00008403      0x788 build/default/debug/_ext/1530445869/app.o
- .debug_line    0x00008b8b      0x2a8 build/default/debug/_ext/1360937237/main.o
- .debug_line    0x00008e33      0x9f5 build/default/debug/_ext/1824788055/radio_driver_hal.o
- .debug_line    0x00009828      0x2ea build/default/debug/_ext/1824788055/sleep.o
- .debug_line    0x00009b12      0x32a build/default/debug/_ext/1824788055/sleep_timer.o
- .debug_line    0x00009e3c      0x469 build/default/debug/_ext/1824788055/sys.o
- .debug_line    0x0000a2a5      0x132 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(data_init.o)
- .debug_line    0x0000a3d7       0xa8 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
- .debug_line    0x0000a47f       0xaf c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_divsi3.o)
- .debug_line    0x0000a52e       0x9c c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
- .debug_line    0x0000a5ca       0xa7 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_aeabi_uldivmod.o)
- .debug_line    0x0000a671      0x2cb c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_fixunssfsi.o)
- .debug_line    0x0000a93c      0x2d0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_fixunssfdi.o)
- .debug_line    0x0000ac0c      0x3d7 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o)
- .debug_line    0x0000afe3      0x279 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(mulsf3.o)
- .debug_line    0x0000b25c      0x314 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(subsf3.o)
- .debug_line    0x0000b570      0x154 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(fixsfsi.o)
- .debug_line    0x0000b6c4      0x18e c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(floatsisf.o)
- .debug_line    0x0000b852      0x18e c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(floatunsisf.o)
- .debug_line    0x0000b9e0      0x3b3 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(muldf3.o)
- .debug_line    0x0000bd93      0x50d c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(subdf3.o)
- .debug_line    0x0000c2a0      0x17b c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(floatunsidf.o)
- .debug_line    0x0000c41b      0x1b2 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(extendsfdf2.o)
- .debug_line    0x0000c5cd       0xb1 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpsf2.o)
- .debug_line    0x0000c67e       0xb0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_clzsi2.o)
- .debug_line    0x0000c72e       0xa6 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_clzdi2.o)
- .debug_line    0x0000c7d4      0x2c7 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_fixunsdfsi.o)
- .debug_line    0x0000ca9b      0x179 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(eqsf2.o)
- .debug_line    0x0000cc14      0x1a8 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(gesf2.o)
- .debug_line    0x0000cdbc      0x1a4 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(lesf2.o)
- .debug_line    0x0000cf60      0x16e c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(fixdfsi.o)
- .debug_line    0x0000d0ce       0xb4 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpdf2.o)
- .debug_line    0x0000d182      0x187 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(eqdf2.o)
- .debug_line    0x0000d309      0x1ca c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(gedf2.o)
- .debug_line    0x0000d4d3      0x1c6 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(ledf2.o)
+ .debug_line    0x000044a9      0x3b3 build/default/debug/_ext/60163342/plib_adc.o
+ .debug_line    0x0000485c      0x382 build/default/debug/_ext/1984496892/plib_clock.o
+ .debug_line    0x00004bde      0x2ee build/default/debug/_ext/60167341/plib_eic.o
+ .debug_line    0x00004ecc       0x66 build/default/debug/_ext/1986646378/plib_evsys.o
+ .debug_line    0x00004f32      0x32c build/default/debug/_ext/1865468468/plib_nvic.o
+ .debug_line    0x0000525e      0x3b2 build/default/debug/_ext/1593096446/plib_nvmctrl.o
+ .debug_line    0x00005610      0x2db build/default/debug/_ext/829342769/plib_pm.o
+ .debug_line    0x000058eb      0x376 build/default/debug/_ext/1865521619/plib_port.o
+ .debug_line    0x00005c61      0x190 build/default/debug/_ext/1865585090/plib_rstc.o
+ .debug_line    0x00005df1      0x3eb build/default/debug/_ext/60180175/plib_rtc_timer.o
+ .debug_line    0x000061dc      0x55b build/default/debug/_ext/17022449/plib_sercom4_spi_master.o
+ .debug_line    0x00006737      0x233 build/default/debug/_ext/1865616679/plib_supc.o
+ .debug_line    0x0000696a      0x360 build/default/debug/_ext/1827571544/plib_systick.o
+ .debug_line    0x00006cca      0x3d4 build/default/debug/_ext/829342655/plib_tc0.o
+ .debug_line    0x0000709e      0x30f build/default/debug/_ext/1881668453/sys_int.o
+ .debug_line    0x000073ad      0x2ab build/default/debug/_ext/1171490990/exceptions.o
+ .debug_line    0x00007658      0x2a8 build/default/debug/_ext/1171490990/interrupts.o
+ .debug_line    0x00007900      0x1a2 build/default/debug/_ext/1171490990/startup_xc32.o
+ .debug_line    0x00007aa2      0x67e build/default/debug/_ext/1171490990/initialization.o
+ .debug_line    0x00008120      0x2db build/default/debug/_ext/1530445869/tasks.o
+ .debug_line    0x000083fb      0x7a3 build/default/debug/_ext/1530445869/app.o
+ .debug_line    0x00008b9e      0x2a8 build/default/debug/_ext/1360937237/main.o
+ .debug_line    0x00008e46      0x9f5 build/default/debug/_ext/1824788055/radio_driver_hal.o
+ .debug_line    0x0000983b      0x2ea build/default/debug/_ext/1824788055/sleep.o
+ .debug_line    0x00009b25      0x32a build/default/debug/_ext/1824788055/sleep_timer.o
+ .debug_line    0x00009e4f      0x469 build/default/debug/_ext/1824788055/sys.o
+ .debug_line    0x0000a2b8      0x132 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(data_init.o)
+ .debug_line    0x0000a3ea       0xa8 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .debug_line    0x0000a492       0xaf c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_divsi3.o)
+ .debug_line    0x0000a541       0x9c c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+ .debug_line    0x0000a5dd       0xa7 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_aeabi_uldivmod.o)
+ .debug_line    0x0000a684      0x2cb c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_fixunssfsi.o)
+ .debug_line    0x0000a94f      0x2d0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_fixunssfdi.o)
+ .debug_line    0x0000ac1f      0x3d7 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o)
+ .debug_line    0x0000aff6      0x279 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(mulsf3.o)
+ .debug_line    0x0000b26f      0x314 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(subsf3.o)
+ .debug_line    0x0000b583      0x154 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(fixsfsi.o)
+ .debug_line    0x0000b6d7      0x18e c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(floatsisf.o)
+ .debug_line    0x0000b865      0x18e c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(floatunsisf.o)
+ .debug_line    0x0000b9f3      0x3b3 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(muldf3.o)
+ .debug_line    0x0000bda6      0x50d c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(subdf3.o)
+ .debug_line    0x0000c2b3      0x17b c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(floatunsidf.o)
+ .debug_line    0x0000c42e      0x1b2 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(extendsfdf2.o)
+ .debug_line    0x0000c5e0       0xb1 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpsf2.o)
+ .debug_line    0x0000c691       0xb0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_clzsi2.o)
+ .debug_line    0x0000c741       0xa6 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_clzdi2.o)
+ .debug_line    0x0000c7e7      0x2c7 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_fixunsdfsi.o)
+ .debug_line    0x0000caae      0x179 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(eqsf2.o)
+ .debug_line    0x0000cc27      0x1a8 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(gesf2.o)
+ .debug_line    0x0000cdcf      0x1a4 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(lesf2.o)
+ .debug_line    0x0000cf73      0x16e c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(fixdfsi.o)
+ .debug_line    0x0000d0e1       0xb4 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpdf2.o)
+ .debug_line    0x0000d195      0x187 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(eqdf2.o)
+ .debug_line    0x0000d31c      0x1ca c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(gedf2.o)
+ .debug_line    0x0000d4e6      0x1c6 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(ledf2.o)
 
 .debug_str      0x00000000     0x210b
  .debug_str     0x00000000       0xe4 build/default/debug/_ext/1824796116/pmm.o
@@ -2147,44 +2147,44 @@ LOAD data_init
  .bss.transmitBufferPtr
                 0x20000424        0x4 build/default/debug/_ext/1824799587/radio_transaction.o
 
-.bss.mlsAppSleepWakeupCallback%18
+.bss.appData%18
                 0x20000428        0x4
- .bss.mlsAppSleepWakeupCallback
-                0x20000428        0x4 build/default/debug/_ext/1530445869/app.o
-                0x20000428                mlsAppSleepWakeupCallback
+ .bss.appData   0x20000428        0x4 build/default/debug/_ext/1530445869/app.o
+                0x20000428                appData
 
-.bss.interruptHandlerDio0%19
+.bss.mlsAppSleepWakeupCallback%19
                 0x2000042c        0x4
- .bss.interruptHandlerDio0
-                0x2000042c        0x4 build/default/debug/_ext/1824788055/radio_driver_hal.o
+ .bss.mlsAppSleepWakeupCallback
+                0x2000042c        0x4 build/default/debug/_ext/1530445869/app.o
+                0x2000042c                mlsAppSleepWakeupCallback
 
-.bss.interruptHandlerDio1%20
+.bss.interruptHandlerDio0%20
                 0x20000430        0x4
- .bss.interruptHandlerDio1
+ .bss.interruptHandlerDio0
                 0x20000430        0x4 build/default/debug/_ext/1824788055/radio_driver_hal.o
 
-.bss.interruptHandlerDio2%21
+.bss.interruptHandlerDio1%21
                 0x20000434        0x4
- .bss.interruptHandlerDio2
+ .bss.interruptHandlerDio1
                 0x20000434        0x4 build/default/debug/_ext/1824788055/radio_driver_hal.o
 
-.data.cycles_per_ms%22
+.bss.interruptHandlerDio2%22
                 0x20000438        0x4
- .data.cycles_per_ms
-                0x20000438        0x4 build/default/debug/_ext/1824788055/sys.o
+ .bss.interruptHandlerDio2
+                0x20000438        0x4 build/default/debug/_ext/1824788055/radio_driver_hal.o
 
-.data.cycles_per_us%23
+.data.cycles_per_ms%23
                 0x2000043c        0x4
- .data.cycles_per_us
+ .data.cycles_per_ms
                 0x2000043c        0x4 build/default/debug/_ext/1824788055/sys.o
 
-.bss%24         0x20000440        0x4
- .bss           0x20000440        0x4 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(data_init.o)
+.data.cycles_per_us%24
+                0x20000440        0x4
+ .data.cycles_per_us
+                0x20000440        0x4 build/default/debug/_ext/1824788055/sys.o
 
-.bss.appData%25
-                0x20000444        0x3
- .bss.appData   0x20000444        0x3 build/default/debug/_ext/1530445869/app.o
-                0x20000444                appData
+.bss%25         0x20000444        0x4
+ .bss           0x20000444        0x4 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(data_init.o)
 
 .bss.radioEvents%26
                 0x20000448        0x2
@@ -2222,37 +2222,37 @@ LOAD data_init
  .bss.pmmState  0x2000029f        0x1 build/default/debug/_ext/1824796116/pmm.o
 
 .bss.allocatedTimerId%33
-                0x20000447        0x1
- .bss.allocatedTimerId
-                0x20000447        0x1 build/default/debug/_ext/282161921/sw_timer.o
-
-.bss.compareCallbackEnabled%34
                 0x2000040d        0x1
- .bss.compareCallbackEnabled
+ .bss.allocatedTimerId
                 0x2000040d        0x1 build/default/debug/_ext/282161921/sw_timer.o
 
-.bss.radioState%35
+.bss.compareCallbackEnabled%34
                 0x2000044d        0x1
+ .bss.compareCallbackEnabled
+                0x2000044d        0x1 build/default/debug/_ext/282161921/sw_timer.o
+
+.bss.radioState%35
+                0x20000452        0x1
  .bss.radioState
-                0x2000044d        0x1 build/default/debug/_ext/1824799587/radio_transaction.o
-                0x2000044d                radioState
+                0x20000452        0x1 build/default/debug/_ext/1824799587/radio_transaction.o
+                0x20000452                radioState
 
 .bss.txBufferLen%36
-                0x20000452        0x1
+                0x20000453        0x1
  .bss.txBufferLen
-                0x20000452        0x1 build/default/debug/_ext/1824799587/radio_transaction.o
+                0x20000453        0x1 build/default/debug/_ext/1824799587/radio_transaction.o
 
 .bss.radio_transmission_active%37
-                0x20000453        0x1
+                0x20000454        0x1
  .bss.radio_transmission_active
-                0x20000453        0x1 build/default/debug/_ext/1530445869/app.o
-                0x20000453                radio_transmission_active
+                0x20000454        0x1 build/default/debug/_ext/1530445869/app.o
+                0x20000454                radio_transmission_active
 
 .bss.interrupt_flag%38
-                0x20000454        0x1
+                0x20000455        0x1
  .bss.interrupt_flag
-                0x20000454        0x1 build/default/debug/_ext/1824788055/sys.o
-                0x20000454                interrupt_flag
+                0x20000455        0x1 build/default/debug/_ext/1824788055/sys.o
+                0x20000455                interrupt_flag
 
 .eh_frame%z1    0x00000000        0x0
  .eh_frame      0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtbegin.o
@@ -2344,1084 +2344,1084 @@ LOAD data_init
                 0x00002718      0x144 build/default/debug/_ext/1824799587/radio_transaction.o
                 0x00002718                RADIO_FSKPayloadReady
 
-.text.RADIO_RxHandler%56
-                0x0000285c      0x128
- .text.RADIO_RxHandler
-                0x0000285c      0x128 build/default/debug/_ext/1824799587/radio_transaction.o
-                0x0000285c                RADIO_RxHandler
-
-.text.APP_Tasks%57
-                0x00002984      0x11c
+.text.APP_Tasks%56
+                0x0000285c      0x140
  .text.APP_Tasks
-                0x00002984      0x11c build/default/debug/_ext/1530445869/app.o
-                0x00002984                APP_Tasks
+                0x0000285c      0x140 build/default/debug/_ext/1530445869/app.o
+                0x0000285c                APP_Tasks
 
-.text%58        0x00002aa0      0x114
- .text          0x00002aa0      0x114 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
-                0x00002aa0                __aeabi_uidiv
-                0x00002aa0                __udivsi3
-                0x00002bac                __aeabi_uidivmod
+.text.RADIO_RxHandler%57
+                0x0000299c      0x128
+ .text.RADIO_RxHandler
+                0x0000299c      0x128 build/default/debug/_ext/1824799587/radio_transaction.o
+                0x0000299c                RADIO_RxHandler
+
+.text%58        0x00002ac4      0x114
+ .text          0x00002ac4      0x114 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+                0x00002ac4                __aeabi_uidiv
+                0x00002ac4                __udivsi3
+                0x00002bd0                __aeabi_uidivmod
 
 .text.RADIO_TxDoneHandler%59
-                0x00002bb4       0xe0
+                0x00002bd8       0xe0
  .text.RADIO_TxDoneHandler
-                0x00002bb4       0xe0 build/default/debug/_ext/1824799587/radio_transaction.o
-                0x00002bb4                RADIO_TxDoneHandler
+                0x00002bd8       0xe0 build/default/debug/_ext/1824799587/radio_transaction.o
+                0x00002bd8                RADIO_TxDoneHandler
 
-.text%60        0x00002c94      0x1bc
- .text          0x00002c94       0xe0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(gedf2.o)
-                0x00002c94                __gedf2
-                0x00002c94                __gtdf2
- .text          0x00002d74       0xdc c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(ledf2.o)
-                0x00002d74                __ledf2
-                0x00002d74                __ltdf2
+.text%60        0x00002cb8      0x1bc
+ .text          0x00002cb8       0xe0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(gedf2.o)
+                0x00002cb8                __gedf2
+                0x00002cb8                __gtdf2
+ .text          0x00002d98       0xdc c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(ledf2.o)
+                0x00002d98                __ledf2
+                0x00002d98                __ltdf2
 
 .text.Radio_WriteMode%62
-                0x00002e50       0xd6
+                0x00002e74       0xd6
  .text.Radio_WriteMode
-                0x00002e50       0xd6 build/default/debug/_ext/22805713/radio_driver_sx1276.o
-                0x00002e50                Radio_WriteMode
+                0x00002e74       0xd6 build/default/debug/_ext/22805713/radio_driver_sx1276.o
+                0x00002e74                Radio_WriteMode
 
 .text.HAL_RadioInit%63
-                0x00002f28       0xd4
+                0x00002f4c       0xd4
  .text.HAL_RadioInit
-                0x00002f28       0xd4 build/default/debug/_ext/1824788055/radio_driver_hal.o
-                0x00002f28                HAL_RadioInit
+                0x00002f4c       0xd4 build/default/debug/_ext/1824788055/radio_driver_hal.o
+                0x00002f4c                HAL_RadioInit
 
 .text.PMM_Sleep%64
-                0x00002ffc       0xc4
+                0x00003020       0xc4
  .text.PMM_Sleep
-                0x00002ffc       0xc4 build/default/debug/_ext/1824796116/pmm.o
-                0x00002ffc                PMM_Sleep
+                0x00003020       0xc4 build/default/debug/_ext/1824796116/pmm.o
+                0x00003020                PMM_Sleep
 
 .text.RADIO_FSKFifoLevel%65
-                0x000030c0       0xb4
+                0x000030e4       0xb4
  .text.RADIO_FSKFifoLevel
-                0x000030c0       0xb4 build/default/debug/_ext/1824799587/radio_transaction.o
-                0x000030c0                RADIO_FSKFifoLevel
+                0x000030e4       0xb4 build/default/debug/_ext/1824799587/radio_transaction.o
+                0x000030e4                RADIO_FSKFifoLevel
 
 .text.SwTimerStart%66
-                0x00003174       0xa4
+                0x00003198       0xa4
  .text.SwTimerStart
-                0x00003174       0xa4 build/default/debug/_ext/282161921/sw_timer.o
-                0x00003174                SwTimerStart
+                0x00003198       0xa4 build/default/debug/_ext/282161921/sw_timer.o
+                0x00003198                SwTimerStart
 
-.text%67        0x00003218       0xa4
- .text          0x00003218       0xa4 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(extendsfdf2.o)
-                0x00003218                __aeabi_f2d
+.text%67        0x0000323c       0xa4
+ .text          0x0000323c       0xa4 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(extendsfdf2.o)
+                0x0000323c                __aeabi_f2d
 
 .text.EIC_Initialize%68
-                0x000032bc       0xa0
+                0x000032e0       0xa0
  .text.EIC_Initialize
-                0x000032bc       0xa0 build/default/debug/_ext/60167341/plib_eic.o
-                0x000032bc                EIC_Initialize
+                0x000032e0       0xa0 build/default/debug/_ext/60167341/plib_eic.o
+                0x000032e0                EIC_Initialize
 
 .text.SystemTimerSync%69
-                0x0000335c       0x9c
+                0x00003380       0x9c
  .text.SystemTimerSync
-                0x0000335c       0x9c build/default/debug/_ext/282161921/sw_timer.o
-                0x0000335c                SystemTimerSync
+                0x00003380       0x9c build/default/debug/_ext/282161921/sw_timer.o
+                0x00003380                SystemTimerSync
 
-.text%70        0x000033f8      0x12c
- .text          0x000033f8       0x98 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(gesf2.o)
-                0x000033f8                __gesf2
-                0x000033f8                __gtsf2
- .text          0x00003490       0x94 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(lesf2.o)
-                0x00003490                __ltsf2
-                0x00003490                __lesf2
+.text%70        0x0000341c      0x12c
+ .text          0x0000341c       0x98 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(gesf2.o)
+                0x0000341c                __gesf2
+                0x0000341c                __gtsf2
+ .text          0x000034b4       0x94 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(lesf2.o)
+                0x000034b4                __ltsf2
+                0x000034b4                __lesf2
 
 .text.__pic32c_data_initialization%72
-                0x00003524       0x90
+                0x00003548       0x90
  .text.__pic32c_data_initialization
-                0x00003524       0x90 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(data_init.o)
-                0x00003524                __pic32c_data_initialization
+                0x00003548       0x90 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(data_init.o)
+                0x00003548                __pic32c_data_initialization
 
-.text%73        0x000035b4       0x90
- .text          0x000035b4       0x90 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(floatsisf.o)
-                0x000035b4                __aeabi_i2f
+.text%73        0x000035d8       0x90
+ .text          0x000035d8       0x90 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(floatsisf.o)
+                0x000035d8                __aeabi_i2f
 
 .text.Radio_LBTScanTimeout%74
-                0x00003644       0x88
+                0x00003668       0x88
  .text.Radio_LBTScanTimeout
-                0x00003644       0x88 build/default/debug/_ext/1824799587/radio_lbt.o
-                0x00003644                Radio_LBTScanTimeout
+                0x00003668       0x88 build/default/debug/_ext/1824799587/radio_lbt.o
+                0x00003668                Radio_LBTScanTimeout
 
-.text%75        0x000036cc      0x178
- .text          0x000036cc       0x80 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(eqdf2.o)
-                0x000036cc                __nedf2
-                0x000036cc                __eqdf2
- .text          0x0000374c       0x7c c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(floatunsisf.o)
-                0x0000374c                __aeabi_ui2f
- .text          0x000037c8       0x7c c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpdf2.o)
-                0x000037c8                __aeabi_cdrcmple
-                0x000037d8                __aeabi_cdcmple
-                0x000037d8                __aeabi_cdcmpeq
-                0x000037e8                __aeabi_dcmpeq
-                0x000037f4                __aeabi_dcmplt
-                0x00003808                __aeabi_dcmple
-                0x0000381c                __aeabi_dcmpgt
-                0x00003830                __aeabi_dcmpge
+.text%75        0x000036f0      0x178
+ .text          0x000036f0       0x80 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(eqdf2.o)
+                0x000036f0                __nedf2
+                0x000036f0                __eqdf2
+ .text          0x00003770       0x7c c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(floatunsisf.o)
+                0x00003770                __aeabi_ui2f
+ .text          0x000037ec       0x7c c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpdf2.o)
+                0x000037ec                __aeabi_cdrcmple
+                0x000037fc                __aeabi_cdcmple
+                0x000037fc                __aeabi_cdcmpeq
+                0x0000380c                __aeabi_dcmpeq
+                0x00003818                __aeabi_dcmplt
+                0x0000382c                __aeabi_dcmple
+                0x00003840                __aeabi_dcmpgt
+                0x00003854                __aeabi_dcmpge
 
 .rodata.RADIO_SetAttr%78
-                0x00003844       0x78
+                0x00003868       0x78
  .rodata.RADIO_SetAttr
-                0x00003844       0x78 build/default/debug/_ext/1824799587/radio_get_set.o
+                0x00003868       0x78 build/default/debug/_ext/1824799587/radio_get_set.o
 
 .text.RADIO_DIO0%79
-                0x000038bc       0x78
+                0x000038e0       0x78
  .text.RADIO_DIO0
-                0x000038bc       0x78 build/default/debug/_ext/1824799587/radio_interface.o
-                0x000038bc                RADIO_DIO0
+                0x000038e0       0x78 build/default/debug/_ext/1824799587/radio_interface.o
+                0x000038e0                RADIO_DIO0
 
 .text.PORT_Initialize%80
-                0x00003934       0x78
+                0x00003958       0x78
  .text.PORT_Initialize
-                0x00003934       0x78 build/default/debug/_ext/1865521619/plib_port.o
-                0x00003934                PORT_Initialize
+                0x00003958       0x78 build/default/debug/_ext/1865521619/plib_port.o
+                0x00003958                PORT_Initialize
 
 .text.hwTimerIrqHandler%81
-                0x000039ac       0x74
+                0x000039d0       0x74
  .text.hwTimerIrqHandler
-                0x000039ac       0x74 build/default/debug/_ext/282161921/sw_timer.o
+                0x000039d0       0x74 build/default/debug/_ext/282161921/sw_timer.o
 
 .text.RADIO_DIO1%82
-                0x00003a20       0x74
+                0x00003a44       0x74
  .text.RADIO_DIO1
-                0x00003a20       0x74 build/default/debug/_ext/1824799587/radio_interface.o
-                0x00003a20                RADIO_DIO1
+                0x00003a44       0x74 build/default/debug/_ext/1824799587/radio_interface.o
+                0x00003a44                RADIO_DIO1
 
-.text%83        0x00003a94       0x74
- .text          0x00003a94       0x74 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpsf2.o)
-                0x00003a94                __aeabi_cfrcmple
-                0x00003a9c                __aeabi_cfcmpeq
-                0x00003a9c                __aeabi_cfcmple
-                0x00003aac                __aeabi_fcmpeq
-                0x00003ab8                __aeabi_fcmplt
-                0x00003acc                __aeabi_fcmple
-                0x00003ae0                __aeabi_fcmpgt
-                0x00003af4                __aeabi_fcmpge
+.text%83        0x00003ab8       0x74
+ .text          0x00003ab8       0x74 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpsf2.o)
+                0x00003ab8                __aeabi_cfrcmple
+                0x00003ac0                __aeabi_cfcmpeq
+                0x00003ac0                __aeabi_cfcmple
+                0x00003ad0                __aeabi_fcmpeq
+                0x00003adc                __aeabi_fcmplt
+                0x00003af0                __aeabi_fcmple
+                0x00003b04                __aeabi_fcmpgt
+                0x00003b18                __aeabi_fcmpge
 
 .text.RADIO_RxDone%84
-                0x00003b08       0x70
+                0x00003b2c       0x70
  .text.RADIO_RxDone
-                0x00003b08       0x70 build/default/debug/_ext/1824799587/radio_transaction.o
-                0x00003b08                RADIO_RxDone
+                0x00003b2c       0x70 build/default/debug/_ext/1824799587/radio_transaction.o
+                0x00003b2c                RADIO_RxDone
 
 .text.SwTimerUpdate%85
-                0x00003b78       0x6c
+                0x00003b9c       0x6c
  .text.SwTimerUpdate
-                0x00003b78       0x6c build/default/debug/_ext/282161921/sw_timer.o
+                0x00003b9c       0x6c build/default/debug/_ext/282161921/sw_timer.o
 
 .text.RADIO_FSKPacketSent%86
-                0x00003be4       0x6c
+                0x00003c08       0x6c
  .text.RADIO_FSKPacketSent
-                0x00003be4       0x6c build/default/debug/_ext/1824799587/radio_transaction.o
-                0x00003be4                RADIO_FSKPacketSent
+                0x00003c08       0x6c build/default/debug/_ext/1824799587/radio_transaction.o
+                0x00003c08                RADIO_FSKPacketSent
 
-.text%87        0x00003c50       0x6c
- .text          0x00003c50       0x6c c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(fixdfsi.o)
-                0x00003c50                __aeabi_d2iz
+.text%87        0x00003c74       0x6c
+ .text          0x00003c74       0x6c c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(fixdfsi.o)
+                0x00003c74                __aeabi_d2iz
 
 .text.PMM_Wakeup%88
-                0x00003cbc       0x68
+                0x00003ce0       0x68
  .text.PMM_Wakeup
-                0x00003cbc       0x68 build/default/debug/_ext/1824796116/pmm.o
-                0x00003cbc                PMM_Wakeup
+                0x00003ce0       0x68 build/default/debug/_ext/1824796116/pmm.o
+                0x00003ce0                PMM_Wakeup
 
 .text.RADIO_TaskHandler%89
-                0x00003d24       0x68
+                0x00003d48       0x68
  .text.RADIO_TaskHandler
-                0x00003d24       0x68 build/default/debug/_ext/1824799587/radio_task_manager.o
-                0x00003d24                RADIO_TaskHandler
+                0x00003d48       0x68 build/default/debug/_ext/1824799587/radio_task_manager.o
+                0x00003d48                RADIO_TaskHandler
 
 .text.RADIO_TxDone%90
-                0x00003d8c       0x68
+                0x00003db0       0x68
  .text.RADIO_TxDone
-                0x00003d8c       0x68 build/default/debug/_ext/1824799587/radio_transaction.o
-                0x00003d8c                RADIO_TxDone
+                0x00003db0       0x68 build/default/debug/_ext/1824799587/radio_transaction.o
+                0x00003db0                RADIO_TxDone
 
 .text.SYSTEM_RunTasks%91
-                0x00003df4       0x64
+                0x00003e18       0x64
  .text.SYSTEM_RunTasks
-                0x00003df4       0x64 build/default/debug/_ext/1824799377/system_task_manager.o
-                0x00003df4                SYSTEM_RunTasks
+                0x00003e18       0x64 build/default/debug/_ext/1824799377/system_task_manager.o
+                0x00003e18                SYSTEM_RunTasks
 
 .text.RADIO_FSKFifoEmpty%92
-                0x00003e58       0x60
+                0x00003e7c       0x60
  .text.RADIO_FSKFifoEmpty
-                0x00003e58       0x60 build/default/debug/_ext/1824799587/radio_transaction.o
-                0x00003e58                RADIO_FSKFifoEmpty
+                0x00003e7c       0x60 build/default/debug/_ext/1824799587/radio_transaction.o
+                0x00003e7c                RADIO_FSKFifoEmpty
 
-.text%93        0x00003eb8       0x60
- .text          0x00003eb8       0x60 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(floatunsidf.o)
-                0x00003eb8                __aeabi_ui2d
+.text%93        0x00003edc       0x60
+ .text          0x00003edc       0x60 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(floatunsidf.o)
+                0x00003edc                __aeabi_ui2d
 
 .text.RADIO_ScanHandler%94
-                0x00003f18       0x5c
+                0x00003f3c       0x5c
  .text.RADIO_ScanHandler
-                0x00003f18       0x5c build/default/debug/_ext/1824799587/radio_lbt.o
-                0x00003f18                RADIO_ScanHandler
+                0x00003f3c       0x5c build/default/debug/_ext/1824799587/radio_lbt.o
+                0x00003f3c                RADIO_ScanHandler
 
 .text.SYS_Initialize%95
-                0x00003f74       0x5c
+                0x00003f98       0x5c
  .text.SYS_Initialize
-                0x00003f74       0x5c build/default/debug/_ext/1171490990/initialization.o
-                0x00003f74                SYS_Initialize
+                0x00003f98       0x5c build/default/debug/_ext/1171490990/initialization.o
+                0x00003f98                SYS_Initialize
 
 .text.RADIO_Init%96
-                0x00003fd0       0x58
+                0x00003ff4       0x58
  .text.RADIO_Init
-                0x00003fd0       0x58 build/default/debug/_ext/1824799587/radio_get_set.o
-                0x00003fd0                RADIO_Init
+                0x00003ff4       0x58 build/default/debug/_ext/1824799587/radio_get_set.o
+                0x00003ff4                RADIO_Init
 
-.text.ADC_Initialize%97
-                0x00004028       0x58
- .text.ADC_Initialize
-                0x00004028       0x58 build/default/debug/_ext/60163342/plib_adc.o
-                0x00004028                ADC_Initialize
-
-.text.RADIO_DIO2%98
-                0x00004080       0x56
+.text.RADIO_DIO2%97
+                0x0000404c       0x56
  .text.RADIO_DIO2
-                0x00004080       0x56 build/default/debug/_ext/1824799587/radio_interface.o
-                0x00004080                RADIO_DIO2
+                0x0000404c       0x56 build/default/debug/_ext/1824799587/radio_interface.o
+                0x0000404c                RADIO_DIO2
 
-.text.SwTimerReset%99
-                0x000040d8       0x54
+.text.SwTimerReset%98
+                0x000040a4       0x54
  .text.SwTimerReset
-                0x000040d8       0x54 build/default/debug/_ext/282161921/sw_timer.o
-                0x000040d8                SwTimerReset
+                0x000040a4       0x54 build/default/debug/_ext/282161921/sw_timer.o
+                0x000040a4                SwTimerReset
+
+.text.ADC_Initialize%99
+                0x000040f8       0x54
+ .text.ADC_Initialize
+                0x000040f8       0x54 build/default/debug/_ext/60163342/plib_adc.o
+                0x000040f8                ADC_Initialize
 
 .text.SUPC_Initialize%100
-                0x0000412c       0x54
+                0x0000414c       0x54
  .text.SUPC_Initialize
-                0x0000412c       0x54 build/default/debug/_ext/1865616679/plib_supc.o
-                0x0000412c                SUPC_Initialize
+                0x0000414c       0x54 build/default/debug/_ext/1865616679/plib_supc.o
+                0x0000414c                SUPC_Initialize
 
 .text.MlsAppSleep%101
-                0x00004180       0x54
+                0x000041a0       0x54
  .text.MlsAppSleep
-                0x00004180       0x54 build/default/debug/_ext/1530445869/app.o
-                0x00004180                MlsAppSleep
+                0x000041a0       0x54 build/default/debug/_ext/1530445869/app.o
+                0x000041a0                MlsAppSleep
 
 .text.APP_Initialize%102
-                0x000041d4       0x50
+                0x000041f4       0x50
  .text.APP_Initialize
-                0x000041d4       0x50 build/default/debug/_ext/1530445869/app.o
-                0x000041d4                APP_Initialize
+                0x000041f4       0x50 build/default/debug/_ext/1530445869/app.o
+                0x000041f4                APP_Initialize
 
-.text%103       0x00004224       0x50
- .text          0x00004224       0x50 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(eqsf2.o)
-                0x00004224                __eqsf2
-                0x00004224                __nesf2
+.text%103       0x00004244       0x50
+ .text          0x00004244       0x50 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(eqsf2.o)
+                0x00004244                __eqsf2
+                0x00004244                __nesf2
 
 .text.SwTimerNextExpiryDuration%104
-                0x00004274       0x4c
+                0x00004294       0x4c
  .text.SwTimerNextExpiryDuration
-                0x00004274       0x4c build/default/debug/_ext/282161921/sw_timer.o
-                0x00004274                SwTimerNextExpiryDuration
+                0x00004294       0x4c build/default/debug/_ext/282161921/sw_timer.o
+                0x00004294                SwTimerNextExpiryDuration
 
 .text.RADIO_Transmit%105
-                0x000042c0       0x4c
+                0x000042e0       0x4c
  .text.RADIO_Transmit
-                0x000042c0       0x4c build/default/debug/_ext/1824799587/radio_transaction.o
-                0x000042c0                RADIO_Transmit
+                0x000042e0       0x4c build/default/debug/_ext/1824799587/radio_transaction.o
+                0x000042e0                RADIO_Transmit
 
 .text.Radio_WatchdogTimeout%106
-                0x0000430c       0x4c
+                0x0000432c       0x4c
  .text.Radio_WatchdogTimeout
-                0x0000430c       0x4c build/default/debug/_ext/1824799587/radio_transaction.o
-                0x0000430c                Radio_WatchdogTimeout
+                0x0000432c       0x4c build/default/debug/_ext/1824799587/radio_transaction.o
+                0x0000432c                Radio_WatchdogTimeout
 
 .text.ConfigureRadio%107
-                0x00004358       0x4c
+                0x00004378       0x4c
  .text.ConfigureRadio
-                0x00004358       0x4c build/default/debug/_ext/1530445869/radioconfig.o
-                0x00004358                ConfigureRadio
+                0x00004378       0x4c build/default/debug/_ext/1530445869/radioconfig.o
+                0x00004378                ConfigureRadio
 
-.text%108       0x000043a4       0x48
- .text          0x000043a4       0x48 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtbegin.o
+.text%108       0x000043c4       0x48
+ .text          0x000043c4       0x48 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtbegin.o
 
 .text.EIC_InterruptHandler%109
-                0x000043ec       0x48
+                0x0000440c       0x48
  .text.EIC_InterruptHandler
-                0x000043ec       0x48 build/default/debug/_ext/60167341/plib_eic.o
-                0x000043ec                EIC_InterruptHandler
+                0x0000440c       0x48 build/default/debug/_ext/60167341/plib_eic.o
+                0x0000440c                EIC_InterruptHandler
 
 .text.Reset_Handler%110
-                0x00004434       0x48
+                0x00004454       0x48
  .text.Reset_Handler
-                0x00004434       0x48 build/default/debug/_ext/1171490990/startup_xc32.o
-                0x00004434                Reset_Handler
+                0x00004454       0x48 build/default/debug/_ext/1171490990/startup_xc32.o
+                0x00004454                Reset_Handler
 
 .text.__libc_init_array%111
-                0x0000447c       0x48
+                0x0000449c       0x48
  .text.__libc_init_array
-                0x0000447c       0x48 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libg_nano.a(lib_a-init.o)
-                0x0000447c                __libc_init_array
+                0x0000449c       0x48 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libg_nano.a(lib_a-init.o)
+                0x0000449c                __libc_init_array
 
 .text.SwTimersExecute%112
-                0x000044c4       0x44
+                0x000044e4       0x44
  .text.SwTimersExecute
-                0x000044c4       0x44 build/default/debug/_ext/282161921/sw_timer.o
-                0x000044c4                SwTimersExecute
+                0x000044e4       0x44 build/default/debug/_ext/282161921/sw_timer.o
+                0x000044e4                SwTimersExecute
 
 .text.RADIO_FHSSChangeChannel%113
-                0x00004508       0x44
+                0x00004528       0x44
  .text.RADIO_FHSSChangeChannel
-                0x00004508       0x44 build/default/debug/_ext/22805713/radio_driver_sx1276.o
-                0x00004508                RADIO_FHSSChangeChannel
+                0x00004528       0x44 build/default/debug/_ext/22805713/radio_driver_sx1276.o
+                0x00004528                RADIO_FHSSChangeChannel
 
 .text.Radio_WriteFrequency%114
-                0x0000454c       0x44
+                0x0000456c       0x44
  .text.Radio_WriteFrequency
-                0x0000454c       0x44 build/default/debug/_ext/1824799587/radio_get_set.o
-                0x0000454c                Radio_WriteFrequency
+                0x0000456c       0x44 build/default/debug/_ext/1824799587/radio_get_set.o
+                0x0000456c                Radio_WriteFrequency
 
 .text.TC0_CompareInitialize%115
-                0x00004590       0x44
+                0x000045b0       0x44
  .text.TC0_CompareInitialize
-                0x00004590       0x44 build/default/debug/_ext/829342655/plib_tc0.o
-                0x00004590                TC0_CompareInitialize
+                0x000045b0       0x44 build/default/debug/_ext/829342655/plib_tc0.o
+                0x000045b0                TC0_CompareInitialize
 
 .text.SwTimerInterrupt%116
-                0x000045d4       0x40
+                0x000045f4       0x40
  .text.SwTimerInterrupt
-                0x000045d4       0x40 build/default/debug/_ext/282161921/sw_timer.o
+                0x000045f4       0x40 build/default/debug/_ext/282161921/sw_timer.o
 
 .text.RADIO_FrameWrite%117
-                0x00004614       0x40
+                0x00004634       0x40
  .text.RADIO_FrameWrite
-                0x00004614       0x40 build/default/debug/_ext/1824788055/radio_driver_hal.o
-                0x00004614                RADIO_FrameWrite
+                0x00004634       0x40 build/default/debug/_ext/1824788055/radio_driver_hal.o
+                0x00004634                RADIO_FrameWrite
 
-.text%118       0x00004654       0x80
- .text          0x00004654       0x40 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_aeabi_uldivmod.o)
-                0x00004654                __aeabi_uldivmod
- .text          0x00004694       0x40 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_fixunssfdi.o)
-                0x00004694                __fixunssfdi
-                0x00004694                __aeabi_f2ulz
+.text%118       0x00004674       0x80
+ .text          0x00004674       0x40 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_aeabi_uldivmod.o)
+                0x00004674                __aeabi_uldivmod
+ .text          0x000046b4       0x40 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_fixunssfdi.o)
+                0x000046b4                __fixunssfdi
+                0x000046b4                __aeabi_f2ulz
 
-.rodata%120     0x000046d4       0x40
- .rodata        0x000046d4       0x40 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(mulsf3.o)
+.rodata%120     0x000046f4       0x40
+ .rodata        0x000046f4       0x40 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(mulsf3.o)
 
-.text%121       0x00004714       0x40
- .text          0x00004714       0x40 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(fixsfsi.o)
-                0x00004714                __aeabi_f2iz
+.text%121       0x00004734       0x40
+ .text          0x00004734       0x40 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(fixsfsi.o)
+                0x00004734                __aeabi_f2iz
 
-.rodata%122     0x00004754       0x40
- .rodata        0x00004754       0x40 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(muldf3.o)
+.rodata%122     0x00004774       0x40
+ .rodata        0x00004774       0x40 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(muldf3.o)
 
 .text.SystemTimerSuspend%123
-                0x00004794       0x3c
+                0x000047b4       0x3c
  .text.SystemTimerSuspend
-                0x00004794       0x3c build/default/debug/_ext/282161921/sw_timer.o
-                0x00004794                SystemTimerSuspend
+                0x000047b4       0x3c build/default/debug/_ext/282161921/sw_timer.o
+                0x000047b4                SystemTimerSuspend
 
 .text.NVIC_Initialize%124
-                0x000047d0       0x3c
+                0x000047f0       0x3c
  .text.NVIC_Initialize
-                0x000047d0       0x3c build/default/debug/_ext/1865468468/plib_nvic.o
-                0x000047d0                NVIC_Initialize
+                0x000047f0       0x3c build/default/debug/_ext/1865468468/plib_nvic.o
+                0x000047f0                NVIC_Initialize
 
 .text.RADIO_FrameRead%125
-                0x0000480c       0x3c
+                0x0000482c       0x3c
  .text.RADIO_FrameRead
-                0x0000480c       0x3c build/default/debug/_ext/1824788055/radio_driver_hal.o
-                0x0000480c                RADIO_FrameRead
+                0x0000482c       0x3c build/default/debug/_ext/1824788055/radio_driver_hal.o
+                0x0000482c                RADIO_FrameRead
 
-.text%126       0x00004848       0x78
- .text          0x00004848       0x3c c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_clzsi2.o)
-                0x00004848                __clzsi2
- .text          0x00004884       0x3c c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_fixunsdfsi.o)
-                0x00004884                __aeabi_d2uiz
-                0x00004884                __fixunsdfsi
+.text%126       0x00004868       0x78
+ .text          0x00004868       0x3c c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_clzsi2.o)
+                0x00004868                __clzsi2
+ .text          0x000048a4       0x3c c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_fixunsdfsi.o)
+                0x000048a4                __aeabi_d2uiz
+                0x000048a4                __fixunsdfsi
 
 .text.Radio_EnableRfControl%128
-                0x000048c0       0x34
+                0x000048e0       0x34
  .text.Radio_EnableRfControl
-                0x000048c0       0x34 build/default/debug/_ext/1824799587/radio_transaction.o
-                0x000048c0                Radio_EnableRfControl
+                0x000048e0       0x34 build/default/debug/_ext/1824799587/radio_transaction.o
+                0x000048e0                Radio_EnableRfControl
 
 .text.Radio_DisableRfControl%129
-                0x000048f4       0x34
+                0x00004914       0x34
  .text.Radio_DisableRfControl
-                0x000048f4       0x34 build/default/debug/_ext/1824799587/radio_transaction.o
-                0x000048f4                Radio_DisableRfControl
+                0x00004914       0x34 build/default/debug/_ext/1824799587/radio_transaction.o
+                0x00004914                Radio_DisableRfControl
 
 .text.RADIO_RxTimeout%130
-                0x00004928       0x34
+                0x00004948       0x34
  .text.RADIO_RxTimeout
-                0x00004928       0x34 build/default/debug/_ext/1824799587/radio_transaction.o
-                0x00004928                RADIO_RxTimeout
+                0x00004948       0x34 build/default/debug/_ext/1824799587/radio_transaction.o
+                0x00004948                RADIO_RxTimeout
 
 .text.delay_init%131
-                0x0000495c       0x34
+                0x0000497c       0x34
  .text.delay_init
-                0x0000495c       0x34 build/default/debug/_ext/1824788055/sys.o
-                0x0000495c                delay_init
+                0x0000497c       0x34 build/default/debug/_ext/1824788055/sys.o
+                0x0000497c                delay_init
 
 .text.HAL_RadioDeInit%132
-                0x00004990       0x30
+                0x000049b0       0x30
  .text.HAL_RadioDeInit
-                0x00004990       0x30 build/default/debug/_ext/1824788055/radio_driver_hal.o
-                0x00004990                HAL_RadioDeInit
+                0x000049b0       0x30 build/default/debug/_ext/1824788055/radio_driver_hal.o
+                0x000049b0                HAL_RadioDeInit
 
 .text.delay_us%133
-                0x000049c0       0x30
+                0x000049e0       0x30
  .text.delay_us
-                0x000049c0       0x30 build/default/debug/_ext/1824788055/sys.o
-                0x000049c0                delay_us
+                0x000049e0       0x30 build/default/debug/_ext/1824788055/sys.o
+                0x000049e0                delay_us
 
 .text.delay_ms%134
-                0x000049f0       0x30
+                0x00004a10       0x30
  .text.delay_ms
-                0x000049f0       0x30 build/default/debug/_ext/1824788055/sys.o
-                0x000049f0                delay_ms
+                0x00004a10       0x30 build/default/debug/_ext/1824788055/sys.o
+                0x00004a10                delay_ms
 
-.text%135       0x00004a20       0x30
- .text          0x00004a20       0x30 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_fixunssfsi.o)
-                0x00004a20                __fixunssfsi
-                0x00004a20                __aeabi_f2uiz
+.text%135       0x00004a40       0x30
+ .text          0x00004a40       0x30 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_fixunssfsi.o)
+                0x00004a40                __fixunssfsi
+                0x00004a40                __aeabi_f2uiz
 
 .text.PM_Initialize%136
-                0x00004a50       0x2e
+                0x00004a70       0x2e
  .text.PM_Initialize
-                0x00004a50       0x2e build/default/debug/_ext/829342769/plib_pm.o
-                0x00004a50                PM_Initialize
+                0x00004a70       0x2e build/default/debug/_ext/829342769/plib_pm.o
+                0x00004a70                PM_Initialize
 
 .text.Radio_RxFSKTimeout%137
-                0x00004a80       0x2c
+                0x00004aa0       0x2c
  .text.Radio_RxFSKTimeout
-                0x00004a80       0x2c build/default/debug/_ext/1824799587/radio_transaction.o
-                0x00004a80                Radio_RxFSKTimeout
+                0x00004aa0       0x2c build/default/debug/_ext/1824799587/radio_transaction.o
+                0x00004aa0                Radio_RxFSKTimeout
 
 .text.Radio_SetClockInput%138
-                0x00004aac       0x2c
+                0x00004acc       0x2c
  .text.Radio_SetClockInput
-                0x00004aac       0x2c build/default/debug/_ext/1824799587/radio_transaction.o
-                0x00004aac                Radio_SetClockInput
+                0x00004acc       0x2c build/default/debug/_ext/1824799587/radio_transaction.o
+                0x00004acc                Radio_SetClockInput
 
 .text.RTC_Initialize%139
-                0x00004ad8       0x2c
+                0x00004af8       0x2c
  .text.RTC_Initialize
-                0x00004ad8       0x2c build/default/debug/_ext/60180175/plib_rtc_timer.o
-                0x00004ad8                RTC_Initialize
+                0x00004af8       0x2c build/default/debug/_ext/60180175/plib_rtc_timer.o
+                0x00004af8                RTC_Initialize
 
 .text.RTC_InterruptHandler%140
-                0x00004b04       0x2c
+                0x00004b24       0x2c
  .text.RTC_InterruptHandler
-                0x00004b04       0x2c build/default/debug/_ext/60180175/plib_rtc_timer.o
-                0x00004b04                RTC_InterruptHandler
+                0x00004b24       0x2c build/default/debug/_ext/60180175/plib_rtc_timer.o
+                0x00004b24                RTC_InterruptHandler
 
 .text.SERCOM4_SPI_Initialize%141
-                0x00004b30       0x2c
+                0x00004b50       0x2c
  .text.SERCOM4_SPI_Initialize
-                0x00004b30       0x2c build/default/debug/_ext/17022449/plib_sercom4_spi_master.o
-                0x00004b30                SERCOM4_SPI_Initialize
+                0x00004b50       0x2c build/default/debug/_ext/17022449/plib_sercom4_spi_master.o
+                0x00004b50                SERCOM4_SPI_Initialize
 
 .text.RADIO_Reset%142
-                0x00004b5c       0x2c
+                0x00004b7c       0x2c
  .text.RADIO_Reset
-                0x00004b5c       0x2c build/default/debug/_ext/1824788055/radio_driver_hal.o
-                0x00004b5c                RADIO_Reset
+                0x00004b7c       0x2c build/default/debug/_ext/1824788055/radio_driver_hal.o
+                0x00004b7c                RADIO_Reset
 
 .text.HAL_RegisterDioInterruptHandler%143
-                0x00004b88       0x2c
+                0x00004ba8       0x2c
  .text.HAL_RegisterDioInterruptHandler
-                0x00004b88       0x2c build/default/debug/_ext/1824788055/radio_driver_hal.o
-                0x00004b88                HAL_RegisterDioInterruptHandler
+                0x00004ba8       0x2c build/default/debug/_ext/1824788055/radio_driver_hal.o
+                0x00004ba8                HAL_RegisterDioInterruptHandler
 
 .text.ConfigureRadioTx%144
-                0x00004bb4       0x2a
+                0x00004bd4       0x2a
  .text.ConfigureRadioTx
-                0x00004bb4       0x2a build/default/debug/_ext/1530445869/radioconfig.o
-                0x00004bb4                ConfigureRadioTx
+                0x00004bd4       0x2a build/default/debug/_ext/1530445869/radioconfig.o
+                0x00004bd4                ConfigureRadioTx
 
 .text.SwTimerCreate%145
-                0x00004be0       0x28
+                0x00004c00       0x28
  .text.SwTimerCreate
-                0x00004be0       0x28 build/default/debug/_ext/282161921/sw_timer.o
-                0x00004be0                SwTimerCreate
+                0x00004c00       0x28 build/default/debug/_ext/282161921/sw_timer.o
+                0x00004c00                SwTimerCreate
 
 .text.RADIO_DIO3%146
-                0x00004c08       0x28
+                0x00004c28       0x28
  .text.RADIO_DIO3
-                0x00004c08       0x28 build/default/debug/_ext/1824799587/radio_interface.o
-                0x00004c08                RADIO_DIO3
+                0x00004c28       0x28 build/default/debug/_ext/1824799587/radio_interface.o
+                0x00004c28                RADIO_DIO3
 
 .text.RADIO_DIO4%147
-                0x00004c30       0x28
+                0x00004c50       0x28
  .text.RADIO_DIO4
-                0x00004c30       0x28 build/default/debug/_ext/1824799587/radio_interface.o
-                0x00004c30                RADIO_DIO4
+                0x00004c50       0x28 build/default/debug/_ext/1824799587/radio_interface.o
+                0x00004c50                RADIO_DIO4
 
 .text.RADIO_DIO5%148
-                0x00004c58       0x28
+                0x00004c78       0x28
  .text.RADIO_DIO5
-                0x00004c58       0x28 build/default/debug/_ext/1824799587/radio_interface.o
-                0x00004c58                RADIO_DIO5
+                0x00004c78       0x28 build/default/debug/_ext/1824799587/radio_interface.o
+                0x00004c78                RADIO_DIO5
 
 .text.RADIO_FSKSyncAddr%149
-                0x00004c80       0x28
+                0x00004ca0       0x28
  .text.RADIO_FSKSyncAddr
-                0x00004c80       0x28 build/default/debug/_ext/1824799587/radio_transaction.o
-                0x00004c80                RADIO_FSKSyncAddr
+                0x00004ca0       0x28 build/default/debug/_ext/1824799587/radio_transaction.o
+                0x00004ca0                RADIO_FSKSyncAddr
 
 .text.EIC_CallbackRegister%150
-                0x00004ca8       0x28
+                0x00004cc8       0x28
  .text.EIC_CallbackRegister
-                0x00004ca8       0x28 build/default/debug/_ext/60167341/plib_eic.o
-                0x00004ca8                EIC_CallbackRegister
+                0x00004cc8       0x28 build/default/debug/_ext/60167341/plib_eic.o
+                0x00004cc8                EIC_CallbackRegister
 
 .text.TC0_Compare32bitCounterGet%151
-                0x00004cd0       0x28
+                0x00004cf0       0x28
  .text.TC0_Compare32bitCounterGet
-                0x00004cd0       0x28 build/default/debug/_ext/829342655/plib_tc0.o
-                0x00004cd0                TC0_Compare32bitCounterGet
+                0x00004cf0       0x28 build/default/debug/_ext/829342655/plib_tc0.o
+                0x00004cf0                TC0_Compare32bitCounterGet
 
 .text.readMouseTraps%152
-                0x00004cf8       0x28
+                0x00004d18       0x28
  .text.readMouseTraps
-                0x00004cf8       0x28 build/default/debug/_ext/1530445869/app.o
-                0x00004cf8                readMouseTraps
+                0x00004d18       0x28 build/default/debug/_ext/1530445869/app.o
+                0x00004d18                readMouseTraps
 
 .text.RADIO_RegisterWrite%153
-                0x00004d20       0x28
+                0x00004d40       0x28
  .text.RADIO_RegisterWrite
-                0x00004d20       0x28 build/default/debug/_ext/1824788055/radio_driver_hal.o
-                0x00004d20                RADIO_RegisterWrite
+                0x00004d40       0x28 build/default/debug/_ext/1824788055/radio_driver_hal.o
+                0x00004d40                RADIO_RegisterWrite
 
 .text.HAL_EnableRFCtrl%154
-                0x00004d48       0x28
+                0x00004d68       0x28
  .text.HAL_EnableRFCtrl
-                0x00004d48       0x28 build/default/debug/_ext/1824788055/radio_driver_hal.o
-                0x00004d48                HAL_EnableRFCtrl
+                0x00004d68       0x28 build/default/debug/_ext/1824788055/radio_driver_hal.o
+                0x00004d68                HAL_EnableRFCtrl
 
 .text.SystemTimerInit%155
-                0x00004d70       0x24
+                0x00004d90       0x24
  .text.SystemTimerInit
-                0x00004d70       0x24 build/default/debug/_ext/282161921/sw_timer.o
-                0x00004d70                SystemTimerInit
+                0x00004d90       0x24 build/default/debug/_ext/282161921/sw_timer.o
+                0x00004d90                SystemTimerInit
 
 .text.MlsAppSleepCallback%156
-                0x00004d94       0x24
+                0x00004db4       0x24
  .text.MlsAppSleepCallback
-                0x00004d94       0x24 build/default/debug/_ext/1530445869/app.o
-                0x00004d94                MlsAppSleepCallback
+                0x00004db4       0x24 build/default/debug/_ext/1530445869/app.o
+                0x00004db4                MlsAppSleepCallback
 
 .text.HAL_SPISend%157
-                0x00004db8       0x24
+                0x00004dd8       0x24
  .text.HAL_SPISend
-                0x00004db8       0x24 build/default/debug/_ext/1824788055/radio_driver_hal.o
+                0x00004dd8       0x24 build/default/debug/_ext/1824788055/radio_driver_hal.o
 
 .text.RADIO_RegisterRead%158
-                0x00004ddc       0x24
+                0x00004dfc       0x24
  .text.RADIO_RegisterRead
-                0x00004ddc       0x24 build/default/debug/_ext/1824788055/radio_driver_hal.o
-                0x00004ddc                RADIO_RegisterRead
+                0x00004dfc       0x24 build/default/debug/_ext/1824788055/radio_driver_hal.o
+                0x00004dfc                RADIO_RegisterRead
 
 .text.SleepTimerStart%159
-                0x00004e00       0x24
+                0x00004e20       0x24
  .text.SleepTimerStart
-                0x00004e00       0x24 build/default/debug/_ext/1824788055/sleep_timer.o
-                0x00004e00                SleepTimerStart
+                0x00004e20       0x24 build/default/debug/_ext/1824788055/sleep_timer.o
+                0x00004e20                SleepTimerStart
 
 .text.RADIO_UnhandledInterrupt%160
-                0x00004e24       0x22
+                0x00004e44       0x22
  .text.RADIO_UnhandledInterrupt
-                0x00004e24       0x22 build/default/debug/_ext/1824799587/radio_interface.o
-                0x00004e24                RADIO_UnhandledInterrupt
+                0x00004e44       0x22 build/default/debug/_ext/1824799587/radio_interface.o
+                0x00004e44                RADIO_UnhandledInterrupt
 
 .text.SwTimerStop%161
-                0x00004e48       0x20
+                0x00004e68       0x20
  .text.SwTimerStop
-                0x00004e48       0x20 build/default/debug/_ext/282161921/sw_timer.o
-                0x00004e48                SwTimerStop
+                0x00004e68       0x20 build/default/debug/_ext/282161921/sw_timer.o
+                0x00004e68                SwTimerStop
 
 .text.RADIO_getMappingAndOpmode%162
-                0x00004e68       0x20
+                0x00004e88       0x20
  .text.RADIO_getMappingAndOpmode
-                0x00004e68       0x20 build/default/debug/_ext/1824799587/radio_interface.o
+                0x00004e88       0x20 build/default/debug/_ext/1824799587/radio_interface.o
 
 .text.radioPostTask%163
-                0x00004e88       0x20
+                0x00004ea8       0x20
  .text.radioPostTask
-                0x00004e88       0x20 build/default/debug/_ext/1824799587/radio_task_manager.o
-                0x00004e88                radioPostTask
+                0x00004ea8       0x20 build/default/debug/_ext/1824799587/radio_task_manager.o
+                0x00004ea8                radioPostTask
 
 .text.HAL_RadioDIO2Callback%164
-                0x00004ea8       0x20
- .text.HAL_RadioDIO2Callback
-                0x00004ea8       0x20 build/default/debug/_ext/1824788055/radio_driver_hal.o
-
-.text.HAL_RadioDIO1Callback%165
                 0x00004ec8       0x20
- .text.HAL_RadioDIO1Callback
+ .text.HAL_RadioDIO2Callback
                 0x00004ec8       0x20 build/default/debug/_ext/1824788055/radio_driver_hal.o
 
-.text.HAL_RadioDIO0Callback%166
+.text.HAL_RadioDIO1Callback%165
                 0x00004ee8       0x20
- .text.HAL_RadioDIO0Callback
+ .text.HAL_RadioDIO1Callback
                 0x00004ee8       0x20 build/default/debug/_ext/1824788055/radio_driver_hal.o
 
-.text.HAL_Radio_resources_init%167
+.text.HAL_RadioDIO0Callback%166
                 0x00004f08       0x20
- .text.HAL_Radio_resources_init
+ .text.HAL_RadioDIO0Callback
                 0x00004f08       0x20 build/default/debug/_ext/1824788055/radio_driver_hal.o
-                0x00004f08                HAL_Radio_resources_init
+
+.text.HAL_Radio_resources_init%167
+                0x00004f28       0x20
+ .text.HAL_Radio_resources_init
+                0x00004f28       0x20 build/default/debug/_ext/1824788055/radio_driver_hal.o
+                0x00004f28                HAL_Radio_resources_init
 
 .text.SwTimerGetTime%168
-                0x00004f28       0x1c
+                0x00004f48       0x1c
  .text.SwTimerGetTime
-                0x00004f28       0x1c build/default/debug/_ext/282161921/sw_timer.o
-                0x00004f28                SwTimerGetTime
+                0x00004f48       0x1c build/default/debug/_ext/282161921/sw_timer.o
+                0x00004f48                SwTimerGetTime
 
 .text.SYSTEM_PostTask%169
-                0x00004f44       0x1c
+                0x00004f64       0x1c
  .text.SYSTEM_PostTask
-                0x00004f44       0x1c build/default/debug/_ext/1824799377/system_task_manager.o
-                0x00004f44                SYSTEM_PostTask
+                0x00004f64       0x1c build/default/debug/_ext/1824799377/system_task_manager.o
+                0x00004f64                SYSTEM_PostTask
 
 .text.ADC_ConversionStart%170
-                0x00004f60       0x1c
+                0x00004f80       0x1c
  .text.ADC_ConversionStart
-                0x00004f60       0x1c build/default/debug/_ext/60163342/plib_adc.o
-                0x00004f60                ADC_ConversionStart
+                0x00004f80       0x1c build/default/debug/_ext/60163342/plib_adc.o
+                0x00004f80                ADC_ConversionStart
 
 .text.RTC_Timer32Start%171
-                0x00004f7c       0x1c
+                0x00004f9c       0x1c
  .text.RTC_Timer32Start
-                0x00004f7c       0x1c build/default/debug/_ext/60180175/plib_rtc_timer.o
-                0x00004f7c                RTC_Timer32Start
+                0x00004f9c       0x1c build/default/debug/_ext/60180175/plib_rtc_timer.o
+                0x00004f9c                RTC_Timer32Start
 
 .text.SYSTICK_TimerInitialize%172
-                0x00004f98       0x1c
+                0x00004fb8       0x1c
  .text.SYSTICK_TimerInitialize
-                0x00004f98       0x1c build/default/debug/_ext/1827571544/plib_systick.o
-                0x00004f98                SYSTICK_TimerInitialize
+                0x00004fb8       0x1c build/default/debug/_ext/1827571544/plib_systick.o
+                0x00004fb8                SYSTICK_TimerInitialize
 
 .text.TC0_CompareStart%173
-                0x00004fb4       0x1c
+                0x00004fd4       0x1c
  .text.TC0_CompareStart
-                0x00004fb4       0x1c build/default/debug/_ext/829342655/plib_tc0.o
-                0x00004fb4                TC0_CompareStart
+                0x00004fd4       0x1c build/default/debug/_ext/829342655/plib_tc0.o
+                0x00004fd4                TC0_CompareStart
 
 .text.TC0_CompareStop%174
-                0x00004fd0       0x1c
+                0x00004ff0       0x1c
  .text.TC0_CompareStop
-                0x00004fd0       0x1c build/default/debug/_ext/829342655/plib_tc0.o
-                0x00004fd0                TC0_CompareStop
+                0x00004ff0       0x1c build/default/debug/_ext/829342655/plib_tc0.o
+                0x00004ff0                TC0_CompareStop
 
 .text.buildLoraMessage%175
-                0x00004fec       0x1c
+                0x0000500c       0x1c
  .text.buildLoraMessage
-                0x00004fec       0x1c build/default/debug/_ext/1530445869/app.o
-                0x00004fec                buildLoraMessage
+                0x0000500c       0x1c build/default/debug/_ext/1530445869/app.o
+                0x0000500c                buildLoraMessage
 
 .text.MlsAppResourceInitialize%176
-                0x00005008       0x1c
+                0x00005028       0x1c
  .text.MlsAppResourceInitialize
-                0x00005008       0x1c build/default/debug/_ext/1530445869/app.o
-                0x00005008                MlsAppResourceInitialize
+                0x00005028       0x1c build/default/debug/_ext/1530445869/app.o
+                0x00005028                MlsAppResourceInitialize
 
 .text.Radio_ResetClockInput%177
-                0x00005024       0x18
+                0x00005044       0x18
  .text.Radio_ResetClockInput
-                0x00005024       0x18 build/default/debug/_ext/1824799587/radio_transaction.o
-                0x00005024                Radio_ResetClockInput
+                0x00005044       0x18 build/default/debug/_ext/1824799587/radio_transaction.o
+                0x00005044                Radio_ResetClockInput
 
 .text.ADC_Enable%178
-                0x0000503c       0x18
+                0x0000505c       0x18
  .text.ADC_Enable
-                0x0000503c       0x18 build/default/debug/_ext/60163342/plib_adc.o
-                0x0000503c                ADC_Enable
+                0x0000505c       0x18 build/default/debug/_ext/60163342/plib_adc.o
+                0x0000505c                ADC_Enable
 
 .text.TC0_Compare32bitMatch0Set%179
-                0x00005054       0x18
+                0x00005074       0x18
  .text.TC0_Compare32bitMatch0Set
-                0x00005054       0x18 build/default/debug/_ext/829342655/plib_tc0.o
-                0x00005054                TC0_Compare32bitMatch0Set
+                0x00005074       0x18 build/default/debug/_ext/829342655/plib_tc0.o
+                0x00005074                TC0_Compare32bitMatch0Set
 
-.text.HAL_DisableRFCtrl%180
-                0x0000506c       0x18
- .text.HAL_DisableRFCtrl
-                0x0000506c       0x18 build/default/debug/_ext/1824788055/radio_driver_hal.o
-                0x0000506c                HAL_DisableRFCtrl
-
-.text.HAL_TCXOPowerOn%181
-                0x00005084       0x18
- .text.HAL_TCXOPowerOn
-                0x00005084       0x18 build/default/debug/_ext/1824788055/radio_driver_hal.o
-                0x00005084                HAL_TCXOPowerOn
-
-.text.HAL_Sleep%182
-                0x0000509c       0x18
- .text.HAL_Sleep
-                0x0000509c       0x18 build/default/debug/_ext/1824788055/sleep.o
-                0x0000509c                HAL_Sleep
-
-.text%183       0x000050b4       0x18
- .text          0x000050b4       0x18 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_clzdi2.o)
-                0x000050b4                __clzdi2
-
-.text.Radio_ReadFSKRssi%184
-                0x000050cc       0x16
- .text.Radio_ReadFSKRssi
-                0x000050cc       0x16 build/default/debug/_ext/22805713/radio_driver_sx1276.o
-                0x000050cc                Radio_ReadFSKRssi
-
-.text.SYSTEM_ReadyToSleep%185
-                0x000050e4       0x14
- .text.SYSTEM_ReadyToSleep
-                0x000050e4       0x14 build/default/debug/_ext/1824799377/system_task_manager.o
-                0x000050e4                SYSTEM_ReadyToSleep
-
-.rodata.taskHandlers%186
-                0x000050f8       0x14
- .rodata.taskHandlers
-                0x000050f8       0x14 build/default/debug/_ext/1824799377/system_task_manager.o
-
-.rodata.radioTaskHandlers%187
-                0x0000510c       0x14
- .rodata.radioTaskHandlers
-                0x0000510c       0x14 build/default/debug/_ext/1824799587/radio_task_manager.o
-
-.text.NVIC_INT_Restore%188
-                0x00005120       0x14
- .text.NVIC_INT_Restore
-                0x00005120       0x14 build/default/debug/_ext/1865468468/plib_nvic.o
-                0x00005120                NVIC_INT_Restore
-
-.text.PM_StandbyModeEnter%189
-                0x00005134       0x14
- .text.PM_StandbyModeEnter
-                0x00005134       0x14 build/default/debug/_ext/829342769/plib_pm.o
-                0x00005134                PM_StandbyModeEnter
-
-.text.PM_BackupModeEnter%190
-                0x00005148       0x14
- .text.PM_BackupModeEnter
-                0x00005148       0x14 build/default/debug/_ext/829342769/plib_pm.o
-                0x00005148                PM_BackupModeEnter
-
-.text.RTC_Timer32CounterSet%191
-                0x0000515c       0x14
- .text.RTC_Timer32CounterSet
-                0x0000515c       0x14 build/default/debug/_ext/60180175/plib_rtc_timer.o
-                0x0000515c                RTC_Timer32CounterSet
-
-.text.RTC_Timer32CompareSet%192
-                0x00005170       0x14
- .text.RTC_Timer32CompareSet
-                0x00005170       0x14 build/default/debug/_ext/60180175/plib_rtc_timer.o
-                0x00005170                RTC_Timer32CompareSet
-
-.text.RTC_Timer32CounterGet%193
-                0x00005184       0x14
- .text.RTC_Timer32CounterGet
-                0x00005184       0x14 build/default/debug/_ext/60180175/plib_rtc_timer.o
-                0x00005184                RTC_Timer32CounterGet
-
-.text.SYSTICK_TimerStart%194
-                0x00005198       0x14
- .text.SYSTICK_TimerStart
-                0x00005198       0x14 build/default/debug/_ext/1827571544/plib_systick.o
-                0x00005198                SYSTICK_TimerStart
-
-.text.TC0_Compare32bitCounterSet%195
-                0x000051ac       0x14
- .text.TC0_Compare32bitCounterSet
-                0x000051ac       0x14 build/default/debug/_ext/829342655/plib_tc0.o
-                0x000051ac                TC0_Compare32bitCounterSet
-
-.rodata.APP_Tasks%196
-                0x000051c0       0x14
+.rodata.APP_Tasks%180
+                0x0000508c       0x18
  .rodata.APP_Tasks
-                0x000051c0       0x14 build/default/debug/_ext/1530445869/app.o
+                0x0000508c       0x18 build/default/debug/_ext/1530445869/app.o
+
+.text.HAL_DisableRFCtrl%181
+                0x000050a4       0x18
+ .text.HAL_DisableRFCtrl
+                0x000050a4       0x18 build/default/debug/_ext/1824788055/radio_driver_hal.o
+                0x000050a4                HAL_DisableRFCtrl
+
+.text.HAL_TCXOPowerOn%182
+                0x000050bc       0x18
+ .text.HAL_TCXOPowerOn
+                0x000050bc       0x18 build/default/debug/_ext/1824788055/radio_driver_hal.o
+                0x000050bc                HAL_TCXOPowerOn
+
+.text.HAL_Sleep%183
+                0x000050d4       0x18
+ .text.HAL_Sleep
+                0x000050d4       0x18 build/default/debug/_ext/1824788055/sleep.o
+                0x000050d4                HAL_Sleep
+
+.text%184       0x000050ec       0x18
+ .text          0x000050ec       0x18 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_clzdi2.o)
+                0x000050ec                __clzdi2
+
+.text.Radio_ReadFSKRssi%185
+                0x00005104       0x16
+ .text.Radio_ReadFSKRssi
+                0x00005104       0x16 build/default/debug/_ext/22805713/radio_driver_sx1276.o
+                0x00005104                Radio_ReadFSKRssi
+
+.text.SYSTEM_ReadyToSleep%186
+                0x0000511c       0x14
+ .text.SYSTEM_ReadyToSleep
+                0x0000511c       0x14 build/default/debug/_ext/1824799377/system_task_manager.o
+                0x0000511c                SYSTEM_ReadyToSleep
+
+.rodata.taskHandlers%187
+                0x00005130       0x14
+ .rodata.taskHandlers
+                0x00005130       0x14 build/default/debug/_ext/1824799377/system_task_manager.o
+
+.rodata.radioTaskHandlers%188
+                0x00005144       0x14
+ .rodata.radioTaskHandlers
+                0x00005144       0x14 build/default/debug/_ext/1824799587/radio_task_manager.o
+
+.text.NVIC_INT_Restore%189
+                0x00005158       0x14
+ .text.NVIC_INT_Restore
+                0x00005158       0x14 build/default/debug/_ext/1865468468/plib_nvic.o
+                0x00005158                NVIC_INT_Restore
+
+.text.PM_StandbyModeEnter%190
+                0x0000516c       0x14
+ .text.PM_StandbyModeEnter
+                0x0000516c       0x14 build/default/debug/_ext/829342769/plib_pm.o
+                0x0000516c                PM_StandbyModeEnter
+
+.text.PM_BackupModeEnter%191
+                0x00005180       0x14
+ .text.PM_BackupModeEnter
+                0x00005180       0x14 build/default/debug/_ext/829342769/plib_pm.o
+                0x00005180                PM_BackupModeEnter
+
+.text.RTC_Timer32CounterSet%192
+                0x00005194       0x14
+ .text.RTC_Timer32CounterSet
+                0x00005194       0x14 build/default/debug/_ext/60180175/plib_rtc_timer.o
+                0x00005194                RTC_Timer32CounterSet
+
+.text.RTC_Timer32CompareSet%193
+                0x000051a8       0x14
+ .text.RTC_Timer32CompareSet
+                0x000051a8       0x14 build/default/debug/_ext/60180175/plib_rtc_timer.o
+                0x000051a8                RTC_Timer32CompareSet
+
+.text.RTC_Timer32CounterGet%194
+                0x000051bc       0x14
+ .text.RTC_Timer32CounterGet
+                0x000051bc       0x14 build/default/debug/_ext/60180175/plib_rtc_timer.o
+                0x000051bc                RTC_Timer32CounterGet
+
+.text.SYSTICK_TimerStart%195
+                0x000051d0       0x14
+ .text.SYSTICK_TimerStart
+                0x000051d0       0x14 build/default/debug/_ext/1827571544/plib_systick.o
+                0x000051d0                SYSTICK_TimerStart
+
+.text.TC0_Compare32bitCounterSet%196
+                0x000051e4       0x14
+ .text.TC0_Compare32bitCounterSet
+                0x000051e4       0x14 build/default/debug/_ext/829342655/plib_tc0.o
+                0x000051e4                TC0_Compare32bitCounterSet
 
 .text.system_leave_critical_section%197
-                0x000051d4       0x14
+                0x000051f8       0x14
  .text.system_leave_critical_section
-                0x000051d4       0x14 build/default/debug/_ext/1824788055/sys.o
-                0x000051d4                system_leave_critical_section
+                0x000051f8       0x14 build/default/debug/_ext/1824788055/sys.o
+                0x000051f8                system_leave_critical_section
 
 .text.NVIC_INT_Disable%198
-                0x000051e8       0x12
+                0x0000520c       0x12
  .text.NVIC_INT_Disable
-                0x000051e8       0x12 build/default/debug/_ext/1865468468/plib_nvic.o
-                0x000051e8                NVIC_INT_Disable
+                0x0000520c       0x12 build/default/debug/_ext/1865468468/plib_nvic.o
+                0x0000520c                NVIC_INT_Disable
 
 .text.memcpy%199
-                0x000051fa       0x12
- .text.memcpy   0x000051fa       0x12 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libg_nano.a(lib_a-memcpy-stub.o)
-                0x000051fa                memcpy
+                0x0000521e       0x12
+ .text.memcpy   0x0000521e       0x12 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libg_nano.a(lib_a-memcpy-stub.o)
+                0x0000521e                memcpy
 
 .text.RADIO_SetCallbackBitmask%200
-                0x0000520c       0x10
+                0x00005230       0x10
  .text.RADIO_SetCallbackBitmask
-                0x0000520c       0x10 build/default/debug/_ext/1824799587/radio_transaction.o
-                0x0000520c                RADIO_SetCallbackBitmask
+                0x00005230       0x10 build/default/debug/_ext/1824799587/radio_transaction.o
+                0x00005230                RADIO_SetCallbackBitmask
 
 .text.ADC_ConversionSequenceIsFinished%201
-                0x0000521c       0x10
+                0x00005240       0x10
  .text.ADC_ConversionSequenceIsFinished
-                0x0000521c       0x10 build/default/debug/_ext/60163342/plib_adc.o
-                0x0000521c                ADC_ConversionSequenceIsFinished
+                0x00005240       0x10 build/default/debug/_ext/60163342/plib_adc.o
+                0x00005240                ADC_ConversionSequenceIsFinished
 
 .text.EIC_InterruptEnable%202
-                0x0000522c       0x10
+                0x00005250       0x10
  .text.EIC_InterruptEnable
-                0x0000522c       0x10 build/default/debug/_ext/60167341/plib_eic.o
-                0x0000522c                EIC_InterruptEnable
+                0x00005250       0x10 build/default/debug/_ext/60167341/plib_eic.o
+                0x00005250                EIC_InterruptEnable
 
 .text.EIC_InterruptDisable%203
-                0x0000523c       0x10
+                0x00005260       0x10
  .text.EIC_InterruptDisable
-                0x0000523c       0x10 build/default/debug/_ext/60167341/plib_eic.o
-                0x0000523c                EIC_InterruptDisable
+                0x00005260       0x10 build/default/debug/_ext/60167341/plib_eic.o
+                0x00005260                EIC_InterruptDisable
 
 .text.SYSTICK_TimerPeriodHasExpired%204
-                0x0000524c       0x10
+                0x00005270       0x10
  .text.SYSTICK_TimerPeriodHasExpired
-                0x0000524c       0x10 build/default/debug/_ext/1827571544/plib_systick.o
-                0x0000524c                SYSTICK_TimerPeriodHasExpired
+                0x00005270       0x10 build/default/debug/_ext/1827571544/plib_systick.o
+                0x00005270                SYSTICK_TimerPeriodHasExpired
 
 .text.HAL_TCXOPowerOff%205
-                0x0000525c       0x10
+                0x00005280       0x10
  .text.HAL_TCXOPowerOff
-                0x0000525c       0x10 build/default/debug/_ext/1824788055/radio_driver_hal.o
-                0x0000525c                HAL_TCXOPowerOff
+                0x00005280       0x10 build/default/debug/_ext/1824788055/radio_driver_hal.o
+                0x00005280                HAL_TCXOPowerOff
 
 .text.SleepTimerInit%206
-                0x0000526c       0x10
+                0x00005290       0x10
  .text.SleepTimerInit
-                0x0000526c       0x10 build/default/debug/_ext/1824788055/sleep_timer.o
-                0x0000526c                SleepTimerInit
+                0x00005290       0x10 build/default/debug/_ext/1824788055/sleep_timer.o
+                0x00005290                SleepTimerInit
 
 .text.system_enter_critical_section%207
-                0x0000527c       0x10
+                0x000052a0       0x10
  .text.system_enter_critical_section
-                0x0000527c       0x10 build/default/debug/_ext/1824788055/sys.o
-                0x0000527c                system_enter_critical_section
+                0x000052a0       0x10 build/default/debug/_ext/1824788055/sys.o
+                0x000052a0                system_enter_critical_section
 
 .text.trapTriggerCallback%208
-                0x0000528c        0xe
+                0x000052b0        0xe
  .text.trapTriggerCallback
-                0x0000528c        0xe build/default/debug/_ext/1530445869/app.o
+                0x000052b0        0xe build/default/debug/_ext/1530445869/app.o
 
-.text.main%209  0x0000529a        0xe
- .text.main     0x0000529a        0xe build/default/debug/_ext/1360937237/main.o
-                0x0000529a                main
+.text.main%209  0x000052be        0xe
+ .text.main     0x000052be        0xe build/default/debug/_ext/1360937237/main.o
+                0x000052be                main
 
 .text.RADIO_GetState%210
-                0x000052a8        0xc
+                0x000052cc        0xc
  .text.RADIO_GetState
-                0x000052a8        0xc build/default/debug/_ext/1824799587/radio_transaction.o
-                0x000052a8                RADIO_GetState
+                0x000052cc        0xc build/default/debug/_ext/1824799587/radio_transaction.o
+                0x000052cc                RADIO_GetState
 
 .text.ADC_ConversionResultGet%211
-                0x000052b4        0xc
+                0x000052d8        0xc
  .text.ADC_ConversionResultGet
-                0x000052b4        0xc build/default/debug/_ext/60163342/plib_adc.o
-                0x000052b4                ADC_ConversionResultGet
+                0x000052d8        0xc build/default/debug/_ext/60163342/plib_adc.o
+                0x000052d8                ADC_ConversionResultGet
 
 .text.NVMCTRL_Initialize%212
-                0x000052c0        0xc
+                0x000052e4        0xc
  .text.NVMCTRL_Initialize
-                0x000052c0        0xc build/default/debug/_ext/1593096446/plib_nvmctrl.o
-                0x000052c0                NVMCTRL_Initialize
+                0x000052e4        0xc build/default/debug/_ext/1593096446/plib_nvmctrl.o
+                0x000052e4                NVMCTRL_Initialize
 
 .text.PORT_GroupWrite%213
-                0x000052cc        0xc
+                0x000052f0        0xc
  .text.PORT_GroupWrite
-                0x000052cc        0xc build/default/debug/_ext/1865521619/plib_port.o
-                0x000052cc                PORT_GroupWrite
+                0x000052f0        0xc build/default/debug/_ext/1865521619/plib_port.o
+                0x000052f0                PORT_GroupWrite
 
 .text.RTC_Timer32InterruptEnable%214
-                0x000052d8        0xc
+                0x000052fc        0xc
  .text.RTC_Timer32InterruptEnable
-                0x000052d8        0xc build/default/debug/_ext/60180175/plib_rtc_timer.o
-                0x000052d8                RTC_Timer32InterruptEnable
+                0x000052fc        0xc build/default/debug/_ext/60180175/plib_rtc_timer.o
+                0x000052fc                RTC_Timer32InterruptEnable
 
 .text.RTC_Timer32InterruptDisable%215
-                0x000052e4        0xc
+                0x00005308        0xc
  .text.RTC_Timer32InterruptDisable
-                0x000052e4        0xc build/default/debug/_ext/60180175/plib_rtc_timer.o
-                0x000052e4                RTC_Timer32InterruptDisable
+                0x00005308        0xc build/default/debug/_ext/60180175/plib_rtc_timer.o
+                0x00005308                RTC_Timer32InterruptDisable
 
 .text.RTC_Timer32CallbackRegister%216
-                0x000052f0        0xc
+                0x00005314        0xc
  .text.RTC_Timer32CallbackRegister
-                0x000052f0        0xc build/default/debug/_ext/60180175/plib_rtc_timer.o
-                0x000052f0                RTC_Timer32CallbackRegister
+                0x00005314        0xc build/default/debug/_ext/60180175/plib_rtc_timer.o
+                0x00005314                RTC_Timer32CallbackRegister
 
 .text.SYSTICK_TimerPeriodSet%217
-                0x000052fc        0xc
+                0x00005320        0xc
  .text.SYSTICK_TimerPeriodSet
-                0x000052fc        0xc build/default/debug/_ext/1827571544/plib_systick.o
-                0x000052fc                SYSTICK_TimerPeriodSet
+                0x00005320        0xc build/default/debug/_ext/1827571544/plib_systick.o
+                0x00005320                SYSTICK_TimerPeriodSet
 
 .text.TC0_CompareCallbackRegister%218
-                0x00005308        0xc
+                0x0000532c        0xc
  .text.TC0_CompareCallbackRegister
-                0x00005308        0xc build/default/debug/_ext/829342655/plib_tc0.o
-                0x00005308                TC0_CompareCallbackRegister
+                0x0000532c        0xc build/default/debug/_ext/829342655/plib_tc0.o
+                0x0000532c                TC0_CompareCallbackRegister
 
 .text.SYS_Tasks%219
-                0x00005314        0xc
+                0x00005338        0xc
  .text.SYS_Tasks
-                0x00005314        0xc build/default/debug/_ext/1530445869/tasks.o
-                0x00005314                SYS_Tasks
+                0x00005338        0xc build/default/debug/_ext/1530445869/tasks.o
+                0x00005338                SYS_Tasks
 
 .text.SleepTimerStop%220
-                0x00005320        0xc
+                0x00005344        0xc
  .text.SleepTimerStop
-                0x00005320        0xc build/default/debug/_ext/1824788055/sleep_timer.o
-                0x00005320                SleepTimerStop
+                0x00005344        0xc build/default/debug/_ext/1824788055/sleep_timer.o
+                0x00005344                SleepTimerStop
 
 .text.TIMER_TaskHandler%221
-                0x0000532c        0xa
+                0x00005350        0xa
  .text.TIMER_TaskHandler
-                0x0000532c        0xa build/default/debug/_ext/282161921/sw_timer.o
-                0x0000532c                TIMER_TaskHandler
+                0x00005350        0xa build/default/debug/_ext/282161921/sw_timer.o
+                0x00005350                TIMER_TaskHandler
 
 .text.HAL_DisbleDIO0Interrupt%222
-                0x00005336        0xa
+                0x0000535a        0xa
  .text.HAL_DisbleDIO0Interrupt
-                0x00005336        0xa build/default/debug/_ext/1824788055/radio_driver_hal.o
-                0x00005336                HAL_DisbleDIO0Interrupt
+                0x0000535a        0xa build/default/debug/_ext/1824788055/radio_driver_hal.o
+                0x0000535a                HAL_DisbleDIO0Interrupt
 
 .text.NVIC_INT_Enable%223
-                0x00005340        0x8
+                0x00005364        0x8
  .text.NVIC_INT_Enable
-                0x00005340        0x8 build/default/debug/_ext/1865468468/plib_nvic.o
-                0x00005340                NVIC_INT_Enable
+                0x00005364        0x8 build/default/debug/_ext/1865468468/plib_nvic.o
+                0x00005364                NVIC_INT_Enable
 
 .text.SYS_INT_Enable%224
-                0x00005348        0x8
+                0x0000536c        0x8
  .text.SYS_INT_Enable
-                0x00005348        0x8 build/default/debug/_ext/1881668453/sys_int.o
-                0x00005348                SYS_INT_Enable
+                0x0000536c        0x8 build/default/debug/_ext/1881668453/sys_int.o
+                0x0000536c                SYS_INT_Enable
 
 .text.SYS_INT_Disable%225
-                0x00005350        0x8
+                0x00005374        0x8
  .text.SYS_INT_Disable
-                0x00005350        0x8 build/default/debug/_ext/1881668453/sys_int.o
-                0x00005350                SYS_INT_Disable
+                0x00005374        0x8 build/default/debug/_ext/1881668453/sys_int.o
+                0x00005374                SYS_INT_Disable
 
 .text.SYS_INT_Restore%226
-                0x00005358        0x8
+                0x0000537c        0x8
  .text.SYS_INT_Restore
-                0x00005358        0x8 build/default/debug/_ext/1881668453/sys_int.o
-                0x00005358                SYS_INT_Restore
+                0x0000537c        0x8 build/default/debug/_ext/1881668453/sys_int.o
+                0x0000537c                SYS_INT_Restore
 
 .text.SleepTimerGetElapsedTime%227
-                0x00005360        0x8
+                0x00005384        0x8
  .text.SleepTimerGetElapsedTime
-                0x00005360        0x8 build/default/debug/_ext/1824788055/sleep_timer.o
-                0x00005360                SleepTimerGetElapsedTime
+                0x00005384        0x8 build/default/debug/_ext/1824788055/sleep_timer.o
+                0x00005384                SleepTimerGetElapsedTime
 
 .text.SystemBlockingWaitMs%228
-                0x00005368        0x8
+                0x0000538c        0x8
  .text.SystemBlockingWaitMs
-                0x00005368        0x8 build/default/debug/_ext/1824788055/sys.o
-                0x00005368                SystemBlockingWaitMs
+                0x0000538c        0x8 build/default/debug/_ext/1824788055/sys.o
+                0x0000538c                SystemBlockingWaitMs
 
 .text.SYSTICK_TimerFrequencyGet%229
-                0x00005370        0x6
+                0x00005394        0x6
  .text.SYSTICK_TimerFrequencyGet
-                0x00005370        0x6 build/default/debug/_ext/1827571544/plib_systick.o
-                0x00005370                SYSTICK_TimerFrequencyGet
+                0x00005394        0x6 build/default/debug/_ext/1827571544/plib_systick.o
+                0x00005394                SYSTICK_TimerFrequencyGet
 
 .text.PORT_GroupOutputEnable%230
-                0x00005376        0x4
+                0x0000539a        0x4
  .text.PORT_GroupOutputEnable
-                0x00005376        0x4 build/default/debug/_ext/1865521619/plib_port.o
-                0x00005376                PORT_GroupOutputEnable
+                0x0000539a        0x4 build/default/debug/_ext/1865521619/plib_port.o
+                0x0000539a                PORT_GroupOutputEnable
 
 .text.NonMaskableInt_Handler%231
-                0x0000537a        0x4
+                0x0000539e        0x4
  .text.NonMaskableInt_Handler
-                0x0000537a        0x4 build/default/debug/_ext/1171490990/exceptions.o
-                0x0000537a                NonMaskableInt_Handler
+                0x0000539e        0x4 build/default/debug/_ext/1171490990/exceptions.o
+                0x0000539e                NonMaskableInt_Handler
 
 .text.HardFault_Handler%232
-                0x0000537e        0x4
+                0x000053a2        0x4
  .text.HardFault_Handler
-                0x0000537e        0x4 build/default/debug/_ext/1171490990/exceptions.o
-                0x0000537e                HardFault_Handler
+                0x000053a2        0x4 build/default/debug/_ext/1171490990/exceptions.o
+                0x000053a2                HardFault_Handler
 
 .text.HAL_GetRadioClkStabilizationDelay%233
-                0x00005382        0x4
+                0x000053a6        0x4
  .text.HAL_GetRadioClkStabilizationDelay
-                0x00005382        0x4 build/default/debug/_ext/1824788055/radio_driver_hal.o
-                0x00005382                HAL_GetRadioClkStabilizationDelay
+                0x000053a6        0x4 build/default/debug/_ext/1824788055/radio_driver_hal.o
+                0x000053a6                HAL_GetRadioClkStabilizationDelay
 
 .text.HAL_GetRadioClkSrc%234
-                0x00005386        0x4
+                0x000053aa        0x4
  .text.HAL_GetRadioClkSrc
-                0x00005386        0x4 build/default/debug/_ext/1824788055/radio_driver_hal.o
-                0x00005386                HAL_GetRadioClkSrc
+                0x000053aa        0x4 build/default/debug/_ext/1824788055/radio_driver_hal.o
+                0x000053aa                HAL_GetRadioClkSrc
 
-.text%235       0x0000538c        0x4
- .text          0x0000538c        0x4 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
-                0x0000538c                __aeabi_idiv0
-                0x0000538c                __aeabi_ldiv0
+.text%235       0x000053b0        0x4
+ .text          0x000053b0        0x4 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+                0x000053b0                __aeabi_idiv0
+                0x000053b0                __aeabi_ldiv0
 
 .text.EVSYS_Initialize%236
-                0x00002f26        0x2
+                0x00002f4a        0x2
  .text.EVSYS_Initialize
-                0x00002f26        0x2 build/default/debug/_ext/1986646378/plib_evsys.o
-                0x00002f26                EVSYS_Initialize
+                0x00002f4a        0x2 build/default/debug/_ext/1986646378/plib_evsys.o
+                0x00002f4a                EVSYS_Initialize
 
 .text.RSTC_Initialize%237
-                0x000040d6        0x2
+                0x000040a2        0x2
  .text.RSTC_Initialize
-                0x000040d6        0x2 build/default/debug/_ext/1865585090/plib_rstc.o
-                0x000040d6                RSTC_Initialize
+                0x000040a2        0x2 build/default/debug/_ext/1865585090/plib_rstc.o
+                0x000040a2                RSTC_Initialize
 
 .text.Dummy_Handler%238
-                0x00004a7e        0x2
+                0x00004a9e        0x2
  .text.Dummy_Handler
-                0x00004a7e        0x2 build/default/debug/_ext/1171490990/interrupts.o
-                0x00004a7e                SVCall_Handler
-                0x00004a7e                DMAC_Handler
-                0x00004a7e                TRNG_Handler
-                0x00004a7e                TC2_Handler
-                0x00004a7e                AC_Handler
-                0x00004a7e                SysTick_Handler
-                0x00004a7e                PendSV_Handler
-                0x00004a7e                SERCOM1_Handler
-                0x00004a7e                ADC_Handler
-                0x00004a7e                TCC1_Handler
-                0x00004a7e                SERCOM2_Handler
-                0x00004a7e                TCC0_Handler
-                0x00004a7e                RTC_Handler
-                0x00004a7e                EIC_Handler
-                0x00004a7e                WDT_Handler
-                0x00004a7e                TC4_Handler
-                0x00004a7e                TC1_Handler
-                0x00004a7e                USB_Handler
-                0x00004a7e                TC3_Handler
-                0x00004a7e                Dummy_Handler
-                0x00004a7e                SERCOM5_Handler
-                0x00004a7e                TCC2_Handler
-                0x00004a7e                EVSYS_Handler
-                0x00004a7e                SERCOM3_Handler
-                0x00004a7e                SERCOM4_Handler
-                0x00004a7e                NVMCTRL_Handler
-                0x00004a7e                SYSTEM_Handler
-                0x00004a7e                SERCOM0_Handler
-                0x00004a7e                PTC_Handler
-                0x00004a7e                AES_Handler
+                0x00004a9e        0x2 build/default/debug/_ext/1171490990/interrupts.o
+                0x00004a9e                SVCall_Handler
+                0x00004a9e                DMAC_Handler
+                0x00004a9e                TRNG_Handler
+                0x00004a9e                TC2_Handler
+                0x00004a9e                AC_Handler
+                0x00004a9e                SysTick_Handler
+                0x00004a9e                PendSV_Handler
+                0x00004a9e                SERCOM1_Handler
+                0x00004a9e                ADC_Handler
+                0x00004a9e                TCC1_Handler
+                0x00004a9e                SERCOM2_Handler
+                0x00004a9e                TCC0_Handler
+                0x00004a9e                RTC_Handler
+                0x00004a9e                EIC_Handler
+                0x00004a9e                WDT_Handler
+                0x00004a9e                TC4_Handler
+                0x00004a9e                TC1_Handler
+                0x00004a9e                USB_Handler
+                0x00004a9e                TC3_Handler
+                0x00004a9e                Dummy_Handler
+                0x00004a9e                SERCOM5_Handler
+                0x00004a9e                TCC2_Handler
+                0x00004a9e                EVSYS_Handler
+                0x00004a9e                SERCOM3_Handler
+                0x00004a9e                SERCOM4_Handler
+                0x00004a9e                NVMCTRL_Handler
+                0x00004a9e                SYSTEM_Handler
+                0x00004a9e                SERCOM0_Handler
+                0x00004a9e                PTC_Handler
+                0x00004a9e                AES_Handler
 
 .text.Dummy_App_Func%239
-                0x00004bde        0x2
+                0x00004bfe        0x2
  .text.Dummy_App_Func
-                0x00004bde        0x2 build/default/debug/_ext/1171490990/startup_xc32.o
-                0x00004bde                _on_reset
-                0x00004bde                _on_bootstrap
-                0x00004bde                __xc32_on_reset
-                0x00004bde                Dummy_App_Func
-                0x00004bde                __xc32_on_bootstrap
+                0x00004bfe        0x2 build/default/debug/_ext/1171490990/startup_xc32.o
+                0x00004bfe                _on_reset
+                0x00004bfe                _on_bootstrap
+                0x00004bfe                __xc32_on_reset
+                0x00004bfe                Dummy_App_Func
+                0x00004bfe                __xc32_on_bootstrap

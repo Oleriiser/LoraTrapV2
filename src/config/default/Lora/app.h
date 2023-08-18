@@ -47,7 +47,7 @@ extern "C" {
 // *****************************************************************************
 // *****************************************************************************
     
-#define MESSAGE_ID 1    
+#define MESSAGE_ID 3    
     
     
 // *****************************************************************************
@@ -72,7 +72,8 @@ typedef enum
     /* Application's state machine's initial state. */
     APP_STATE_INIT=0,
     APP_STATE_GET_MICE_COUNT,
-            APP_STATE_GET_BATTERY_VOLTAGE,
+            APP_STATE_REQUEST_BATTERY_VOLTAGE,
+            APP_STATE_READ_BATTERY_VOLTAGE,
             APP_STATE_REPORT,
             APP_STATE_ENTER_SLEEP,
     /* TODO: Define states used by the application state machine. */
@@ -98,7 +99,7 @@ typedef struct
     /* The application's current state */
     APP_STATES state;
     uint8_t trappedMice;
-    uint8_t batteryVoltage;
+    uint16_t batteryVoltage;
     /* TODO: Define any additional data used by the application. */
 
 } APP_DATA;

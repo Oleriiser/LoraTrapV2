@@ -117,6 +117,9 @@ build/default/production/_ext/1824788055/sleep_timer.o: \
  ../src/config/default/Lora/hal/sleep.h \
  ../src/config/default/Lora/hal/sleep_timer.h \
  ../src/config/default/Lora/module_config/conf_pmm.h \
+ ../src/config/default/peripheral/adc/plib_adc.h \
+ ../src/config/default/peripheral/adc/plib_adc_common.h \
+ ../src/config/default/peripheral/adc/plib_adc_common.h \
  ../src/config/default/Lora/hal/sleep_timer.h
 
 ../src/config/default/definitions.h:
@@ -354,5 +357,11 @@ build/default/production/_ext/1824788055/sleep_timer.o: \
 ../src/config/default/Lora/hal/sleep_timer.h:
 
 ../src/config/default/Lora/module_config/conf_pmm.h:
+
+../src/config/default/peripheral/adc/plib_adc.h:
+
+../src/config/default/peripheral/adc/plib_adc_common.h:
+
+../src/config/default/peripheral/adc/plib_adc_common.h:
 
 ../src/config/default/Lora/hal/sleep_timer.h:
