@@ -134,6 +134,8 @@ void APP_Tasks ( void )
         /* Application's initial state. */
         case APP_STATE_INIT:
         {
+            EIC_InterruptDisable(EIC_PIN_6);
+            EIC_InterruptDisable(EIC_PIN_7);
             PORT_PinWrite(PORT_PIN_PB23, true);
             if(appData.lastBatteryVoltageRead==0)
             {
@@ -241,14 +243,29 @@ uint8_t readMouseTraps(void)
     uint8_t sw1=0;
     uint8_t sw2=0;
 
-    SW1_COM_OutputEnable();
-    SW1_COM_Set();
-    SW2_COM_OutputEnable();
-    SW2_COM_Set();
-    sw1=NC_SW1_Get();
-    sw2=NC_SW2_Get();
-    //SW1_COM_Clear();
-    //SW2_COM_Clear();
+//    SW1_COM_OutputEnable();
+//    SW1_COM_Set();
+//    SW2_COM_OutputEnable();
+//    SW2_COM_Set();
+    if(NC_SW1_Get())
+    {
+        if(SW1_COM_Get())
+        {
+            sw1=1;
+        }
+        SW1_COM_Toggle();
+        SW3_COM_Toggle();
+    }
+    if(NC_SW2_Get())
+    {   if(SW2_COM_Get())
+    {
+        sw2=1;
+    }
+        SW2_COM_Toggle();
+        SW4_COM_Toggle();
+    }
+//    SW1_COM_Clear();
+//    SW2_COM_Clear();
     trapped = sw1+sw2;
     return trapped;
 }

@@ -139,6 +139,24 @@
 #define SW2_COM_InputEnable()       (PORT_REGS->GROUP[0].PORT_DIRCLR = ((uint32_t)1U << 19U))
 #define SW2_COM_Get()               (((PORT_REGS->GROUP[0].PORT_IN >> 19U)) & 0x01U)
 #define SW2_COM_PIN                  PORT_PIN_PA19
+        
+/*** Macros for SW4_COM pin ***/
+#define SW4_COM_Set()               (PORT_REGS->GROUP[0].PORT_OUTSET = ((uint32_t)1U << 23U))
+#define SW4_COM_Clear()             (PORT_REGS->GROUP[0].PORT_OUTCLR = ((uint32_t)1U << 23U))
+#define SW4_COM_Toggle()            (PORT_REGS->GROUP[0].PORT_OUTTGL = ((uint32_t)1U << 23U))
+#define SW4_COM_OutputEnable()      (PORT_REGS->GROUP[0].PORT_DIRSET = ((uint32_t)1U << 23U))
+#define SW4_COM_InputEnable()       (PORT_REGS->GROUP[0].PORT_DIRCLR = ((uint32_t)1U << 23U))
+#define SW4_COM_Get()               (((PORT_REGS->GROUP[0].PORT_IN >> 23U)) & 0x01U)
+#define SW4_COM_PIN                  PORT_PIN_PA23
+
+/*** Macros for SW3_COM pin ***/
+#define SW3_COM_Set()               (PORT_REGS->GROUP[0].PORT_OUTSET = ((uint32_t)1U << 22U))
+#define SW3_COM_Clear()             (PORT_REGS->GROUP[0].PORT_OUTCLR = ((uint32_t)1U << 22U))
+#define SW3_COM_Toggle()            (PORT_REGS->GROUP[0].PORT_OUTTGL = ((uint32_t)1U << 22U))
+#define SW3_COM_OutputEnable()      (PORT_REGS->GROUP[0].PORT_DIRSET = ((uint32_t)1U << 22U))
+#define SW3_COM_InputEnable()       (PORT_REGS->GROUP[0].PORT_DIRCLR = ((uint32_t)1U << 22U))
+#define SW3_COM_Get()               (((PORT_REGS->GROUP[0].PORT_IN >> 22U)) & 0x01U)
+#define SW3_COM_PIN                  PORT_PIN_PA22
 
 /*** Macros for NC_SW2 pin ***/
 #define NC_SW2_Get()               (((PORT_REGS->GROUP[0].PORT_IN >> 7U)) & 0x01U)
