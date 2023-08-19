@@ -105,11 +105,11 @@ void APP_Initialize ( void )
     appData.trappedMice=0;
     appData.batteryVoltage=0;
     appData.lastBatteryVoltageRead=0;
-    EIC_CallbackRegister(EIC_PIN_6, (EIC_CALLBACK)trapTriggerCallback, (uintptr_t)NULL);
-    EIC_InterruptDisable(EIC_PIN_6);
+    EIC_CallbackRegister(EIC_PIN_2, (EIC_CALLBACK)trapTriggerCallback, (uintptr_t)NULL);
+    EIC_InterruptDisable(EIC_PIN_2);
     
-    EIC_CallbackRegister(EIC_PIN_7, (EIC_CALLBACK)trapTriggerCallback, (uintptr_t)NULL);
-    EIC_InterruptDisable(EIC_PIN_7);
+    EIC_CallbackRegister(EIC_PIN_3, (EIC_CALLBACK)trapTriggerCallback, (uintptr_t)NULL);
+    EIC_InterruptDisable(EIC_PIN_3);
     //EIC_InterruptEnable(EIC_PIN_7);
     /* TODO: Initialize your application's state machine and other
      * parameters.
@@ -134,8 +134,8 @@ void APP_Tasks ( void )
         /* Application's initial state. */
         case APP_STATE_INIT:
         {
-            EIC_InterruptDisable(EIC_PIN_6);
-            EIC_InterruptDisable(EIC_PIN_7);
+            EIC_InterruptDisable(EIC_PIN_2);
+            EIC_InterruptDisable(EIC_PIN_3);
             PORT_PinWrite(PORT_PIN_PB23, true);
             if(appData.lastBatteryVoltageRead==0)
             {
@@ -184,25 +184,25 @@ void APP_Tasks ( void )
         }
         case APP_STATE_REPORT:
         {          
-            buildLoraMessage(macBuffer);
-            RadioTransmitParam_t RadioTransmitParam;
-            ConfigureRadioTx();
-            RadioTransmitParam.bufferLen = 5;
-            RadioTransmitParam.bufferPtr = macBuffer;
-            if (RADIO_Transmit(&RadioTransmitParam) == ERR_NONE)
-            {
+//            buildLoraMessage(macBuffer);
+//            RadioTransmitParam_t RadioTransmitParam;
+//            ConfigureRadioTx();
+//            RadioTransmitParam.bufferLen = 5;
+//            RadioTransmitParam.bufferPtr = macBuffer;
+//            if (RADIO_Transmit(&RadioTransmitParam) == ERR_NONE)
+//            {
                 appData.state = APP_STATE_ENTER_SLEEP;
-            }
-            else
-            {
-               appData.state=APP_STATE_INIT;     
-            }
+//            }
+//            else
+//            {
+//               appData.state=APP_STATE_INIT;     
+//            }
             break;
             }
         case APP_STATE_ENTER_SLEEP:
         {   
-            EIC_InterruptEnable(EIC_PIN_6);
-            EIC_InterruptEnable(EIC_PIN_7);
+            EIC_InterruptEnable(EIC_PIN_2);
+            EIC_InterruptEnable(EIC_PIN_3);
             
             if (MlsAppSleep() == PMM_SLEEP_REQ_DENIED) {
                 
@@ -247,22 +247,23 @@ uint8_t readMouseTraps(void)
 //    SW1_COM_Set();
 //    SW2_COM_OutputEnable();
 //    SW2_COM_Set();
-    if(NC_SW1_Get())
-    {
-        if(SW1_COM_Get())
+    if(SW1_COM_Get())
+    {   
+        if(NC_SW1_Get())
         {
             sw1=1;
         }
-        SW1_COM_Toggle();
-        SW3_COM_Toggle();
+        NC_SW1_Toggle();
+        SW3_COM_Toggle();//This should be NO_SW1_Toggle
     }
-    if(NC_SW2_Get())
-    {   if(SW2_COM_Get())
+    if(SW2_COM_Get())
     {
+        if(NC_SW2_Get())
+        {
         sw2=1;
-    }
-        SW2_COM_Toggle();
-        SW4_COM_Toggle();
+        }
+        NC_SW2_Toggle();
+        SW4_COM_Toggle();//This should be NO_SW2_Toggle
     }
 //    SW1_COM_Clear();
 //    SW2_COM_Clear();
