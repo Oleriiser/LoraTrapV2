@@ -1,1000 +1,159 @@
-302 1692298358536 XXXX 1692298358536, Thread 302: XXXX 1692298358536, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358537 XXXX 1692298358537, Thread 302: XXXX 1692298358537, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358537 XXXX 1692298358537, Thread 302: XXXX 1692298358537, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358538 XXXX 1692298358538, Thread 302: XXXX 1692298358538, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358538 XXXX 1692298358538, Thread 302: XXXX 1692298358538, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358539 XXXX 1692298358539, Thread 302: XXXX 1692298358539, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358539 XXXX 1692298358539, Thread 302: XXXX 1692298358539, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358540 XXXX 1692298358540, Thread 302: XXXX 1692298358540, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358540 XXXX 1692298358540, Thread 302: XXXX 1692298358540, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358541 XXXX 1692298358541, Thread 302: XXXX 1692298358541, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358541 XXXX 1692298358541, Thread 302: XXXX 1692298358541, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358542 XXXX 1692298358542, Thread 302: XXXX 1692298358542, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358542 XXXX 1692298358542, Thread 302: XXXX 1692298358542, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358543 XXXX 1692298358543, Thread 302: XXXX 1692298358543, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358543 XXXX 1692298358543, Thread 302: XXXX 1692298358543, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358544 XXXX 1692298358544, Thread 302: XXXX 1692298358544, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358544 XXXX 1692298358544, Thread 302: XXXX 1692298358544, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358545 XXXX 1692298358545, Thread 302: XXXX 1692298358545, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358545 XXXX 1692298358545, Thread 302: XXXX 1692298358545, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358546 XXXX 1692298358546, Thread 302: XXXX 1692298358546, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358546 XXXX 1692298358546, Thread 302: XXXX 1692298358546, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358547 XXXX 1692298358547, Thread 302: XXXX 1692298358547, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358547 XXXX 1692298358547, Thread 302: XXXX 1692298358547, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358548 XXXX 1692298358548, Thread 302: XXXX 1692298358548, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358548 XXXX 1692298358548, Thread 302: XXXX 1692298358548, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358549 XXXX 1692298358549, Thread 302: XXXX 1692298358549, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358549 XXXX 1692298358549, Thread 302: XXXX 1692298358549, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358550 XXXX 1692298358550, Thread 302: XXXX 1692298358550, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358550 XXXX 1692298358550, Thread 302: XXXX 1692298358550, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358551 XXXX 1692298358551, Thread 302: XXXX 1692298358551, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358551 XXXX 1692298358551, Thread 302: XXXX 1692298358551, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358552 XXXX 1692298358552, Thread 302: XXXX 1692298358552, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358552 XXXX 1692298358552, Thread 302: XXXX 1692298358552, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358553 XXXX 1692298358553, Thread 302: XXXX 1692298358553, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358553 XXXX 1692298358553, Thread 302: XXXX 1692298358553, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358554 XXXX 1692298358554, Thread 302: XXXX 1692298358554, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358554 XXXX 1692298358554, Thread 302: XXXX 1692298358554, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358555 XXXX 1692298358555, Thread 302: XXXX 1692298358555, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358555 XXXX 1692298358555, Thread 302: XXXX 1692298358555, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358556 XXXX 1692298358556, Thread 302: XXXX 1692298358556, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358556 XXXX 1692298358556, Thread 302: XXXX 1692298358556, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358557 XXXX 1692298358557, Thread 302: XXXX 1692298358557, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358557 XXXX 1692298358557, Thread 302: XXXX 1692298358557, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358558 XXXX 1692298358558, Thread 302: XXXX 1692298358558, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358558 XXXX 1692298358558, Thread 302: XXXX 1692298358558, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358559 XXXX 1692298358559, Thread 302: XXXX 1692298358559, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358559 XXXX 1692298358559, Thread 302: XXXX 1692298358559, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358560 XXXX 1692298358560, Thread 302: XXXX 1692298358560, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358560 XXXX 1692298358560, Thread 302: XXXX 1692298358560, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358561 XXXX 1692298358561, Thread 302: XXXX 1692298358561, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358561 XXXX 1692298358561, Thread 302: XXXX 1692298358561, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358562 XXXX 1692298358562, Thread 302: XXXX 1692298358562, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358562 XXXX 1692298358562, Thread 302: XXXX 1692298358562, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358563 XXXX 1692298358563, Thread 302: XXXX 1692298358563, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358563 XXXX 1692298358563, Thread 302: XXXX 1692298358563, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358564 XXXX 1692298358564, Thread 302: XXXX 1692298358564, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358564 XXXX 1692298358564, Thread 302: XXXX 1692298358564, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358565 XXXX 1692298358565, Thread 302: XXXX 1692298358565, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358565 XXXX 1692298358565, Thread 302: XXXX 1692298358565, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358565 XXXX 1692298358565, Thread 302: XXXX 1692298358565, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358566 XXXX 1692298358566, Thread 302: XXXX 1692298358566, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358566 XXXX 1692298358566, Thread 302: XXXX 1692298358566, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358567 XXXX 1692298358567, Thread 302: XXXX 1692298358567, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358567 XXXX 1692298358567, Thread 302: XXXX 1692298358567, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358568 XXXX 1692298358568, Thread 302: XXXX 1692298358568, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358568 XXXX 1692298358568, Thread 302: XXXX 1692298358568, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358569 XXXX 1692298358569, Thread 302: XXXX 1692298358569, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358569 XXXX 1692298358569, Thread 302: XXXX 1692298358569, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358570 XXXX 1692298358570, Thread 302: XXXX 1692298358570, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358570 XXXX 1692298358570, Thread 302: XXXX 1692298358570, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358571 XXXX 1692298358571, Thread 302: XXXX 1692298358571, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358571 XXXX 1692298358571, Thread 302: XXXX 1692298358571, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358572 XXXX 1692298358572, Thread 302: XXXX 1692298358572, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358572 XXXX 1692298358572, Thread 302: XXXX 1692298358572, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358573 XXXX 1692298358573, Thread 302: XXXX 1692298358573, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358573 XXXX 1692298358573, Thread 302: XXXX 1692298358573, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358574 XXXX 1692298358574, Thread 302: XXXX 1692298358574, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358574 XXXX 1692298358574, Thread 302: XXXX 1692298358574, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358575 XXXX 1692298358575, Thread 302: XXXX 1692298358575, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358575 XXXX 1692298358575, Thread 302: XXXX 1692298358575, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358576 XXXX 1692298358576, Thread 302: XXXX 1692298358576, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358576 XXXX 1692298358576, Thread 302: XXXX 1692298358576, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358577 XXXX 1692298358577, Thread 302: XXXX 1692298358577, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358577 XXXX 1692298358577, Thread 302: XXXX 1692298358577, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358578 XXXX 1692298358578, Thread 302: XXXX 1692298358578, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358578 XXXX 1692298358578, Thread 302: XXXX 1692298358578, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358579 XXXX 1692298358579, Thread 302: XXXX 1692298358579, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358579 XXXX 1692298358579, Thread 302: XXXX 1692298358579, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358580 XXXX 1692298358580, Thread 302: XXXX 1692298358580, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358580 XXXX 1692298358580, Thread 302: XXXX 1692298358580, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358581 XXXX 1692298358581, Thread 302: XXXX 1692298358581, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358581 XXXX 1692298358581, Thread 302: XXXX 1692298358581, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358582 XXXX 1692298358582, Thread 302: XXXX 1692298358582, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358582 XXXX 1692298358582, Thread 302: XXXX 1692298358582, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358583 XXXX 1692298358583, Thread 302: XXXX 1692298358583, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358583 XXXX 1692298358583, Thread 302: XXXX 1692298358583, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358584 XXXX 1692298358584, Thread 302: XXXX 1692298358584, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358584 XXXX 1692298358584, Thread 302: XXXX 1692298358584, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358591 XXXX 1692298358591, Thread 302: XXXX 1692298358591, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358591 XXXX 1692298358591, Thread 302: XXXX 1692298358591, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358592 XXXX 1692298358592, Thread 302: XXXX 1692298358592, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358592 XXXX 1692298358592, Thread 302: XXXX 1692298358592, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358593 XXXX 1692298358593, Thread 302: XXXX 1692298358593, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358593 XXXX 1692298358593, Thread 302: XXXX 1692298358593, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358594 XXXX 1692298358594, Thread 302: XXXX 1692298358594, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358594 XXXX 1692298358594, Thread 302: XXXX 1692298358594, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358595 XXXX 1692298358595, Thread 302: XXXX 1692298358595, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358595 XXXX 1692298358595, Thread 302: XXXX 1692298358595, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358596 XXXX 1692298358596, Thread 302: XXXX 1692298358596, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358596 XXXX 1692298358596, Thread 302: XXXX 1692298358596, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358597 XXXX 1692298358597, Thread 302: XXXX 1692298358597, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358597 XXXX 1692298358597, Thread 302: XXXX 1692298358597, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358598 XXXX 1692298358598, Thread 302: XXXX 1692298358598, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358598 XXXX 1692298358598, Thread 302: XXXX 1692298358598, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358599 XXXX 1692298358599, Thread 302: XXXX 1692298358599, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358599 XXXX 1692298358599, Thread 302: XXXX 1692298358599, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358600 XXXX 1692298358600, Thread 302: XXXX 1692298358600, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358600 XXXX 1692298358600, Thread 302: XXXX 1692298358600, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358601 XXXX 1692298358601, Thread 302: XXXX 1692298358601, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358601 XXXX 1692298358601, Thread 302: XXXX 1692298358601, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358602 XXXX 1692298358602, Thread 302: XXXX 1692298358602, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358602 XXXX 1692298358602, Thread 302: XXXX 1692298358602, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358603 XXXX 1692298358603, Thread 302: XXXX 1692298358603, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358603 XXXX 1692298358603, Thread 302: XXXX 1692298358603, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358604 XXXX 1692298358604, Thread 302: XXXX 1692298358604, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358604 XXXX 1692298358604, Thread 302: XXXX 1692298358604, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358605 XXXX 1692298358605, Thread 302: XXXX 1692298358605, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358605 XXXX 1692298358605, Thread 302: XXXX 1692298358605, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358606 XXXX 1692298358606, Thread 302: XXXX 1692298358606, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358606 XXXX 1692298358606, Thread 302: XXXX 1692298358606, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358607 XXXX 1692298358607, Thread 302: XXXX 1692298358607, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358607 XXXX 1692298358607, Thread 302: XXXX 1692298358607, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358608 XXXX 1692298358608, Thread 302: XXXX 1692298358608, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358608 XXXX 1692298358608, Thread 302: XXXX 1692298358608, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358609 XXXX 1692298358609, Thread 302: XXXX 1692298358609, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358609 XXXX 1692298358609, Thread 302: XXXX 1692298358609, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358610 XXXX 1692298358610, Thread 302: XXXX 1692298358610, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358610 XXXX 1692298358610, Thread 302: XXXX 1692298358610, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358611 XXXX 1692298358611, Thread 302: XXXX 1692298358611, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358611 XXXX 1692298358611, Thread 302: XXXX 1692298358611, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358612 XXXX 1692298358612, Thread 302: XXXX 1692298358612, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358612 XXXX 1692298358612, Thread 302: XXXX 1692298358612, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358613 XXXX 1692298358613, Thread 302: XXXX 1692298358613, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358613 XXXX 1692298358613, Thread 302: XXXX 1692298358613, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358614 XXXX 1692298358614, Thread 302: XXXX 1692298358614, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358614 XXXX 1692298358614, Thread 302: XXXX 1692298358614, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358615 XXXX 1692298358615, Thread 302: XXXX 1692298358615, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358615 XXXX 1692298358615, Thread 302: XXXX 1692298358615, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358616 XXXX 1692298358616, Thread 302: XXXX 1692298358616, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358616 XXXX 1692298358616, Thread 302: XXXX 1692298358616, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358617 XXXX 1692298358617, Thread 302: XXXX 1692298358617, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358617 XXXX 1692298358617, Thread 302: XXXX 1692298358617, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358618 XXXX 1692298358618, Thread 302: XXXX 1692298358618, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358618 XXXX 1692298358618, Thread 302: XXXX 1692298358618, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358619 XXXX 1692298358619, Thread 302: XXXX 1692298358619, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358619 XXXX 1692298358619, Thread 302: XXXX 1692298358619, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358620 XXXX 1692298358620, Thread 302: XXXX 1692298358620, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358620 XXXX 1692298358620, Thread 302: XXXX 1692298358620, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358621 XXXX 1692298358621, Thread 302: XXXX 1692298358621, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358621 XXXX 1692298358621, Thread 302: XXXX 1692298358621, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358622 XXXX 1692298358622, Thread 302: XXXX 1692298358622, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358622 XXXX 1692298358622, Thread 302: XXXX 1692298358622, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358623 XXXX 1692298358623, Thread 302: XXXX 1692298358623, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358623 XXXX 1692298358623, Thread 302: XXXX 1692298358623, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358624 XXXX 1692298358624, Thread 302: XXXX 1692298358624, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358624 XXXX 1692298358624, Thread 302: XXXX 1692298358624, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358625 XXXX 1692298358625, Thread 302: XXXX 1692298358625, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358625 XXXX 1692298358625, Thread 302: XXXX 1692298358625, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358626 XXXX 1692298358626, Thread 302: XXXX 1692298358626, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358626 XXXX 1692298358626, Thread 302: XXXX 1692298358626, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358627 XXXX 1692298358627, Thread 302: XXXX 1692298358627, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358627 XXXX 1692298358627, Thread 302: XXXX 1692298358627, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358628 XXXX 1692298358628, Thread 302: XXXX 1692298358628, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358628 XXXX 1692298358628, Thread 302: XXXX 1692298358628, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358629 XXXX 1692298358629, Thread 302: XXXX 1692298358629, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358629 XXXX 1692298358629, Thread 302: XXXX 1692298358629, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358630 XXXX 1692298358630, Thread 302: XXXX 1692298358630, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358630 XXXX 1692298358630, Thread 302: XXXX 1692298358630, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358631 XXXX 1692298358631, Thread 302: XXXX 1692298358631, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358631 XXXX 1692298358631, Thread 302: XXXX 1692298358631, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358632 XXXX 1692298358632, Thread 302: XXXX 1692298358632, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358632 XXXX 1692298358632, Thread 302: XXXX 1692298358632, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358633 XXXX 1692298358633, Thread 302: XXXX 1692298358633, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358633 XXXX 1692298358633, Thread 302: XXXX 1692298358633, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358634 XXXX 1692298358634, Thread 302: XXXX 1692298358634, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358634 XXXX 1692298358634, Thread 302: XXXX 1692298358634, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358635 XXXX 1692298358635, Thread 302: XXXX 1692298358635, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358635 XXXX 1692298358635, Thread 302: XXXX 1692298358635, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358636 XXXX 1692298358636, Thread 302: XXXX 1692298358636, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358636 XXXX 1692298358636, Thread 302: XXXX 1692298358636, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358637 XXXX 1692298358637, Thread 302: XXXX 1692298358637, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358637 XXXX 1692298358637, Thread 302: XXXX 1692298358637, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358638 XXXX 1692298358638, Thread 302: XXXX 1692298358638, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358638 XXXX 1692298358638, Thread 302: XXXX 1692298358638, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358639 XXXX 1692298358639, Thread 302: XXXX 1692298358639, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358639 XXXX 1692298358639, Thread 302: XXXX 1692298358639, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358640 XXXX 1692298358640, Thread 302: XXXX 1692298358640, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358640 XXXX 1692298358640, Thread 302: XXXX 1692298358640, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358641 XXXX 1692298358641, Thread 302: XXXX 1692298358641, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358641 XXXX 1692298358641, Thread 302: XXXX 1692298358641, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358642 XXXX 1692298358642, Thread 302: XXXX 1692298358642, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358642 XXXX 1692298358642, Thread 302: XXXX 1692298358642, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358643 XXXX 1692298358643, Thread 302: XXXX 1692298358643, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358643 XXXX 1692298358643, Thread 302: XXXX 1692298358643, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358644 XXXX 1692298358644, Thread 302: XXXX 1692298358644, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358644 XXXX 1692298358644, Thread 302: XXXX 1692298358644, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358645 XXXX 1692298358645, Thread 302: XXXX 1692298358645, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358645 XXXX 1692298358645, Thread 302: XXXX 1692298358645, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358646 XXXX 1692298358646, Thread 302: XXXX 1692298358646, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358646 XXXX 1692298358646, Thread 302: XXXX 1692298358646, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358647 XXXX 1692298358647, Thread 302: XXXX 1692298358647, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358647 XXXX 1692298358647, Thread 302: XXXX 1692298358647, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358648 XXXX 1692298358648, Thread 302: XXXX 1692298358648, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358648 XXXX 1692298358648, Thread 302: XXXX 1692298358648, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358649 XXXX 1692298358649, Thread 302: XXXX 1692298358649, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358649 XXXX 1692298358649, Thread 302: XXXX 1692298358649, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358650 XXXX 1692298358650, Thread 302: XXXX 1692298358650, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358650 XXXX 1692298358650, Thread 302: XXXX 1692298358650, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358651 XXXX 1692298358651, Thread 302: XXXX 1692298358651, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358651 XXXX 1692298358651, Thread 302: XXXX 1692298358651, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358652 XXXX 1692298358652, Thread 302: XXXX 1692298358652, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358652 XXXX 1692298358652, Thread 302: XXXX 1692298358652, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358653 XXXX 1692298358653, Thread 302: XXXX 1692298358653, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358653 XXXX 1692298358653, Thread 302: XXXX 1692298358653, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358654 XXXX 1692298358654, Thread 302: XXXX 1692298358654, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358654 XXXX 1692298358654, Thread 302: XXXX 1692298358654, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358655 XXXX 1692298358655, Thread 302: XXXX 1692298358655, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358655 XXXX 1692298358655, Thread 302: XXXX 1692298358655, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358656 XXXX 1692298358656, Thread 302: XXXX 1692298358656, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358656 XXXX 1692298358656, Thread 302: XXXX 1692298358656, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358657 XXXX 1692298358657, Thread 302: XXXX 1692298358657, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358657 XXXX 1692298358657, Thread 302: XXXX 1692298358657, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358658 XXXX 1692298358658, Thread 302: XXXX 1692298358658, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358658 XXXX 1692298358658, Thread 302: XXXX 1692298358658, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358659 XXXX 1692298358659, Thread 302: XXXX 1692298358659, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358659 XXXX 1692298358659, Thread 302: XXXX 1692298358659, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358660 XXXX 1692298358660, Thread 302: XXXX 1692298358660, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358660 XXXX 1692298358660, Thread 302: XXXX 1692298358660, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358661 XXXX 1692298358661, Thread 302: XXXX 1692298358661, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358661 XXXX 1692298358661, Thread 302: XXXX 1692298358661, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358662 XXXX 1692298358662, Thread 302: XXXX 1692298358662, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358662 XXXX 1692298358662, Thread 302: XXXX 1692298358662, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358663 XXXX 1692298358663, Thread 302: XXXX 1692298358663, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358663 XXXX 1692298358663, Thread 302: XXXX 1692298358663, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358664 XXXX 1692298358664, Thread 302: XXXX 1692298358664, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358664 XXXX 1692298358664, Thread 302: XXXX 1692298358664, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358665 XXXX 1692298358665, Thread 302: XXXX 1692298358665, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358665 XXXX 1692298358665, Thread 302: XXXX 1692298358665, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358667 XXXX 1692298358667, Thread 302: XXXX 1692298358667, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358667 XXXX 1692298358667, Thread 302: XXXX 1692298358667, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358668 XXXX 1692298358668, Thread 302: XXXX 1692298358668, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358668 XXXX 1692298358668, Thread 302: XXXX 1692298358668, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358669 XXXX 1692298358669, Thread 302: XXXX 1692298358669, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358669 XXXX 1692298358669, Thread 302: XXXX 1692298358669, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358670 XXXX 1692298358670, Thread 302: XXXX 1692298358670, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358670 XXXX 1692298358670, Thread 302: XXXX 1692298358670, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358671 XXXX 1692298358671, Thread 302: XXXX 1692298358671, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358671 XXXX 1692298358671, Thread 302: XXXX 1692298358671, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358672 XXXX 1692298358672, Thread 302: XXXX 1692298358672, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358672 XXXX 1692298358672, Thread 302: XXXX 1692298358672, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358673 XXXX 1692298358673, Thread 302: XXXX 1692298358673, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358673 XXXX 1692298358673, Thread 302: XXXX 1692298358673, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358674 XXXX 1692298358674, Thread 302: XXXX 1692298358674, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358674 XXXX 1692298358674, Thread 302: XXXX 1692298358674, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358675 XXXX 1692298358675, Thread 302: XXXX 1692298358675, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358675 XXXX 1692298358675, Thread 302: XXXX 1692298358675, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358676 XXXX 1692298358676, Thread 302: XXXX 1692298358676, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358676 XXXX 1692298358676, Thread 302: XXXX 1692298358676, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358677 XXXX 1692298358677, Thread 302: XXXX 1692298358677, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358677 XXXX 1692298358677, Thread 302: XXXX 1692298358677, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358678 XXXX 1692298358678, Thread 302: XXXX 1692298358678, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358678 XXXX 1692298358678, Thread 302: XXXX 1692298358678, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358679 XXXX 1692298358679, Thread 302: XXXX 1692298358679, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358679 XXXX 1692298358679, Thread 302: XXXX 1692298358679, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358680 XXXX 1692298358680, Thread 302: XXXX 1692298358680, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358680 XXXX 1692298358680, Thread 302: XXXX 1692298358680, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358681 XXXX 1692298358681, Thread 302: XXXX 1692298358681, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358681 XXXX 1692298358681, Thread 302: XXXX 1692298358681, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358682 XXXX 1692298358682, Thread 302: XXXX 1692298358682, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358682 XXXX 1692298358682, Thread 302: XXXX 1692298358682, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358683 XXXX 1692298358683, Thread 302: XXXX 1692298358683, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358683 XXXX 1692298358683, Thread 302: XXXX 1692298358683, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358684 XXXX 1692298358684, Thread 302: XXXX 1692298358684, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358684 XXXX 1692298358684, Thread 302: XXXX 1692298358684, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358685 XXXX 1692298358685, Thread 302: XXXX 1692298358685, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358685 XXXX 1692298358685, Thread 302: XXXX 1692298358685, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358686 XXXX 1692298358686, Thread 302: XXXX 1692298358686, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358686 XXXX 1692298358686, Thread 302: XXXX 1692298358686, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358687 XXXX 1692298358687, Thread 302: XXXX 1692298358687, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358687 XXXX 1692298358687, Thread 302: XXXX 1692298358687, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358688 XXXX 1692298358688, Thread 302: XXXX 1692298358688, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358688 XXXX 1692298358688, Thread 302: XXXX 1692298358688, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358689 XXXX 1692298358689, Thread 302: XXXX 1692298358689, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358689 XXXX 1692298358689, Thread 302: XXXX 1692298358689, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358690 XXXX 1692298358690, Thread 302: XXXX 1692298358690, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358690 XXXX 1692298358690, Thread 302: XXXX 1692298358690, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358691 XXXX 1692298358691, Thread 302: XXXX 1692298358691, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358691 XXXX 1692298358691, Thread 302: XXXX 1692298358691, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358692 XXXX 1692298358692, Thread 302: XXXX 1692298358692, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358692 XXXX 1692298358692, Thread 302: XXXX 1692298358692, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358693 XXXX 1692298358693, Thread 302: XXXX 1692298358693, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358693 XXXX 1692298358693, Thread 302: XXXX 1692298358693, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358694 XXXX 1692298358694, Thread 302: XXXX 1692298358694, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358694 XXXX 1692298358694, Thread 302: XXXX 1692298358694, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358695 XXXX 1692298358695, Thread 302: XXXX 1692298358695, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358695 XXXX 1692298358695, Thread 302: XXXX 1692298358695, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358696 XXXX 1692298358696, Thread 302: XXXX 1692298358696, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358696 XXXX 1692298358696, Thread 302: XXXX 1692298358696, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358697 XXXX 1692298358697, Thread 302: XXXX 1692298358697, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358697 XXXX 1692298358697, Thread 302: XXXX 1692298358697, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358698 XXXX 1692298358698, Thread 302: XXXX 1692298358698, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358698 XXXX 1692298358698, Thread 302: XXXX 1692298358698, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358699 XXXX 1692298358699, Thread 302: XXXX 1692298358699, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358699 XXXX 1692298358699, Thread 302: XXXX 1692298358699, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358700 XXXX 1692298358700, Thread 302: XXXX 1692298358700, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358700 XXXX 1692298358700, Thread 302: XXXX 1692298358700, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358701 XXXX 1692298358701, Thread 302: XXXX 1692298358701, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358701 XXXX 1692298358701, Thread 302: XXXX 1692298358701, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358702 XXXX 1692298358702, Thread 302: XXXX 1692298358702, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358702 XXXX 1692298358702, Thread 302: XXXX 1692298358702, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358703 XXXX 1692298358703, Thread 302: XXXX 1692298358703, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358703 XXXX 1692298358703, Thread 302: XXXX 1692298358703, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358704 XXXX 1692298358704, Thread 302: XXXX 1692298358704, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358704 XXXX 1692298358704, Thread 302: XXXX 1692298358704, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358705 XXXX 1692298358705, Thread 302: XXXX 1692298358705, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358705 XXXX 1692298358705, Thread 302: XXXX 1692298358705, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358706 XXXX 1692298358706, Thread 302: XXXX 1692298358706, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358706 XXXX 1692298358706, Thread 302: XXXX 1692298358706, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358707 XXXX 1692298358707, Thread 302: XXXX 1692298358707, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358707 XXXX 1692298358707, Thread 302: XXXX 1692298358707, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358708 XXXX 1692298358708, Thread 302: XXXX 1692298358708, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358708 XXXX 1692298358708, Thread 302: XXXX 1692298358708, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358709 XXXX 1692298358709, Thread 302: XXXX 1692298358709, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358709 XXXX 1692298358709, Thread 302: XXXX 1692298358709, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358710 XXXX 1692298358710, Thread 302: XXXX 1692298358710, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358710 XXXX 1692298358710, Thread 302: XXXX 1692298358710, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358711 XXXX 1692298358711, Thread 302: XXXX 1692298358711, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358711 XXXX 1692298358711, Thread 302: XXXX 1692298358711, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358712 XXXX 1692298358712, Thread 302: XXXX 1692298358712, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358712 XXXX 1692298358712, Thread 302: XXXX 1692298358712, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358713 XXXX 1692298358713, Thread 302: XXXX 1692298358713, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358713 XXXX 1692298358713, Thread 302: XXXX 1692298358713, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358714 XXXX 1692298358714, Thread 302: XXXX 1692298358714, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358714 XXXX 1692298358714, Thread 302: XXXX 1692298358714, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358715 XXXX 1692298358715, Thread 302: XXXX 1692298358715, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358715 XXXX 1692298358715, Thread 302: XXXX 1692298358715, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358716 XXXX 1692298358716, Thread 302: XXXX 1692298358716, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358716 XXXX 1692298358716, Thread 302: XXXX 1692298358716, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358717 XXXX 1692298358717, Thread 302: XXXX 1692298358717, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358717 XXXX 1692298358717, Thread 302: XXXX 1692298358717, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358718 XXXX 1692298358718, Thread 302: XXXX 1692298358718, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358718 XXXX 1692298358718, Thread 302: XXXX 1692298358718, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358719 XXXX 1692298358719, Thread 302: XXXX 1692298358719, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358719 XXXX 1692298358719, Thread 302: XXXX 1692298358719, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358720 XXXX 1692298358720, Thread 302: XXXX 1692298358720, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358720 XXXX 1692298358720, Thread 302: XXXX 1692298358720, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358721 XXXX 1692298358721, Thread 302: XXXX 1692298358721, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358721 XXXX 1692298358721, Thread 302: XXXX 1692298358721, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358722 XXXX 1692298358722, Thread 302: XXXX 1692298358722, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358722 XXXX 1692298358722, Thread 302: XXXX 1692298358722, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358722 XXXX 1692298358722, Thread 302: XXXX 1692298358722, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358722 XXXX 1692298358722, Thread 302: XXXX 1692298358722, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358723 XXXX 1692298358723, Thread 302: XXXX 1692298358723, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358723 XXXX 1692298358723, Thread 302: XXXX 1692298358723, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358724 XXXX 1692298358724, Thread 302: XXXX 1692298358724, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358724 XXXX 1692298358724, Thread 302: XXXX 1692298358724, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358725 XXXX 1692298358725, Thread 302: XXXX 1692298358725, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358725 XXXX 1692298358725, Thread 302: XXXX 1692298358725, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358726 XXXX 1692298358726, Thread 302: XXXX 1692298358726, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358726 XXXX 1692298358726, Thread 302: XXXX 1692298358726, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358727 XXXX 1692298358727, Thread 302: XXXX 1692298358727, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358727 XXXX 1692298358727, Thread 302: XXXX 1692298358727, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358728 XXXX 1692298358728, Thread 302: XXXX 1692298358728, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358728 XXXX 1692298358728, Thread 302: XXXX 1692298358728, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358729 XXXX 1692298358729, Thread 302: XXXX 1692298358729, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358729 XXXX 1692298358729, Thread 302: XXXX 1692298358729, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358730 XXXX 1692298358730, Thread 302: XXXX 1692298358730, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358730 XXXX 1692298358730, Thread 302: XXXX 1692298358730, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358731 XXXX 1692298358731, Thread 302: XXXX 1692298358731, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358731 XXXX 1692298358731, Thread 302: XXXX 1692298358731, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358732 XXXX 1692298358732, Thread 302: XXXX 1692298358732, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358732 XXXX 1692298358732, Thread 302: XXXX 1692298358732, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358733 XXXX 1692298358733, Thread 302: XXXX 1692298358733, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358733 XXXX 1692298358733, Thread 302: XXXX 1692298358733, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358734 XXXX 1692298358734, Thread 302: XXXX 1692298358734, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358734 XXXX 1692298358734, Thread 302: XXXX 1692298358734, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358735 XXXX 1692298358735, Thread 302: XXXX 1692298358735, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358735 XXXX 1692298358735, Thread 302: XXXX 1692298358735, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358736 XXXX 1692298358736, Thread 302: XXXX 1692298358736, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358736 XXXX 1692298358736, Thread 302: XXXX 1692298358736, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358737 XXXX 1692298358737, Thread 302: XXXX 1692298358737, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358737 XXXX 1692298358737, Thread 302: XXXX 1692298358737, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358738 XXXX 1692298358738, Thread 302: XXXX 1692298358738, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358738 XXXX 1692298358738, Thread 302: XXXX 1692298358738, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358739 XXXX 1692298358739, Thread 302: XXXX 1692298358739, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358739 XXXX 1692298358739, Thread 302: XXXX 1692298358739, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358740 XXXX 1692298358740, Thread 302: XXXX 1692298358740, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358740 XXXX 1692298358740, Thread 302: XXXX 1692298358740, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358741 XXXX 1692298358741, Thread 302: XXXX 1692298358741, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358741 XXXX 1692298358741, Thread 302: XXXX 1692298358741, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358742 XXXX 1692298358742, Thread 302: XXXX 1692298358742, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358742 XXXX 1692298358742, Thread 302: XXXX 1692298358742, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358743 XXXX 1692298358743, Thread 302: XXXX 1692298358743, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358743 XXXX 1692298358743, Thread 302: XXXX 1692298358743, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358744 XXXX 1692298358744, Thread 302: XXXX 1692298358744, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358744 XXXX 1692298358744, Thread 302: XXXX 1692298358744, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358745 XXXX 1692298358745, Thread 302: XXXX 1692298358745, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358745 XXXX 1692298358745, Thread 302: XXXX 1692298358745, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358746 XXXX 1692298358746, Thread 302: XXXX 1692298358746, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358746 XXXX 1692298358746, Thread 302: XXXX 1692298358746, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358747 XXXX 1692298358747, Thread 302: XXXX 1692298358747, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358747 XXXX 1692298358747, Thread 302: XXXX 1692298358747, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358748 XXXX 1692298358748, Thread 302: XXXX 1692298358748, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358748 XXXX 1692298358748, Thread 302: XXXX 1692298358748, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358749 XXXX 1692298358749, Thread 302: XXXX 1692298358749, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358749 XXXX 1692298358749, Thread 302: XXXX 1692298358749, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358750 XXXX 1692298358750, Thread 302: XXXX 1692298358750, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358750 XXXX 1692298358750, Thread 302: XXXX 1692298358750, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358751 XXXX 1692298358751, Thread 302: XXXX 1692298358751, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358751 XXXX 1692298358751, Thread 302: XXXX 1692298358751, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358752 XXXX 1692298358752, Thread 302: XXXX 1692298358752, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358752 XXXX 1692298358752, Thread 302: XXXX 1692298358752, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358753 XXXX 1692298358753, Thread 302: XXXX 1692298358753, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358753 XXXX 1692298358753, Thread 302: XXXX 1692298358753, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358754 XXXX 1692298358754, Thread 302: XXXX 1692298358754, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358754 XXXX 1692298358754, Thread 302: XXXX 1692298358754, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358755 XXXX 1692298358755, Thread 302: XXXX 1692298358755, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358755 XXXX 1692298358755, Thread 302: XXXX 1692298358755, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358756 XXXX 1692298358756, Thread 302: XXXX 1692298358756, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358756 XXXX 1692298358756, Thread 302: XXXX 1692298358756, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358757 XXXX 1692298358757, Thread 302: XXXX 1692298358757, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358757 XXXX 1692298358757, Thread 302: XXXX 1692298358757, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358758 XXXX 1692298358758, Thread 302: XXXX 1692298358758, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358758 XXXX 1692298358758, Thread 302: XXXX 1692298358758, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358759 XXXX 1692298358759, Thread 302: XXXX 1692298358759, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358759 XXXX 1692298358759, Thread 302: XXXX 1692298358759, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358760 XXXX 1692298358760, Thread 302: XXXX 1692298358760, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358760 XXXX 1692298358760, Thread 302: XXXX 1692298358760, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358761 XXXX 1692298358761, Thread 302: XXXX 1692298358761, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358761 XXXX 1692298358761, Thread 302: XXXX 1692298358761, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358762 XXXX 1692298358762, Thread 302: XXXX 1692298358762, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358762 XXXX 1692298358762, Thread 302: XXXX 1692298358762, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358763 XXXX 1692298358763, Thread 302: XXXX 1692298358763, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358763 XXXX 1692298358763, Thread 302: XXXX 1692298358763, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358764 XXXX 1692298358764, Thread 302: XXXX 1692298358764, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358764 XXXX 1692298358764, Thread 302: XXXX 1692298358764, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358765 XXXX 1692298358765, Thread 302: XXXX 1692298358765, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358765 XXXX 1692298358765, Thread 302: XXXX 1692298358765, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358765 XXXX 1692298358765, Thread 302: XXXX 1692298358765, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358765 XXXX 1692298358765, Thread 302: XXXX 1692298358765, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358767 XXXX 1692298358767, Thread 302: XXXX 1692298358767, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358767 XXXX 1692298358767, Thread 302: XXXX 1692298358767, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358768 XXXX 1692298358768, Thread 302: XXXX 1692298358768, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358768 XXXX 1692298358768, Thread 302: XXXX 1692298358768, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358769 XXXX 1692298358769, Thread 302: XXXX 1692298358769, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358769 XXXX 1692298358769, Thread 302: XXXX 1692298358769, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358770 XXXX 1692298358770, Thread 302: XXXX 1692298358770, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358770 XXXX 1692298358770, Thread 302: XXXX 1692298358770, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358771 XXXX 1692298358771, Thread 302: XXXX 1692298358771, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358771 XXXX 1692298358771, Thread 302: XXXX 1692298358771, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358772 XXXX 1692298358772, Thread 302: XXXX 1692298358772, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358772 XXXX 1692298358772, Thread 302: XXXX 1692298358772, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358773 XXXX 1692298358773, Thread 302: XXXX 1692298358773, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358774 XXXX 1692298358774, Thread 302: XXXX 1692298358773, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358774 XXXX 1692298358774, Thread 302: XXXX 1692298358774, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358774 XXXX 1692298358774, Thread 302: XXXX 1692298358774, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358775 XXXX 1692298358775, Thread 302: XXXX 1692298358775, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358775 XXXX 1692298358775, Thread 302: XXXX 1692298358775, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358776 XXXX 1692298358776, Thread 302: XXXX 1692298358776, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358777 XXXX 1692298358777, Thread 302: XXXX 1692298358777, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358777 XXXX 1692298358777, Thread 302: XXXX 1692298358777, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358777 XXXX 1692298358777, Thread 302: XXXX 1692298358777, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358778 XXXX 1692298358778, Thread 302: XXXX 1692298358778, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358778 XXXX 1692298358778, Thread 302: XXXX 1692298358778, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358779 XXXX 1692298358779, Thread 302: XXXX 1692298358779, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358779 XXXX 1692298358779, Thread 302: XXXX 1692298358779, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358780 XXXX 1692298358780, Thread 302: XXXX 1692298358780, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358780 XXXX 1692298358780, Thread 302: XXXX 1692298358780, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358781 XXXX 1692298358781, Thread 302: XXXX 1692298358781, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358781 XXXX 1692298358781, Thread 302: XXXX 1692298358781, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358782 XXXX 1692298358782, Thread 302: XXXX 1692298358782, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358783 XXXX 1692298358783, Thread 302: XXXX 1692298358783, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358783 XXXX 1692298358783, Thread 302: XXXX 1692298358783, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358784 XXXX 1692298358784, Thread 302: XXXX 1692298358784, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358784 XXXX 1692298358784, Thread 302: XXXX 1692298358784, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358784 XXXX 1692298358784, Thread 302: XXXX 1692298358784, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358785 XXXX 1692298358785, Thread 302: XXXX 1692298358785, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358786 XXXX 1692298358786, Thread 302: XXXX 1692298358786, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358786 XXXX 1692298358786, Thread 302: XXXX 1692298358786, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358786 XXXX 1692298358786, Thread 302: XXXX 1692298358786, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358787 XXXX 1692298358787, Thread 302: XXXX 1692298358787, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358787 XXXX 1692298358787, Thread 302: XXXX 1692298358787, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358788 XXXX 1692298358788, Thread 302: XXXX 1692298358788, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358789 XXXX 1692298358789, Thread 302: XXXX 1692298358789, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358789 XXXX 1692298358789, Thread 302: XXXX 1692298358789, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358790 XXXX 1692298358789, Thread 302: XXXX 1692298358789, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358790 XXXX 1692298358790, Thread 302: XXXX 1692298358790, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358791 XXXX 1692298358791, Thread 302: XXXX 1692298358791, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358791 XXXX 1692298358791, Thread 302: XXXX 1692298358791, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358792 XXXX 1692298358791, Thread 302: XXXX 1692298358791, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358792 XXXX 1692298358792, Thread 302: XXXX 1692298358792, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358793 XXXX 1692298358793, Thread 302: XXXX 1692298358793, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358793 XXXX 1692298358793, Thread 302: XXXX 1692298358793, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358794 XXXX 1692298358794, Thread 302: XXXX 1692298358794, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358794 XXXX 1692298358794, Thread 302: XXXX 1692298358794, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358795 XXXX 1692298358795, Thread 302: XXXX 1692298358795, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358795 XXXX 1692298358795, Thread 302: XXXX 1692298358795, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358796 XXXX 1692298358796, Thread 302: XXXX 1692298358796, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358796 XXXX 1692298358796, Thread 302: XXXX 1692298358796, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358797 XXXX 1692298358797, Thread 302: XXXX 1692298358797, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358797 XXXX 1692298358797, Thread 302: XXXX 1692298358797, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358798 XXXX 1692298358798, Thread 302: XXXX 1692298358798, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358798 XXXX 1692298358798, Thread 302: XXXX 1692298358798, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358799 XXXX 1692298358799, Thread 302: XXXX 1692298358799, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358799 XXXX 1692298358799, Thread 302: XXXX 1692298358799, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358800 XXXX 1692298358800, Thread 302: XXXX 1692298358800, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358800 XXXX 1692298358800, Thread 302: XXXX 1692298358800, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358801 XXXX 1692298358801, Thread 302: XXXX 1692298358801, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358801 XXXX 1692298358801, Thread 302: XXXX 1692298358801, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358802 XXXX 1692298358802, Thread 302: XXXX 1692298358802, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358802 XXXX 1692298358802, Thread 302: XXXX 1692298358802, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358803 XXXX 1692298358803, Thread 302: XXXX 1692298358803, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358803 XXXX 1692298358803, Thread 302: XXXX 1692298358803, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358804 XXXX 1692298358804, Thread 302: XXXX 1692298358804, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358804 XXXX 1692298358804, Thread 302: XXXX 1692298358804, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358805 XXXX 1692298358805, Thread 302: XXXX 1692298358805, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358805 XXXX 1692298358805, Thread 302: XXXX 1692298358805, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358806 XXXX 1692298358806, Thread 302: XXXX 1692298358806, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358806 XXXX 1692298358806, Thread 302: XXXX 1692298358806, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358807 XXXX 1692298358807, Thread 302: XXXX 1692298358807, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358807 XXXX 1692298358807, Thread 302: XXXX 1692298358807, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358808 XXXX 1692298358808, Thread 302: XXXX 1692298358808, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358808 XXXX 1692298358808, Thread 302: XXXX 1692298358808, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358809 XXXX 1692298358809, Thread 302: XXXX 1692298358809, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358809 XXXX 1692298358809, Thread 302: XXXX 1692298358809, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358810 XXXX 1692298358810, Thread 302: XXXX 1692298358810, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358810 XXXX 1692298358810, Thread 302: XXXX 1692298358810, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358811 XXXX 1692298358811, Thread 302: XXXX 1692298358811, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358811 XXXX 1692298358811, Thread 302: XXXX 1692298358811, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358812 XXXX 1692298358812, Thread 302: XXXX 1692298358812, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358812 XXXX 1692298358812, Thread 302: XXXX 1692298358812, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358813 XXXX 1692298358813, Thread 302: XXXX 1692298358813, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358813 XXXX 1692298358813, Thread 302: XXXX 1692298358813, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358814 XXXX 1692298358814, Thread 302: XXXX 1692298358814, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358814 XXXX 1692298358814, Thread 302: XXXX 1692298358814, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358815 XXXX 1692298358815, Thread 302: XXXX 1692298358815, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358815 XXXX 1692298358815, Thread 302: XXXX 1692298358815, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358816 XXXX 1692298358816, Thread 302: XXXX 1692298358816, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358816 XXXX 1692298358816, Thread 302: XXXX 1692298358816, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358817 XXXX 1692298358817, Thread 302: XXXX 1692298358817, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358817 XXXX 1692298358817, Thread 302: XXXX 1692298358817, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358818 XXXX 1692298358818, Thread 302: XXXX 1692298358818, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358818 XXXX 1692298358818, Thread 302: XXXX 1692298358818, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358819 XXXX 1692298358819, Thread 302: XXXX 1692298358819, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358819 XXXX 1692298358819, Thread 302: XXXX 1692298358819, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358820 XXXX 1692298358820, Thread 302: XXXX 1692298358820, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358820 XXXX 1692298358820, Thread 302: XXXX 1692298358820, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358821 XXXX 1692298358821, Thread 302: XXXX 1692298358821, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358821 XXXX 1692298358821, Thread 302: XXXX 1692298358821, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358822 XXXX 1692298358822, Thread 302: XXXX 1692298358822, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358822 XXXX 1692298358822, Thread 302: XXXX 1692298358822, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358823 XXXX 1692298358823, Thread 302: XXXX 1692298358823, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358823 XXXX 1692298358823, Thread 302: XXXX 1692298358823, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358824 XXXX 1692298358824, Thread 302: XXXX 1692298358824, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358824 XXXX 1692298358824, Thread 302: XXXX 1692298358824, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358825 XXXX 1692298358825, Thread 302: XXXX 1692298358825, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358826 XXXX 1692298358826, Thread 302: XXXX 1692298358825, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358826 XXXX 1692298358826, Thread 302: XXXX 1692298358826, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358826 XXXX 1692298358826, Thread 302: XXXX 1692298358826, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358827 XXXX 1692298358827, Thread 302: XXXX 1692298358827, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358827 XXXX 1692298358827, Thread 302: XXXX 1692298358827, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358828 XXXX 1692298358828, Thread 302: XXXX 1692298358828, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358829 XXXX 1692298358829, Thread 302: XXXX 1692298358829, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358829 XXXX 1692298358829, Thread 302: XXXX 1692298358829, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358829 XXXX 1692298358829, Thread 302: XXXX 1692298358829, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358830 XXXX 1692298358830, Thread 302: XXXX 1692298358830, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358830 XXXX 1692298358830, Thread 302: XXXX 1692298358830, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358831 XXXX 1692298358831, Thread 302: XXXX 1692298358831, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358832 XXXX 1692298358832, Thread 302: XXXX 1692298358832, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358832 XXXX 1692298358832, Thread 302: XXXX 1692298358832, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358832 XXXX 1692298358832, Thread 302: XXXX 1692298358832, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358833 XXXX 1692298358833, Thread 302: XXXX 1692298358833, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358834 XXXX 1692298358834, Thread 302: XXXX 1692298358834, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358834 XXXX 1692298358834, Thread 302: XXXX 1692298358834, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358835 XXXX 1692298358835, Thread 302: XXXX 1692298358835, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358835 XXXX 1692298358835, Thread 302: XXXX 1692298358835, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358836 XXXX 1692298358836, Thread 302: XXXX 1692298358836, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358836 XXXX 1692298358836, Thread 302: XXXX 1692298358836, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358836 XXXX 1692298358836, Thread 302: XXXX 1692298358836, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358837 XXXX 1692298358837, Thread 302: XXXX 1692298358837, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358837 XXXX 1692298358837, Thread 302: XXXX 1692298358837, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358838 XXXX 1692298358838, Thread 302: XXXX 1692298358838, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358839 XXXX 1692298358839, Thread 302: XXXX 1692298358839, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358839 XXXX 1692298358839, Thread 302: XXXX 1692298358839, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358840 XXXX 1692298358840, Thread 302: XXXX 1692298358840, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358840 XXXX 1692298358840, Thread 302: XXXX 1692298358840, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358841 XXXX 1692298358841, Thread 302: XXXX 1692298358841, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358841 XXXX 1692298358841, Thread 302: XXXX 1692298358841, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358842 XXXX 1692298358842, Thread 302: XXXX 1692298358842, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358842 XXXX 1692298358842, Thread 302: XXXX 1692298358842, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358842 XXXX 1692298358842, Thread 302: XXXX 1692298358842, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358843 XXXX 1692298358843, Thread 302: XXXX 1692298358843, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358844 XXXX 1692298358844, Thread 302: XXXX 1692298358844, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358844 XXXX 1692298358844, Thread 302: XXXX 1692298358844, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358845 XXXX 1692298358845, Thread 302: XXXX 1692298358845, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358845 XXXX 1692298358845, Thread 302: XXXX 1692298358845, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358846 XXXX 1692298358846, Thread 302: XXXX 1692298358846, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358846 XXXX 1692298358846, Thread 302: XXXX 1692298358846, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358847 XXXX 1692298358847, Thread 302: XXXX 1692298358847, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358847 XXXX 1692298358847, Thread 302: XXXX 1692298358847, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358848 XXXX 1692298358848, Thread 302: XXXX 1692298358848, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358848 XXXX 1692298358848, Thread 302: XXXX 1692298358848, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358849 XXXX 1692298358849, Thread 302: XXXX 1692298358849, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358849 XXXX 1692298358849, Thread 302: XXXX 1692298358849, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358850 XXXX 1692298358850, Thread 302: XXXX 1692298358850, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358850 XXXX 1692298358850, Thread 302: XXXX 1692298358850, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358851 XXXX 1692298358851, Thread 302: XXXX 1692298358851, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358851 XXXX 1692298358851, Thread 302: XXXX 1692298358851, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358852 XXXX 1692298358852, Thread 302: XXXX 1692298358852, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358852 XXXX 1692298358852, Thread 302: XXXX 1692298358852, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358853 XXXX 1692298358853, Thread 302: XXXX 1692298358853, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358853 XXXX 1692298358853, Thread 302: XXXX 1692298358853, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358854 XXXX 1692298358854, Thread 302: XXXX 1692298358854, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358854 XXXX 1692298358854, Thread 302: XXXX 1692298358854, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358855 XXXX 1692298358855, Thread 302: XXXX 1692298358855, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358855 XXXX 1692298358855, Thread 302: XXXX 1692298358855, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358855 XXXX 1692298358855, Thread 302: XXXX 1692298358855, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358855 XXXX 1692298358855, Thread 302: XXXX 1692298358855, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358856 XXXX 1692298358856, Thread 302: XXXX 1692298358856, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358856 XXXX 1692298358856, Thread 302: XXXX 1692298358856, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358858 XXXX 1692298358858, Thread 302: XXXX 1692298358858, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358858 XXXX 1692298358858, Thread 302: XXXX 1692298358858, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358859 XXXX 1692298358859, Thread 302: XXXX 1692298358859, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358859 XXXX 1692298358859, Thread 302: XXXX 1692298358859, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358860 XXXX 1692298358860, Thread 302: XXXX 1692298358860, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358860 XXXX 1692298358860, Thread 302: XXXX 1692298358860, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358861 XXXX 1692298358861, Thread 302: XXXX 1692298358861, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358861 XXXX 1692298358861, Thread 302: XXXX 1692298358861, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358862 XXXX 1692298358862, Thread 302: XXXX 1692298358862, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358862 XXXX 1692298358862, Thread 302: XXXX 1692298358862, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358863 XXXX 1692298358863, Thread 302: XXXX 1692298358863, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358863 XXXX 1692298358863, Thread 302: XXXX 1692298358863, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358864 XXXX 1692298358864, Thread 302: XXXX 1692298358864, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358864 XXXX 1692298358864, Thread 302: XXXX 1692298358864, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358865 XXXX 1692298358865, Thread 302: XXXX 1692298358865, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358865 XXXX 1692298358865, Thread 302: XXXX 1692298358865, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358866 XXXX 1692298358866, Thread 302: XXXX 1692298358866, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358866 XXXX 1692298358866, Thread 302: XXXX 1692298358866, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358866 XXXX 1692298358866, Thread 302: XXXX 1692298358866, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358866 XXXX 1692298358866, Thread 302: XXXX 1692298358866, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358867 XXXX 1692298358867, Thread 302: XXXX 1692298358867, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358867 XXXX 1692298358867, Thread 302: XXXX 1692298358867, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358868 XXXX 1692298358868, Thread 302: XXXX 1692298358868, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358868 XXXX 1692298358868, Thread 302: XXXX 1692298358868, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358869 XXXX 1692298358869, Thread 302: XXXX 1692298358869, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358869 XXXX 1692298358869, Thread 302: XXXX 1692298358869, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358870 XXXX 1692298358870, Thread 302: XXXX 1692298358870, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358870 XXXX 1692298358870, Thread 302: XXXX 1692298358870, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358871 XXXX 1692298358871, Thread 302: XXXX 1692298358871, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358871 XXXX 1692298358871, Thread 302: XXXX 1692298358871, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358872 XXXX 1692298358872, Thread 302: XXXX 1692298358872, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358872 XXXX 1692298358872, Thread 302: XXXX 1692298358872, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358873 XXXX 1692298358873, Thread 302: XXXX 1692298358873, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358873 XXXX 1692298358873, Thread 302: XXXX 1692298358873, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358874 XXXX 1692298358874, Thread 302: XXXX 1692298358874, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358874 XXXX 1692298358874, Thread 302: XXXX 1692298358874, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358875 XXXX 1692298358875, Thread 302: XXXX 1692298358875, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358875 XXXX 1692298358875, Thread 302: XXXX 1692298358875, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358876 XXXX 1692298358876, Thread 302: XXXX 1692298358876, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358876 XXXX 1692298358876, Thread 302: XXXX 1692298358876, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358877 XXXX 1692298358877, Thread 302: XXXX 1692298358877, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358877 XXXX 1692298358877, Thread 302: XXXX 1692298358877, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358878 XXXX 1692298358878, Thread 302: XXXX 1692298358878, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358878 XXXX 1692298358878, Thread 302: XXXX 1692298358878, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358879 XXXX 1692298358879, Thread 302: XXXX 1692298358879, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358879 XXXX 1692298358879, Thread 302: XXXX 1692298358879, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358880 XXXX 1692298358880, Thread 302: XXXX 1692298358880, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358880 XXXX 1692298358880, Thread 302: XXXX 1692298358880, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358881 XXXX 1692298358881, Thread 302: XXXX 1692298358881, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358881 XXXX 1692298358881, Thread 302: XXXX 1692298358881, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358882 XXXX 1692298358882, Thread 302: XXXX 1692298358882, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358882 XXXX 1692298358882, Thread 302: XXXX 1692298358882, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358883 XXXX 1692298358883, Thread 302: XXXX 1692298358883, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358883 XXXX 1692298358883, Thread 302: XXXX 1692298358883, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358884 XXXX 1692298358884, Thread 302: XXXX 1692298358884, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358884 XXXX 1692298358884, Thread 302: XXXX 1692298358884, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358885 XXXX 1692298358885, Thread 302: XXXX 1692298358885, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358885 XXXX 1692298358885, Thread 302: XXXX 1692298358885, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358886 XXXX 1692298358886, Thread 302: XXXX 1692298358886, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358886 XXXX 1692298358886, Thread 302: XXXX 1692298358886, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358887 XXXX 1692298358887, Thread 302: XXXX 1692298358887, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358887 XXXX 1692298358887, Thread 302: XXXX 1692298358887, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358888 XXXX 1692298358888, Thread 302: XXXX 1692298358888, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358888 XXXX 1692298358888, Thread 302: XXXX 1692298358888, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358889 XXXX 1692298358889, Thread 302: XXXX 1692298358889, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358889 XXXX 1692298358889, Thread 302: XXXX 1692298358889, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358890 XXXX 1692298358890, Thread 302: XXXX 1692298358890, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358890 XXXX 1692298358890, Thread 302: XXXX 1692298358890, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358891 XXXX 1692298358891, Thread 302: XXXX 1692298358891, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358891 XXXX 1692298358891, Thread 302: XXXX 1692298358891, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358892 XXXX 1692298358892, Thread 302: XXXX 1692298358892, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358892 XXXX 1692298358892, Thread 302: XXXX 1692298358892, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358893 XXXX 1692298358893, Thread 302: XXXX 1692298358893, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358893 XXXX 1692298358893, Thread 302: XXXX 1692298358893, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358894 XXXX 1692298358894, Thread 302: XXXX 1692298358894, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358894 XXXX 1692298358894, Thread 302: XXXX 1692298358894, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358895 XXXX 1692298358895, Thread 302: XXXX 1692298358895, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358895 XXXX 1692298358895, Thread 302: XXXX 1692298358895, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358896 XXXX 1692298358896, Thread 302: XXXX 1692298358896, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358896 XXXX 1692298358896, Thread 302: XXXX 1692298358896, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358897 XXXX 1692298358897, Thread 302: XXXX 1692298358897, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358897 XXXX 1692298358897, Thread 302: XXXX 1692298358897, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358898 XXXX 1692298358898, Thread 302: XXXX 1692298358898, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358898 XXXX 1692298358898, Thread 302: XXXX 1692298358898, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358899 XXXX 1692298358899, Thread 302: XXXX 1692298358899, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358899 XXXX 1692298358899, Thread 302: XXXX 1692298358899, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358900 XXXX 1692298358900, Thread 302: XXXX 1692298358900, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358900 XXXX 1692298358900, Thread 302: XXXX 1692298358900, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358901 XXXX 1692298358901, Thread 302: XXXX 1692298358901, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358901 XXXX 1692298358901, Thread 302: XXXX 1692298358901, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358902 XXXX 1692298358902, Thread 302: XXXX 1692298358902, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358902 XXXX 1692298358902, Thread 302: XXXX 1692298358902, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358903 XXXX 1692298358903, Thread 302: XXXX 1692298358903, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358903 XXXX 1692298358903, Thread 302: XXXX 1692298358903, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358904 XXXX 1692298358904, Thread 302: XXXX 1692298358904, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358904 XXXX 1692298358904, Thread 302: XXXX 1692298358904, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358905 XXXX 1692298358905, Thread 302: XXXX 1692298358905, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358905 XXXX 1692298358905, Thread 302: XXXX 1692298358905, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358906 XXXX 1692298358906, Thread 302: XXXX 1692298358906, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358906 XXXX 1692298358906, Thread 302: XXXX 1692298358906, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358907 XXXX 1692298358907, Thread 302: XXXX 1692298358907, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358907 XXXX 1692298358907, Thread 302: XXXX 1692298358907, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358908 XXXX 1692298358908, Thread 302: XXXX 1692298358908, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358908 XXXX 1692298358908, Thread 302: XXXX 1692298358908, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358909 XXXX 1692298358909, Thread 302: XXXX 1692298358909, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358909 XXXX 1692298358909, Thread 302: XXXX 1692298358909, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358910 XXXX 1692298358910, Thread 302: XXXX 1692298358910, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358910 XXXX 1692298358910, Thread 302: XXXX 1692298358910, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358911 XXXX 1692298358911, Thread 302: XXXX 1692298358911, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358911 XXXX 1692298358911, Thread 302: XXXX 1692298358911, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358912 XXXX 1692298358912, Thread 302: XXXX 1692298358912, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358912 XXXX 1692298358912, Thread 302: XXXX 1692298358912, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358913 XXXX 1692298358913, Thread 302: XXXX 1692298358913, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358913 XXXX 1692298358913, Thread 302: XXXX 1692298358913, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358914 XXXX 1692298358914, Thread 302: XXXX 1692298358914, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358914 XXXX 1692298358914, Thread 302: XXXX 1692298358914, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358915 XXXX 1692298358915, Thread 302: XXXX 1692298358915, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358915 XXXX 1692298358915, Thread 302: XXXX 1692298358915, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358916 XXXX 1692298358916, Thread 302: XXXX 1692298358916, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358916 XXXX 1692298358916, Thread 302: XXXX 1692298358916, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358917 XXXX 1692298358917, Thread 302: XXXX 1692298358917, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358917 XXXX 1692298358917, Thread 302: XXXX 1692298358917, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358918 XXXX 1692298358918, Thread 302: XXXX 1692298358918, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358918 XXXX 1692298358918, Thread 302: XXXX 1692298358918, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358919 XXXX 1692298358919, Thread 302: XXXX 1692298358919, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358919 XXXX 1692298358919, Thread 302: XXXX 1692298358919, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358920 XXXX 1692298358920, Thread 302: XXXX 1692298358920, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358920 XXXX 1692298358920, Thread 302: XXXX 1692298358920, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358921 XXXX 1692298358921, Thread 302: XXXX 1692298358921, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358921 XXXX 1692298358921, Thread 302: XXXX 1692298358921, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358922 XXXX 1692298358922, Thread 302: XXXX 1692298358922, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358922 XXXX 1692298358922, Thread 302: XXXX 1692298358922, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358923 XXXX 1692298358923, Thread 302: XXXX 1692298358923, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358923 XXXX 1692298358923, Thread 302: XXXX 1692298358923, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358924 XXXX 1692298358924, Thread 302: XXXX 1692298358924, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358924 XXXX 1692298358924, Thread 302: XXXX 1692298358924, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358925 XXXX 1692298358925, Thread 302: XXXX 1692298358925, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358925 XXXX 1692298358925, Thread 302: XXXX 1692298358925, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358926 XXXX 1692298358926, Thread 302: XXXX 1692298358926, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358926 XXXX 1692298358926, Thread 302: XXXX 1692298358926, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358927 XXXX 1692298358927, Thread 302: XXXX 1692298358927, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358927 XXXX 1692298358927, Thread 302: XXXX 1692298358927, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358928 XXXX 1692298358928, Thread 302: XXXX 1692298358928, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358928 XXXX 1692298358928, Thread 302: XXXX 1692298358928, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358929 XXXX 1692298358929, Thread 302: XXXX 1692298358929, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358929 XXXX 1692298358929, Thread 302: XXXX 1692298358929, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358930 XXXX 1692298358930, Thread 302: XXXX 1692298358930, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358930 XXXX 1692298358930, Thread 302: XXXX 1692298358930, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358931 XXXX 1692298358931, Thread 302: XXXX 1692298358931, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358931 XXXX 1692298358931, Thread 302: XXXX 1692298358931, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358932 XXXX 1692298358932, Thread 302: XXXX 1692298358932, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358932 XXXX 1692298358932, Thread 302: XXXX 1692298358932, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358933 XXXX 1692298358933, Thread 302: XXXX 1692298358933, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358933 XXXX 1692298358933, Thread 302: XXXX 1692298358933, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358934 XXXX 1692298358934, Thread 302: XXXX 1692298358934, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358934 XXXX 1692298358934, Thread 302: XXXX 1692298358934, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358935 XXXX 1692298358935, Thread 302: XXXX 1692298358935, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358935 XXXX 1692298358935, Thread 302: XXXX 1692298358935, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358936 XXXX 1692298358936, Thread 302: XXXX 1692298358936, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358936 XXXX 1692298358936, Thread 302: XXXX 1692298358936, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358937 XXXX 1692298358937, Thread 302: XXXX 1692298358937, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358937 XXXX 1692298358937, Thread 302: XXXX 1692298358937, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358938 XXXX 1692298358938, Thread 302: XXXX 1692298358938, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358938 XXXX 1692298358938, Thread 302: XXXX 1692298358938, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358939 XXXX 1692298358939, Thread 302: XXXX 1692298358939, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358939 XXXX 1692298358939, Thread 302: XXXX 1692298358939, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358940 XXXX 1692298358940, Thread 302: XXXX 1692298358940, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358940 XXXX 1692298358940, Thread 302: XXXX 1692298358940, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358941 XXXX 1692298358941, Thread 302: XXXX 1692298358941, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358941 XXXX 1692298358941, Thread 302: XXXX 1692298358941, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358942 XXXX 1692298358942, Thread 302: XXXX 1692298358942, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358942 XXXX 1692298358942, Thread 302: XXXX 1692298358942, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358943 XXXX 1692298358943, Thread 302: XXXX 1692298358943, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358943 XXXX 1692298358943, Thread 302: XXXX 1692298358943, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358944 XXXX 1692298358944, Thread 302: XXXX 1692298358944, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358944 XXXX 1692298358944, Thread 302: XXXX 1692298358944, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358945 XXXX 1692298358945, Thread 302: XXXX 1692298358945, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358945 XXXX 1692298358945, Thread 302: XXXX 1692298358945, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358946 XXXX 1692298358946, Thread 302: XXXX 1692298358946, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358946 XXXX 1692298358946, Thread 302: XXXX 1692298358946, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358947 XXXX 1692298358947, Thread 302: XXXX 1692298358947, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358947 XXXX 1692298358947, Thread 302: XXXX 1692298358947, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358948 XXXX 1692298358948, Thread 302: XXXX 1692298358948, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358948 XXXX 1692298358948, Thread 302: XXXX 1692298358948, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358949 XXXX 1692298358949, Thread 302: XXXX 1692298358949, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358949 XXXX 1692298358949, Thread 302: XXXX 1692298358949, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358950 XXXX 1692298358950, Thread 302: XXXX 1692298358950, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358950 XXXX 1692298358950, Thread 302: XXXX 1692298358950, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358951 XXXX 1692298358951, Thread 302: XXXX 1692298358951, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358951 XXXX 1692298358951, Thread 302: XXXX 1692298358951, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358952 XXXX 1692298358952, Thread 302: XXXX 1692298358952, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358952 XXXX 1692298358952, Thread 302: XXXX 1692298358952, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358953 XXXX 1692298358953, Thread 302: XXXX 1692298358953, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358953 XXXX 1692298358953, Thread 302: XXXX 1692298358953, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358954 XXXX 1692298358954, Thread 302: XXXX 1692298358954, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358954 XXXX 1692298358954, Thread 302: XXXX 1692298358954, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358955 XXXX 1692298358955, Thread 302: XXXX 1692298358955, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358955 XXXX 1692298358955, Thread 302: XXXX 1692298358955, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358956 XXXX 1692298358956, Thread 302: XXXX 1692298358956, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358956 XXXX 1692298358956, Thread 302: XXXX 1692298358956, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358957 XXXX 1692298358957, Thread 302: XXXX 1692298358957, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358957 XXXX 1692298358957, Thread 302: XXXX 1692298358957, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358958 XXXX 1692298358958, Thread 302: XXXX 1692298358958, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358958 XXXX 1692298358958, Thread 302: XXXX 1692298358958, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358959 XXXX 1692298358959, Thread 302: XXXX 1692298358959, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358959 XXXX 1692298358959, Thread 302: XXXX 1692298358959, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358960 XXXX 1692298358960, Thread 302: XXXX 1692298358960, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358960 XXXX 1692298358960, Thread 302: XXXX 1692298358960, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358961 XXXX 1692298358961, Thread 302: XXXX 1692298358961, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358961 XXXX 1692298358961, Thread 302: XXXX 1692298358961, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358962 XXXX 1692298358962, Thread 302: XXXX 1692298358962, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358962 XXXX 1692298358962, Thread 302: XXXX 1692298358962, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358963 XXXX 1692298358963, Thread 302: XXXX 1692298358963, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358963 XXXX 1692298358963, Thread 302: XXXX 1692298358963, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358964 XXXX 1692298358964, Thread 302: XXXX 1692298358964, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358964 XXXX 1692298358964, Thread 302: XXXX 1692298358964, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358965 XXXX 1692298358965, Thread 302: XXXX 1692298358965, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358965 XXXX 1692298358965, Thread 302: XXXX 1692298358965, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358966 XXXX 1692298358966, Thread 302: XXXX 1692298358966, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358966 XXXX 1692298358966, Thread 302: XXXX 1692298358966, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358968 XXXX 1692298358968, Thread 302: XXXX 1692298358968, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358968 XXXX 1692298358968, Thread 302: XXXX 1692298358968, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358969 XXXX 1692298358969, Thread 302: XXXX 1692298358969, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358969 XXXX 1692298358969, Thread 302: XXXX 1692298358969, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358970 XXXX 1692298358970, Thread 302: XXXX 1692298358970, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358970 XXXX 1692298358970, Thread 302: XXXX 1692298358970, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358971 XXXX 1692298358971, Thread 302: XXXX 1692298358971, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358971 XXXX 1692298358971, Thread 302: XXXX 1692298358971, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358972 XXXX 1692298358972, Thread 302: XXXX 1692298358972, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358972 XXXX 1692298358972, Thread 302: XXXX 1692298358972, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358973 XXXX 1692298358973, Thread 302: XXXX 1692298358973, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358973 XXXX 1692298358973, Thread 302: XXXX 1692298358973, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358974 XXXX 1692298358974, Thread 302: XXXX 1692298358974, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358974 XXXX 1692298358974, Thread 302: XXXX 1692298358974, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358975 XXXX 1692298358975, Thread 302: XXXX 1692298358975, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358975 XXXX 1692298358975, Thread 302: XXXX 1692298358975, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358976 XXXX 1692298358976, Thread 302: XXXX 1692298358976, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358976 XXXX 1692298358976, Thread 302: XXXX 1692298358976, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358977 XXXX 1692298358977, Thread 302: XXXX 1692298358977, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358977 XXXX 1692298358977, Thread 302: XXXX 1692298358977, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358978 XXXX 1692298358978, Thread 302: XXXX 1692298358978, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358978 XXXX 1692298358978, Thread 302: XXXX 1692298358978, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358979 XXXX 1692298358979, Thread 302: XXXX 1692298358979, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358979 XXXX 1692298358979, Thread 302: XXXX 1692298358979, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358980 XXXX 1692298358980, Thread 302: XXXX 1692298358980, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358980 XXXX 1692298358980, Thread 302: XXXX 1692298358980, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358981 XXXX 1692298358981, Thread 302: XXXX 1692298358981, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358981 XXXX 1692298358981, Thread 302: XXXX 1692298358981, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358982 XXXX 1692298358982, Thread 302: XXXX 1692298358982, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358982 XXXX 1692298358982, Thread 302: XXXX 1692298358982, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358983 XXXX 1692298358983, Thread 302: XXXX 1692298358983, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358983 XXXX 1692298358983, Thread 302: XXXX 1692298358983, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358984 XXXX 1692298358984, Thread 302: XXXX 1692298358984, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358984 XXXX 1692298358984, Thread 302: XXXX 1692298358984, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358984 XXXX 1692298358984, Thread 302: XXXX 1692298358984, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358984 XXXX 1692298358984, Thread 302: XXXX 1692298358984, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358985 XXXX 1692298358985, Thread 302: XXXX 1692298358985, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358985 XXXX 1692298358985, Thread 302: XXXX 1692298358985, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358986 XXXX 1692298358986, Thread 302: XXXX 1692298358986, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358986 XXXX 1692298358986, Thread 302: XXXX 1692298358986, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358987 XXXX 1692298358987, Thread 302: XXXX 1692298358987, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358987 XXXX 1692298358987, Thread 302: XXXX 1692298358987, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358988 XXXX 1692298358988, Thread 302: XXXX 1692298358988, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358988 XXXX 1692298358988, Thread 302: XXXX 1692298358988, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358989 XXXX 1692298358989, Thread 302: XXXX 1692298358989, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358989 XXXX 1692298358989, Thread 302: XXXX 1692298358989, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358990 XXXX 1692298358990, Thread 302: XXXX 1692298358990, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358990 XXXX 1692298358990, Thread 302: XXXX 1692298358990, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358991 XXXX 1692298358991, Thread 302: XXXX 1692298358991, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358991 XXXX 1692298358991, Thread 302: XXXX 1692298358991, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358992 XXXX 1692298358992, Thread 302: XXXX 1692298358992, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358992 XXXX 1692298358992, Thread 302: XXXX 1692298358992, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358993 XXXX 1692298358993, Thread 302: XXXX 1692298358993, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358993 XXXX 1692298358993, Thread 302: XXXX 1692298358993, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358994 XXXX 1692298358994, Thread 302: XXXX 1692298358994, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358994 XXXX 1692298358994, Thread 302: XXXX 1692298358994, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358995 XXXX 1692298358995, Thread 302: XXXX 1692298358995, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358995 XXXX 1692298358995, Thread 302: XXXX 1692298358995, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358996 XXXX 1692298358996, Thread 302: XXXX 1692298358996, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358996 XXXX 1692298358996, Thread 302: XXXX 1692298358996, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358997 XXXX 1692298358997, Thread 302: XXXX 1692298358997, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358997 XXXX 1692298358997, Thread 302: XXXX 1692298358997, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358998 XXXX 1692298358998, Thread 302: XXXX 1692298358998, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358998 XXXX 1692298358998, Thread 302: XXXX 1692298358998, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298358999 XXXX 1692298358999, Thread 302: XXXX 1692298358999, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298358999 XXXX 1692298358999, Thread 302: XXXX 1692298358999, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298359000 XXXX 1692298359000, Thread 302: XXXX 1692298359000, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298359000 XXXX 1692298359000, Thread 302: XXXX 1692298359000, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298359001 XXXX 1692298359001, Thread 302: XXXX 1692298359001, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298359001 XXXX 1692298359001, Thread 302: XXXX 1692298359001, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298359002 XXXX 1692298359002, Thread 302: XXXX 1692298359002, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298359002 XXXX 1692298359002, Thread 302: XXXX 1692298359002, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298359003 XXXX 1692298359003, Thread 302: XXXX 1692298359003, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298359003 XXXX 1692298359003, Thread 302: XXXX 1692298359003, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298359004 XXXX 1692298359004, Thread 302: XXXX 1692298359004, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298359004 XXXX 1692298359004, Thread 302: XXXX 1692298359004, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298359005 XXXX 1692298359005, Thread 302: XXXX 1692298359005, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298359005 XXXX 1692298359005, Thread 302: XXXX 1692298359005, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298359006 XXXX 1692298359006, Thread 302: XXXX 1692298359006, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298359006 XXXX 1692298359006, Thread 302: XXXX 1692298359006, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298359007 XXXX 1692298359007, Thread 302: XXXX 1692298359007, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298359007 XXXX 1692298359007, Thread 302: XXXX 1692298359007, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298359008 XXXX 1692298359008, Thread 302: XXXX 1692298359008, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298359008 XXXX 1692298359008, Thread 302: XXXX 1692298359008, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298359009 XXXX 1692298359009, Thread 302: XXXX 1692298359009, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298359009 XXXX 1692298359009, Thread 302: XXXX 1692298359009, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298359010 XXXX 1692298359010, Thread 302: XXXX 1692298359010, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298359010 XXXX 1692298359010, Thread 302: XXXX 1692298359010, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298359011 XXXX 1692298359011, Thread 302: XXXX 1692298359011, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298359011 XXXX 1692298359011, Thread 302: XXXX 1692298359011, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298359012 XXXX 1692298359012, Thread 302: XXXX 1692298359012, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298359012 XXXX 1692298359012, Thread 302: XXXX 1692298359012, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298359013 XXXX 1692298359013, Thread 302: XXXX 1692298359013, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298359013 XXXX 1692298359013, Thread 302: XXXX 1692298359013, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298359014 XXXX 1692298359014, Thread 302: XXXX 1692298359014, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298359014 XXXX 1692298359014, Thread 302: XXXX 1692298359014, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298359015 XXXX 1692298359015, Thread 302: XXXX 1692298359015, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298359015 XXXX 1692298359015, Thread 302: XXXX 1692298359015, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298359016 XXXX 1692298359016, Thread 302: XXXX 1692298359016, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298359016 XXXX 1692298359016, Thread 302: XXXX 1692298359016, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298359017 XXXX 1692298359017, Thread 302: XXXX 1692298359017, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298359017 XXXX 1692298359017, Thread 302: XXXX 1692298359017, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298359018 XXXX 1692298359018, Thread 302: XXXX 1692298359018, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298359018 XXXX 1692298359018, Thread 302: XXXX 1692298359018, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298359019 XXXX 1692298359019, Thread 302: XXXX 1692298359019, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298359019 XXXX 1692298359019, Thread 302: XXXX 1692298359019, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298359020 XXXX 1692298359020, Thread 302: XXXX 1692298359020, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298359020 XXXX 1692298359020, Thread 302: XXXX 1692298359020, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298359021 XXXX 1692298359021, Thread 302: XXXX 1692298359021, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298359021 XXXX 1692298359021, Thread 302: XXXX 1692298359021, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298359022 XXXX 1692298359022, Thread 302: XXXX 1692298359022, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298359022 XXXX 1692298359022, Thread 302: XXXX 1692298359022, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298359023 XXXX 1692298359023, Thread 302: XXXX 1692298359023, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298359023 XXXX 1692298359023, Thread 302: XXXX 1692298359023, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298359024 XXXX 1692298359024, Thread 302: XXXX 1692298359024, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298359024 XXXX 1692298359024, Thread 302: XXXX 1692298359024, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298359025 XXXX 1692298359025, Thread 302: XXXX 1692298359025, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298359025 XXXX 1692298359025, Thread 302: XXXX 1692298359025, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298359026 XXXX 1692298359026, Thread 302: XXXX 1692298359026, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298359026 XXXX 1692298359026, Thread 302: XXXX 1692298359026, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298359027 XXXX 1692298359027, Thread 302: XXXX 1692298359027, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298359027 XXXX 1692298359027, Thread 302: XXXX 1692298359027, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298359028 XXXX 1692298359028, Thread 302: XXXX 1692298359028, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298359028 XXXX 1692298359028, Thread 302: XXXX 1692298359028, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298359029 XXXX 1692298359029, Thread 302: XXXX 1692298359029, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298359029 XXXX 1692298359029, Thread 302: XXXX 1692298359029, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298359030 XXXX 1692298359030, Thread 302: XXXX 1692298359030, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298359030 XXXX 1692298359030, Thread 302: XXXX 1692298359030, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298359031 XXXX 1692298359031, Thread 302: XXXX 1692298359031, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298359031 XXXX 1692298359031, Thread 302: XXXX 1692298359031, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298359032 XXXX 1692298359032, Thread 302: XXXX 1692298359032, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298359032 XXXX 1692298359032, Thread 302: XXXX 1692298359032, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298359033 XXXX 1692298359033, Thread 302: XXXX 1692298359033, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298359033 XXXX 1692298359033, Thread 302: XXXX 1692298359033, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298359034 XXXX 1692298359034, Thread 302: XXXX 1692298359034, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298359034 XXXX 1692298359034, Thread 302: XXXX 1692298359034, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298359035 XXXX 1692298359035, Thread 302: XXXX 1692298359035, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298359035 XXXX 1692298359035, Thread 302: XXXX 1692298359035, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298359036 XXXX 1692298359036, Thread 302: XXXX 1692298359036, Exiting Thread 302: Commands::runScriptBasic  
-302 1692298359036 XXXX 1692298359036, Thread 302: XXXX 1692298359036, Entering Thread 302: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-302 1692298359038 XXXX 1692298359038, Thread 302: com.Send returned false 
-302 1692298359040 XXXX 1692298359040, Thread 302: transfer: exception after writeHeaderAndGetResult null 
-302 1692298359041 XXXX 1692298359041, Thread 302: XXXX 1692298359041, Entering Thread 302: ToolCommUsb::recoverFromProtocolError, type = NO_SCRIPT  
-302 1692298359041 XXXX 1692298359041, Thread 302: Send Abort Script Engine Command 
-302 1692298359041 XXXX 1692298359041, Thread 302: XXXX 1692298359041, Entering Thread 302: ToolCommUsb::killScriptEngine  
-302 1692298359042 XXXX 1692298359042, Thread 302: com.Send returned false 
-302 1692298359042 XXXX 1692298359042, Thread 302: Failed sending Abort Script Engine Command. Set nuclear option = true 
-302 1692298359042 XXXX 1692298359042, Thread 302: About to nuke 
-302 1692298359042 XXXX 1692298359042, Thread 302: XXXX 1692298359042, Entering Thread 302: ToolCommUsb::nuclearOption  
-302 1692298359043 XXXX 1692298359043, Thread 302: com.Send returned false 
+288 1692389493038 GEN4_CONNECT_DIAGNOSTICS:MPLABCommTool is NOT null
+288 1692389493039 GEN4_CONNECT_DIAGNOSTICS:AttachedToolPID = 9012, AttachedToolVID = 4d8
+288 1692389493039 GEN4_CONNECT_DIAGNOSTICS:transport type = USB
+288 1692389493039 GEN4_CONNECT_DIAGNOSTICS:AttachedToolPID = 9012, AttachedToolVID = 4d8
+288 1692389495131 GEN4_CONNECT_DIAGNOSTICS:Before MPLABCommTool.Connect()
+288 1692389495131 GEN4_CONNECT_DIAGNOSTICS:After MPLABCommTool.Connect()
+288 1692389495143 GEN4_CONNECT_DIAGNOSTICS:Adding new plug and play observer com.microchip.mplab.mdbcore.RI4Tool.RI4ToolBase$RI4PlugNPlayObserver@7217132b
+288 1692389495143 GEN4_CONNECT_DIAGNOSTICS:Begin PlugNPlayObservers list dump:
+288 1692389495143 GEN4_CONNECT_DIAGNOSTICS:com.microchip.mplab.mdbcore.RI4Tool.RI4ToolBase$RI4PlugNPlayObserver@7217132b
+288 1692389495143 GEN4_CONNECT_DIAGNOSTICS:End PlugNPlayObservers list dump:
+288 1692389495146 GEN4_CONNECT_DIAGNOSTICS:Registering for alternate PNP notifications. CommPnPCriteria.cPIDList = [2177, 2179, 217a, 2141, 9017, 901b, 9036, 9035], CommPnPCriteria.cSerialNumber = bur222773793
+
+288 1692389495744 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B Pre:init
+288 1692389495744 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B Payload
+288 1692389495745 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B DeviceInfo: Values:
+288 1692389495745 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B DeviceInfo: pcAddress = 7fffffffffffffff, Vpp = 3.30, useRowEraseIfVoltageIsLow = false, voltageBelowWhichUseRowErase = 0.00, deviceName = ATSAMR34J18B, programmerType = NVMCTRL_U2207
+288 1692389495745 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B DeviceInfo: MemInfo values:
+288 1692389495745 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B DeviceInfo: mask = ffffffff, exists = true, startAddr = 00000000, endAddr = 30001fff, rowSize = 0200, rowEraseSize = 0200, addrInc = 0004, widthProgram = 0004
+288 1692389495745 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B DeviceInfo: mask = ffffffff, exists = true, startAddr = 00804000, endAddr = 00804007, rowSize = 0001, rowEraseSize = 0000, addrInc = 0004, widthProgram = 0004
+288 1692389495745 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+288 1692389495745 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+288 1692389495745 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B DeviceInfo: mask = ffffffff, exists = true, startAddr = 00804008, endAddr = 008040ff, rowSize = 0040, rowEraseSize = 0000, addrInc = 0004, widthProgram = 0004
+288 1692389495745 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0200, addrInc = 0000, widthProgram = 0000
+288 1692389495745 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0004, widthProgram = 0004
+288 1692389495745 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B DeviceInfo: mask = ffffffff, exists = true, startAddr = 40000000, endAddr = e000efff, rowSize = 0000, rowEraseSize = 0000, addrInc = 0004, widthProgram = 0004
+288 1692389495745 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+288 1692389495745 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+288 1692389495745 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0004, widthProgram = 0004
+288 1692389495745 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0004, widthProgram = 0004
+288 1692389495745 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+288 1692389495746 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+288 1692389495746 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+288 1692389495746 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+288 1692389495746 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B DeviceInfo: mask = 7fffffff, exists = true, startAddr = 41002018, endAddr = 4100201b, rowSize = 0001, rowEraseSize = 0000, addrInc = 0001, widthProgram = 0001
+288 1692389495746 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+288 1692389495746 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+288 1692389495746 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+288 1692389495746 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B DeviceInfo: mask = ffffffff, exists = true, startAddr = 00400000, endAddr = 00401fff, rowSize = 0200, rowEraseSize = 0000, addrInc = 0004, widthProgram = 0004
+288 1692389495746 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+288 1692389495746 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+288 1692389495746 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B DeviceInfo: CfgRequiredBitsMask Values:
+288 1692389495746 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B Address = 00804000, Mask = fc01ff77
+288 1692389495746 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B Address = 00804004, Mask = ffff03ff
+288 1692389495746 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B BasicInfo: Values:
+288 1692389495746 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B BasicInfo: InputStream = com.microchip.mplab.libs.toolpacksupport.EquatableFileInputStream@23971c18, ToolFlavor = PICKit4
+288 1692389495746 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B Payload End
+288 1692389502587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B Post:init
+288 1692389502587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B Return Value
+288 1692389502587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B none
+288 1692389502587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B Return End
+
+288 1692389502587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B Pre:GetInterfaceProvider
+288 1692389502587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B Payload
+288 1692389502587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B RI4DebugInterface
+288 1692389502587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B Payload End
+288 1692389502588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B Post:GetInterfaceProvider
+288 1692389502588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B Return Value
+288 1692389502588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B com.microchip.mplab.libs.RI4ToolsController.implementations.RI4DebugInterfaceImpl@58d56869
+288 1692389502588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B Return End
+
+288 1692389502622 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B Pre:GetInterfaceProvider
+288 1692389502622 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B Payload
+288 1692389502622 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B RI4ProgramInterface
+288 1692389502622 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B Payload End
+288 1692389502622 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B Post:GetInterfaceProvider
+288 1692389502622 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B Return Value
+288 1692389502622 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B com.microchip.mplab.libs.RI4ToolsController.implementations.RI4ProgramInterfaceImpl@59362720
+288 1692389502622 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B Return End
+
+288 1692389502647 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B Pre:GetInterfaceProvider
+288 1692389502647 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B Payload
+288 1692389502647 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B RI4ConnectInterface
+288 1692389502647 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B Payload End
+288 1692389502649 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B Post:GetInterfaceProvider
+288 1692389502649 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B Return Value
+288 1692389502649 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B com.microchip.mplab.libs.PK4ToolsController.PK4ConnectInterfaceImpl@5a6f32a8
+288 1692389502649 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B Return End
+288 1692389502659 GEN4_CONNECT_DIAGNOSTICS:acceptablePIDs = [9012, 9017, 901b, 9036, 9035]
+288 1692389502659 GEN4_CONNECT_DIAGNOSTICS:otherPIDs = [2177, 2179, 217a, 2141]
+288 1692389502659 GEN4_CONNECT_DIAGNOSTICS:Setting selected tool type to pk4
+288 1692389502660 GEN4_CONNECT_DIAGNOSTICS:otherPIDs = [2177, 2179, 217a, 2141]
+288 1692389502660 GEN4_CONNECT_DIAGNOSTICS:acceptablePIDs = [9012, 9017, 901b, 9036, 9035]
+
+288 1692389502663 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAMR34J18B Pre:selectCore
+288 1692389502663 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAMR34J18B Payload
+288 1692389502663 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAMR34J18B ATSAMR34J18B
+288 1692389502663 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAMR34J18B Payload End
+288 1692389502663 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAMR34J18B Post:selectCore
+288 1692389502663 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAMR34J18B Return Value
+288 1692389502663 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAMR34J18B none
+288 1692389502663 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAMR34J18B Return End
+
+288 1692389502663 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B Pre:GetInterfaceProvider
+288 1692389502663 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B Payload
+288 1692389502663 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B RI4ControllerDiagnosticsInterface
+288 1692389502663 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B Payload End
+288 1692389502663 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B Post:GetInterfaceProvider
+288 1692389502663 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B Return Value
+288 1692389502663 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B com.microchip.mplab.libs.RI4ToolsController.implementations.RI4ControllerDiagnosticsInterfaceImpl@17dd752c
+288 1692389502663 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B Return End
+
+288 1692389502663 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B Pre:GetInterfaceProvider
+288 1692389502663 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B Payload
+288 1692389502663 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B ProgrammerToGo
+288 1692389502663 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B Payload End
+288 1692389502663 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B Post:GetInterfaceProvider
+288 1692389502663 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B Return Value
+288 1692389502663 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B com.microchip.mplab.libs.RI4ToolsController.implementations.ProgrammerToGoImpl@1b68f293
+288 1692389502663 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B Return End
+
+288 1692389502664 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B Pre:GetInterfaceProvider
+288 1692389502664 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B Payload
+288 1692389502664 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B Status
+288 1692389502664 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B Payload End
+288 1692389502665 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B Post:GetInterfaceProvider
+288 1692389502665 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B Return Value
+288 1692389502665 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B null
+288 1692389502665 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAMR34J18B Return End
+288 1692389502680 GEN4_CONNECT_DIAGNOSTICS:ENTERING: com.microchip.mplab.mdbcore.RI4Tool.ConnectionHandler.CheckForFWUpdates()
+288 1692389502680 GEN4_CONNECT_DIAGNOSTICS:Created FirmwareUpdateHandler com.microchip.mplab.mdbcore.pk4hybrid.pk4hybridFirmwareUpdateHandler@2aa1d3db
+288 1692389502681 GEN4_CONNECT_DIAGNOSTICS:ENTERING: com.microchip.mplab.mdbcore.RI4Tool.FirmwareUpdateHandler.UpdateFirmware(FirmwareInfo, UpdateMessage)
+288 1692389502685 GEN4_CONNECT_DIAGNOSTICS:areWeInBoot returned false
+288 1692389502685 GEN4_CONNECT_DIAGNOSTICS:inBoot = false
+288 1692389502685 GEN4_CONNECT_DIAGNOSTICS:uMode = checkingVersions
+288 1692389502685 GEN4_CONNECT_DIAGNOSTICS:selectedTool = pk4
+288 1692389502685 GEN4_CONNECT_DIAGNOSTICS:current toolType = pk4
+288 1692389502685 GEN4_CONNECT_DIAGNOSTICS:current tool mode = pk4
+288 1692389502685 GEN4_CONNECT_DIAGNOSTICS:ENTERING: com.microchip.mplab.mdbcore.RI4Tool.FirmwareUpdateHandler.GetUpdateInfo()
+288 1692389502686 GEN4_CONNECT_DIAGNOSTICS:Parsing file  for firmware updates
+288 1692389502686 GEN4_CONNECT_DIAGNOSTICS:ENTERING: com.microchip.mplab.mdbcore.RI4Tool.FirmwareUpdateHandler.ParseSelectedVersionsFromJamFile()
+288 1692389502686 GEN4_CONNECT_DIAGNOSTICS:Jame file line = boot.hex,010000
+288 1692389502686 GEN4_CONNECT_DIAGNOSTICS:Jame file line = scripts.xml,000572
+288 1692389502687 GEN4_CONNECT_DIAGNOSTICS:Jame file line = app1 020060, 0040C000
+288 1692389502687 GEN4_CONNECT_DIAGNOSTICS:Jame file line = app2 1.14.268, 00500000
+288 1692389502687 GEN4_CONNECT_DIAGNOSTICS:Jame file line = app3 000000, FFFFFFFF
+288 1692389502687 GEN4_CONNECT_DIAGNOSTICS:Jame file line = app4 000000, FFFFFFFF
+288 1692389502687 GEN4_CONNECT_DIAGNOSTICS:Jame file line = app5 000000, FFFFFFFF
+288 1692389502687 GEN4_CONNECT_DIAGNOSTICS:Jame file line = app6 000000, FFFFFFFF
+288 1692389502687 GEN4_CONNECT_DIAGNOSTICS:Jame file line = app7 000000, FFFFFFFF
+288 1692389502687 GEN4_CONNECT_DIAGNOSTICS:Jame file line = app8 000000, FFFFFFFF
+288 1692389502687 GEN4_CONNECT_DIAGNOSTICS:EXITING: com.microchip.mplab.mdbcore.RI4Tool.FirmwareUpdateHandler.ri4ParseSelectedVersionsFromJamFile()
+288 1692389502687 GEN4_CONNECT_DIAGNOSTICS:EXITING: com.microchip.mplab.mdbcore.RI4Tool.FirmwareUpdateHandler.GetUpdateInfo()
+288 1692389502687 GEN4_CONNECT_DIAGNOSTICS:current toolType = pk4
+
+288 1692389502687 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAMR34J18B Pre:EstablishCommunincations
+288 1692389502687 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAMR34J18B Payload
+288 1692389502687 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAMR34J18B com.microchip.mplab.mdbcore.PK4Tool.PK4Com@415e2f2f
+288 1692389502687 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAMR34J18B Payload End
+288 1692389502699 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAMR34J18B Post:EstablishCommunincations
+288 1692389502699 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAMR34J18B Return Value
+288 1692389502701 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAMR34J18B true
+288 1692389502701 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAMR34J18B Return End
+
+288 1692389502701 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAMR34J18B Pre:GetFirmwareInfo
+288 1692389502701 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAMR34J18B Payload
+288 1692389502701 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAMR34J18B null
+288 1692389502701 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAMR34J18B Payload End
+288 1692389502705 XXXX 1692389502705, Thread 288: com.Send returned false 
+288 1692389502707 XXXX 1692389502707, Thread 288: execCommand: exception after writeSideChanel null 

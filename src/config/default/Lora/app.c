@@ -99,12 +99,12 @@ void APP_Initialize ( void )
 {
     /* Place the App state machine in its initial state. */
     appData.state = APP_STATE_INIT;
-    defaultSleep.sleepTimeMs =5000;
+    defaultSleep.sleepTimeMs =10000;
     defaultSleep.sleep_mode = SLEEP_MODE_STANDBY;
     defaultSleep.pmmWakeupCallback = MlsAppSleepCallback;
     appData.trappedMice=0;
     appData.batteryVoltage=0;
-    
+    appData.lastBatteryVoltageRead=0;
     EIC_CallbackRegister(EIC_PIN_6, (EIC_CALLBACK)trapTriggerCallback, (uintptr_t)NULL);
     EIC_InterruptDisable(EIC_PIN_6);
     
@@ -134,36 +134,28 @@ void APP_Tasks ( void )
         /* Application's initial state. */
         case APP_STATE_INIT:
         {
-            bool appInitialized = true;
-            RADIO_Init();
-            
-            PORT_PinOutputEnable(PORT_PIN_PB23);
-            if (appInitialized)
+            PORT_PinWrite(PORT_PIN_PB23, true);
+            if(appData.lastBatteryVoltageRead==0)
             {
                 
-                
-                /* Do other things */
-                appData.state = APP_STATE_GET_MICE_COUNT;
+                ADC_Initialize();
+                ADC_Enable();
+                ADC_ConversionStart();
+                appData.state =APP_STATE_READ_BATTERY_VOLTAGE;
+                appData.lastBatteryVoltageRead++;
+                break;
             }
-            break;
-        }
-        case APP_STATE_GET_MICE_COUNT:
-        {   
-            //delay_ms(500);
+            else
+            {
+                appData.lastBatteryVoltageRead++;
+                if(appData.lastBatteryVoltageRead>=WAKEUPS_BETWEEN_BATTERYVOLTAGE_READ)
+                {
+                    appData.lastBatteryVoltageRead=0;
+                }
+                appData.state = APP_STATE_GET_MICE_COUNT;
+                break;
+            }
             
-            appData.trappedMice=readMouseTraps();    
-            appData.state = APP_STATE_REQUEST_BATTERY_VOLTAGE;
-            break;
-        }
-
-        case APP_STATE_REQUEST_BATTERY_VOLTAGE: //This should be skipped 49/50 times we run the events, no need to check often.
-        {
-            ADC_Initialize();
-            //ADC_ChannelSelect(ADC_POSINPUT_BANDGAP,ADC_NEGINPUT_GND);
-            ADC_Enable();
-            ADC_ConversionStart();
-            appData.state =APP_STATE_READ_BATTERY_VOLTAGE;
-            break;
         }
         case APP_STATE_READ_BATTERY_VOLTAGE:
         {
@@ -171,16 +163,21 @@ void APP_Tasks ( void )
             if(ADC_ConversionSequenceIsFinished())
             {
                 
-                delay_ms(1);
+                //delay_ms(1);
                 if(ADC_ConversionResultGet()>0)
                 {
                 appData.batteryVoltage=(4095*10)/ADC_ConversionResultGet();
-                appData.state = APP_STATE_REPORT;
-                //ADC_InterruptsClear(ADC_INTFLAG_Msk);
+                appData.state = APP_STATE_GET_MICE_COUNT;
+                ADC_Disable();
+                ADC_InterruptsClear(ADC_INTFLAG_Msk);
                 }
             }
-                
-            
+            break;
+        }
+        case APP_STATE_GET_MICE_COUNT:
+        {             
+            appData.trappedMice=readMouseTraps();    
+            appData.state = APP_STATE_REPORT;
             break;
         }
         case APP_STATE_REPORT:
@@ -190,34 +187,21 @@ void APP_Tasks ( void )
             ConfigureRadioTx();
             RadioTransmitParam.bufferLen = 5;
             RadioTransmitParam.bufferPtr = macBuffer;
-            //resend the last packet
             if (RADIO_Transmit(&RadioTransmitParam) == ERR_NONE)
             {
-                radio_transmission_active=true;
-                PORT_PinWrite(PORT_PIN_PB23, true);
+                appData.state = APP_STATE_ENTER_SLEEP;
             }
             else
             {
-                
-                delay_ms(1000);
-                PORT_PinWrite(PORT_PIN_PB23, false);
-                delay_ms(100);
-                PORT_PinWrite(PORT_PIN_PB23, true);
-                delay_ms(100);
-                PORT_PinWrite(PORT_PIN_PB23, false);
-                delay_ms(100);
-                PORT_PinWrite(PORT_PIN_PB23, true);
-                delay_ms(100);
+               appData.state=APP_STATE_INIT;     
             }
-            
-            appData.state = APP_STATE_ENTER_SLEEP;
-            
             break;
             }
         case APP_STATE_ENTER_SLEEP:
         {   
             EIC_InterruptEnable(EIC_PIN_6);
             EIC_InterruptEnable(EIC_PIN_7);
+            
             if (MlsAppSleep() == PMM_SLEEP_REQ_DENIED) {
                 
             }
@@ -255,7 +239,7 @@ uint8_t readMouseTraps(void)
 {
     uint8_t trapped =0;
     uint8_t sw1=0;
-        uint8_t sw2=0;
+    uint8_t sw2=0;
 
     SW1_COM_OutputEnable();
     SW1_COM_Set();
@@ -263,6 +247,8 @@ uint8_t readMouseTraps(void)
     SW2_COM_Set();
     sw1=NC_SW1_Get();
     sw2=NC_SW2_Get();
+    //SW1_COM_Clear();
+    //SW2_COM_Clear();
     trapped = sw1+sw2;
     return trapped;
 }
@@ -355,7 +341,8 @@ void MlsAppResourceDeinitialize(void)
 //    SERCOM0_REGS->USART_INT.SERCOM_CTRLA &= ~(SERCOM_USART_INT_CTRLA_ENABLE_Msk);
 //
 //    while (SERCOM0_REGS->USART_INT.SERCOM_SYNCBUSY);
-
+    SUPC_DisableBod();
+    ADC_Disable();
     /* Disable Transceiver SPI Module */
     HAL_RadioDeInit();
 }

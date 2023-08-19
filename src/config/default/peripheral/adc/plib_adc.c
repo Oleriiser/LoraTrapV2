@@ -102,7 +102,7 @@ void ADC_Initialize( void )
     ADC_REGS->ADC_INPUTCTRL = (uint16_t) ADC_POSINPUT_BANDGAP | ADC_NEGINPUT_GND;
 
     /* Resolution & Operation Mode */
-    ADC_REGS->ADC_CTRLC = (uint16_t)(ADC_CTRLC_RESSEL_12BIT | ADC_CTRLC_WINMODE(0UL) | ADC_CTRLC_FREERUN_Msk);
+    ADC_REGS->ADC_CTRLC = (uint16_t)(ADC_CTRLC_RESSEL_12BIT | ADC_CTRLC_WINMODE(0UL) ) ;// | ADC_CTRLC_FREERUN_Msk);
 
 
     /* Clear all interrupt flags */

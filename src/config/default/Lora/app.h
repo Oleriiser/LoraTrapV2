@@ -47,9 +47,9 @@ extern "C" {
 // *****************************************************************************
 // *****************************************************************************
     
-#define MESSAGE_ID 3    
-    
-    
+#define MESSAGE_ID 4    
+#define WAKEUPS_BETWEEN_BATTERYVOLTAGE_READ 1
+
 // *****************************************************************************
 // *****************************************************************************
 // Section: Type Definitions
@@ -72,10 +72,9 @@ typedef enum
     /* Application's state machine's initial state. */
     APP_STATE_INIT=0,
     APP_STATE_GET_MICE_COUNT,
-            APP_STATE_REQUEST_BATTERY_VOLTAGE,
-            APP_STATE_READ_BATTERY_VOLTAGE,
-            APP_STATE_REPORT,
-            APP_STATE_ENTER_SLEEP,
+    APP_STATE_READ_BATTERY_VOLTAGE,
+    APP_STATE_REPORT,
+    APP_STATE_ENTER_SLEEP,
     /* TODO: Define states used by the application state machine. */
 
 } APP_STATES;
@@ -99,7 +98,8 @@ typedef struct
     /* The application's current state */
     APP_STATES state;
     uint8_t trappedMice;
-    uint16_t batteryVoltage;
+    uint8_t batteryVoltage;
+    uint8_t lastBatteryVoltageRead;
     /* TODO: Define any additional data used by the application. */
 
 } APP_DATA;

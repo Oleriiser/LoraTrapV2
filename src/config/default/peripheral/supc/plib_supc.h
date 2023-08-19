@@ -87,7 +87,7 @@ void SUPC_SelectVoltageRegulator(SUPC_VREGSEL regsel);
 
 
 void SUPC_Initialize( void );
-
+void SUPC_DisableBod(void);
 
 // DOM-IGNORE-BEGIN
 #ifdef __cplusplus  // Provide C++ Compatibility
