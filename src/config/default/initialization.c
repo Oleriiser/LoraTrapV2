@@ -176,7 +176,7 @@ void SYS_Initialize ( void* data )
     /* Initialize the Radio Hardware */
     HAL_RadioInit();
     /* Initialize the Software Timer Module */
-    SystemTimerInit();
+    //SystemTimerInit();
     SleepTimerInit();
     /* MISRAC 2012 deviation block end */
     

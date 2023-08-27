@@ -49,6 +49,7 @@ extern "C" {
     
 #define MESSAGE_ID 4    
 #define WAKEUPS_BETWEEN_BATTERYVOLTAGE_READ 1
+#define UNIT_ID 0x70
 
 // *****************************************************************************
 // *****************************************************************************
@@ -100,6 +101,7 @@ typedef struct
     uint8_t trappedMice;
     uint8_t batteryVoltage;
     uint8_t lastBatteryVoltageRead;
+    uint8_t unitId;
     /* TODO: Define any additional data used by the application. */
 
 } APP_DATA;

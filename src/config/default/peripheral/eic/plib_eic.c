@@ -85,12 +85,12 @@ void EIC_Initialize (void)
     /* Interrupt sense type and filter control for EXTINT channels 0 to 7*/
     EIC_REGS->EIC_CONFIG[0] =  EIC_CONFIG_SENSE0_RISE  |
                               EIC_CONFIG_SENSE1_RISE  |
-                              EIC_CONFIG_SENSE2_NONE  |
-                              EIC_CONFIG_SENSE3_NONE  |
+                              EIC_CONFIG_SENSE2_BOTH | EIC_CONFIG_FILTEN2_Msk |
+                              EIC_CONFIG_SENSE3_BOTH | EIC_CONFIG_FILTEN3_Msk |
                               EIC_CONFIG_SENSE4_NONE  |
                               EIC_CONFIG_SENSE5_NONE  |
-                              EIC_CONFIG_SENSE6_BOTH | EIC_CONFIG_FILTEN6_Msk |
-                              EIC_CONFIG_SENSE7_BOTH | EIC_CONFIG_FILTEN7_Msk ;
+                              EIC_CONFIG_SENSE6_NONE  |
+                              EIC_CONFIG_SENSE7_NONE  ;
 
     /* Interrupt sense type and filter control for EXTINT channels 8 to 15 */
     EIC_REGS->EIC_CONFIG[1] =  EIC_CONFIG_SENSE0_RISE 
@@ -110,12 +110,12 @@ void EIC_Initialize (void)
     /* Callbacks for enabled interrupts */
     eicCallbackObject[0].eicPinNo = EIC_PIN_0;
     eicCallbackObject[1].eicPinNo = EIC_PIN_1;
-    eicCallbackObject[2].eicPinNo = EIC_PIN_MAX;
-    eicCallbackObject[3].eicPinNo = EIC_PIN_MAX;
+    eicCallbackObject[2].eicPinNo = EIC_PIN_2;
+    eicCallbackObject[3].eicPinNo = EIC_PIN_3;
     eicCallbackObject[4].eicPinNo = EIC_PIN_MAX;
     eicCallbackObject[5].eicPinNo = EIC_PIN_MAX;
-    eicCallbackObject[6].eicPinNo = EIC_PIN_6;
-    eicCallbackObject[7].eicPinNo = EIC_PIN_7;
+    eicCallbackObject[6].eicPinNo = EIC_PIN_MAX;
+    eicCallbackObject[7].eicPinNo = EIC_PIN_MAX;
     eicCallbackObject[8].eicPinNo = EIC_PIN_MAX;
     eicCallbackObject[9].eicPinNo = EIC_PIN_MAX;
     eicCallbackObject[10].eicPinNo = EIC_PIN_10;

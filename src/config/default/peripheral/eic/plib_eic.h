@@ -105,10 +105,10 @@ typedef enum
     EIC_PIN_1 = 1,
             
     /* External Interrupt Controller Pin 6 */
-    EIC_PIN_6 = 6,
+    EIC_PIN_2 = 2,
 
     /* External Interrupt Controller Pin 7 */
-    EIC_PIN_7 = 7,
+    EIC_PIN_3 = 3,
 
     /* External Interrupt Controller Pin 10 */
     EIC_PIN_10 = 10,
