@@ -105,6 +105,7 @@ void APP_Initialize ( void )
     appData.trappedMice=0;
     appData.batteryVoltage=0;
     appData.lastBatteryVoltageRead=0;
+    appData.unitId=UNIT_ID;
     EIC_CallbackRegister(EIC_PIN_2, (EIC_CALLBACK)trapTriggerCallback, (uintptr_t)NULL);
     EIC_InterruptDisable(EIC_PIN_2);
     
@@ -168,7 +169,18 @@ void APP_Tasks ( void )
                 //delay_ms(1);
                 if(ADC_ConversionResultGet()>0)
                 {
-                appData.batteryVoltage=(4095*10)/ADC_ConversionResultGet();
+                    /*the voltage can be calculated by dividing the ADC resolution(vbat reference to the internal 1V ref
+                     the interesting range is from 3.3V to 1.8V. to save transmission time the voltage result will be formatted in this range
+                     * (3.3V*100)-100=230
+                     * (1.8V*100)-100=80
+                     * 
+                     * This has to be accounted for on the recieving end aswell.
+                        */
+                    
+                    
+                    
+                uint16_t tempVoltage=(4095*100)/ADC_ConversionResultGet();
+                appData.batteryVoltage=tempVoltage-100;
                 appData.state = APP_STATE_GET_MICE_COUNT;
                 ADC_Disable();
                 ADC_InterruptsClear(ADC_INTFLAG_Msk);
@@ -184,19 +196,19 @@ void APP_Tasks ( void )
         }
         case APP_STATE_REPORT:
         {          
-//            buildLoraMessage(macBuffer);
-//            RadioTransmitParam_t RadioTransmitParam;
-//            ConfigureRadioTx();
-//            RadioTransmitParam.bufferLen = 5;
-//            RadioTransmitParam.bufferPtr = macBuffer;
-//            if (RADIO_Transmit(&RadioTransmitParam) == ERR_NONE)
-//            {
+            buildLoraMessage(macBuffer);
+            RadioTransmitParam_t RadioTransmitParam;
+            ConfigureRadioTx();
+            RadioTransmitParam.bufferLen = 5;
+            RadioTransmitParam.bufferPtr = macBuffer;
+            if (RADIO_Transmit(&RadioTransmitParam) == ERR_NONE)
+            {
                 appData.state = APP_STATE_ENTER_SLEEP;
-//            }
-//            else
-//            {
-//               appData.state=APP_STATE_INIT;     
-//            }
+            }
+            else
+            {
+               appData.state=APP_STATE_INIT;     
+            }
             break;
             }
         case APP_STATE_ENTER_SLEEP:
@@ -273,7 +285,7 @@ uint8_t readMouseTraps(void)
 
 void buildLoraMessage(uint8_t *message)
 {
-    message[0]=0x70;//appData.unitID;
+    message[0]=appData.unitId;
     message[1]=MESSAGE_ID;
     message[2]=appData.trappedMice;
     message[3]=appData.batteryVoltage;
