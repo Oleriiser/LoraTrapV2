@@ -203,7 +203,7 @@ void RADIO_InitDefaultAttributes(void)
     radioConfiguration.bitRate = 50000;
     radioConfiguration.modulation = MODULATION_LORA;
     radioConfiguration.bandWidth = BW_125KHZ;// ok
-    radioConfiguration.outputPower = 1;
+    radioConfiguration.outputPower = 14;
     radioConfiguration.errorCodingRate = CR_4_5;
     radioConfiguration.implicitHeaderMode = 0;
     radioConfiguration.preambleLen = RADIO_PHY_PREAMBLE_LENGTH;

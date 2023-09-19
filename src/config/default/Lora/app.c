@@ -106,6 +106,8 @@ void APP_Initialize ( void )
     appData.batteryVoltage=0;
     appData.lastBatteryVoltageRead=0;
     appData.unitId=UNIT_ID;
+    appData.radio_power=LORA_POWER;
+    RADIO_SetAttr(OUTPUT_POWER,(void*)&appData.radio_power);
     EIC_CallbackRegister(EIC_PIN_2, (EIC_CALLBACK)trapTriggerCallback, (uintptr_t)NULL);
     EIC_InterruptDisable(EIC_PIN_2);
     

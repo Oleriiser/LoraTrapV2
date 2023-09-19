@@ -49,7 +49,8 @@ extern "C" {
     
 #define MESSAGE_ID 4    
 #define WAKEUPS_BETWEEN_BATTERYVOLTAGE_READ 1
-#define UNIT_ID 0x70
+#define UNIT_ID 0x90
+#define LORA_POWER 1 //1 is lowest, 14 highest power
 
 // *****************************************************************************
 // *****************************************************************************
@@ -102,6 +103,7 @@ typedef struct
     uint8_t batteryVoltage;
     uint8_t lastBatteryVoltageRead;
     uint8_t unitId;
+    uint8_t radio_power;
     /* TODO: Define any additional data used by the application. */
 
 } APP_DATA;
