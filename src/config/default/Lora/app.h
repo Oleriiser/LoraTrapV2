@@ -49,8 +49,9 @@ extern "C" {
     
 #define MESSAGE_ID 4    
 #define WAKEUPS_BETWEEN_BATTERYVOLTAGE_READ 1
-#define UNIT_ID 0x90
-#define LORA_POWER 1 //1 is lowest, 14 highest power
+#define UNIT_ID 0x93
+#define LORA_POWER 14 //1 is lowest, 14 highest power
+#define SLEEP_TIME_MS 72000000
 
 // *****************************************************************************
 // *****************************************************************************

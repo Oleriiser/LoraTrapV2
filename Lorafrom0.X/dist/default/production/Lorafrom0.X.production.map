@@ -1862,7 +1862,7 @@ LOAD data_init
  .debug_ranges  0x00001418       0x70 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(gedf2.o)
  .debug_ranges  0x00001488       0x68 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(ledf2.o)
 
-.debug_line     0x00000000     0xd625
+.debug_line     0x00000000     0xd627
  .debug_line    0x00000000      0x9f5 build/default/production/_ext/1824788055/radio_driver_hal.o
  .debug_line    0x000009f5      0x2ea build/default/production/_ext/1824788055/sleep.o
  .debug_line    0x00000cdf      0x32a build/default/production/_ext/1824788055/sleep_timer.o
@@ -1897,37 +1897,37 @@ LOAD data_init
  .debug_line    0x00008d0a      0x1a1 build/default/production/_ext/1171490990/startup_xc32.o
  .debug_line    0x00008eab      0x643 build/default/production/_ext/1171490990/initialization.o
  .debug_line    0x000094ee      0x2db build/default/production/_ext/1530445869/tasks.o
- .debug_line    0x000097c9      0x7c0 build/default/production/_ext/1530445869/app.o
- .debug_line    0x00009f89      0x2a8 build/default/production/_ext/1360937237/main.o
- .debug_line    0x0000a231      0x132 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(data_init.o)
- .debug_line    0x0000a363       0xa8 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
- .debug_line    0x0000a40b       0xaf c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_divsi3.o)
- .debug_line    0x0000a4ba       0x9c c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
- .debug_line    0x0000a556       0xa7 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_aeabi_uldivmod.o)
- .debug_line    0x0000a5fd      0x2cb c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_fixunssfsi.o)
- .debug_line    0x0000a8c8      0x2d0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_fixunssfdi.o)
- .debug_line    0x0000ab98      0x3d7 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o)
- .debug_line    0x0000af6f      0x279 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(mulsf3.o)
- .debug_line    0x0000b1e8      0x314 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(subsf3.o)
- .debug_line    0x0000b4fc      0x154 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(fixsfsi.o)
- .debug_line    0x0000b650      0x18e c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(floatsisf.o)
- .debug_line    0x0000b7de      0x18e c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(floatunsisf.o)
- .debug_line    0x0000b96c      0x3b3 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(muldf3.o)
- .debug_line    0x0000bd1f      0x50d c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(subdf3.o)
- .debug_line    0x0000c22c      0x17b c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(floatunsidf.o)
- .debug_line    0x0000c3a7      0x1b2 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(extendsfdf2.o)
- .debug_line    0x0000c559       0xb1 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpsf2.o)
- .debug_line    0x0000c60a       0xb0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_clzsi2.o)
- .debug_line    0x0000c6ba       0xa6 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_clzdi2.o)
- .debug_line    0x0000c760      0x2c7 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_fixunsdfsi.o)
- .debug_line    0x0000ca27      0x179 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(eqsf2.o)
- .debug_line    0x0000cba0      0x1a8 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(gesf2.o)
- .debug_line    0x0000cd48      0x1a4 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(lesf2.o)
- .debug_line    0x0000ceec      0x16e c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(fixdfsi.o)
- .debug_line    0x0000d05a       0xb4 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpdf2.o)
- .debug_line    0x0000d10e      0x187 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(eqdf2.o)
- .debug_line    0x0000d295      0x1ca c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(gedf2.o)
- .debug_line    0x0000d45f      0x1c6 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(ledf2.o)
+ .debug_line    0x000097c9      0x7c2 build/default/production/_ext/1530445869/app.o
+ .debug_line    0x00009f8b      0x2a8 build/default/production/_ext/1360937237/main.o
+ .debug_line    0x0000a233      0x132 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(data_init.o)
+ .debug_line    0x0000a365       0xa8 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .debug_line    0x0000a40d       0xaf c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_divsi3.o)
+ .debug_line    0x0000a4bc       0x9c c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+ .debug_line    0x0000a558       0xa7 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_aeabi_uldivmod.o)
+ .debug_line    0x0000a5ff      0x2cb c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_fixunssfsi.o)
+ .debug_line    0x0000a8ca      0x2d0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_fixunssfdi.o)
+ .debug_line    0x0000ab9a      0x3d7 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o)
+ .debug_line    0x0000af71      0x279 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(mulsf3.o)
+ .debug_line    0x0000b1ea      0x314 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(subsf3.o)
+ .debug_line    0x0000b4fe      0x154 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(fixsfsi.o)
+ .debug_line    0x0000b652      0x18e c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(floatsisf.o)
+ .debug_line    0x0000b7e0      0x18e c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(floatunsisf.o)
+ .debug_line    0x0000b96e      0x3b3 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(muldf3.o)
+ .debug_line    0x0000bd21      0x50d c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(subdf3.o)
+ .debug_line    0x0000c22e      0x17b c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(floatunsidf.o)
+ .debug_line    0x0000c3a9      0x1b2 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(extendsfdf2.o)
+ .debug_line    0x0000c55b       0xb1 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpsf2.o)
+ .debug_line    0x0000c60c       0xb0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_clzsi2.o)
+ .debug_line    0x0000c6bc       0xa6 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_clzdi2.o)
+ .debug_line    0x0000c762      0x2c7 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_fixunsdfsi.o)
+ .debug_line    0x0000ca29      0x179 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(eqsf2.o)
+ .debug_line    0x0000cba2      0x1a8 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(gesf2.o)
+ .debug_line    0x0000cd4a      0x1a4 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(lesf2.o)
+ .debug_line    0x0000ceee      0x16e c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(fixdfsi.o)
+ .debug_line    0x0000d05c       0xb4 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpdf2.o)
+ .debug_line    0x0000d110      0x187 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(eqdf2.o)
+ .debug_line    0x0000d297      0x1ca c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(gedf2.o)
+ .debug_line    0x0000d461      0x1c6 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(ledf2.o)
 
 .debug_str      0x00000000     0x2110
  .debug_str     0x00000000      0x1d7 build/default/production/_ext/1824788055/radio_driver_hal.o

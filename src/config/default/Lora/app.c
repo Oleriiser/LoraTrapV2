@@ -99,7 +99,7 @@ void APP_Initialize ( void )
 {
     /* Place the App state machine in its initial state. */
     appData.state = APP_STATE_INIT;
-    defaultSleep.sleepTimeMs =10000;
+    defaultSleep.sleepTimeMs =SLEEP_TIME_MS;
     defaultSleep.sleep_mode = SLEEP_MODE_STANDBY;
     defaultSleep.pmmWakeupCallback = MlsAppSleepCallback;
     appData.trappedMice=0;
@@ -261,23 +261,23 @@ uint8_t readMouseTraps(void)
 //    SW1_COM_Set();
 //    SW2_COM_OutputEnable();
 //    SW2_COM_Set();
-    if(SW1_COM_Get())
+if(Trap1_COM_Get())
     {   
-        if(NC_SW1_Get())
+        if(Trap1_NC_Get())
         {
             sw1=1;
         }
-        NC_SW1_Toggle();
-        SW3_COM_Toggle();//This should be NO_SW1_Toggle
+        Trap1_NC_Toggle();
+        Trap1_NO_Toggle();//This should be NO_SW1_Toggle
     }
-    if(SW2_COM_Get())
+    if(Trap2_COM_Get())
     {
-        if(NC_SW2_Get())
+        if(Trap2_NC_Get())
         {
-        sw2=1;
+            sw2=1;
         }
-        NC_SW2_Toggle();
-        SW4_COM_Toggle();//This should be NO_SW2_Toggle
+        Trap2_NC_Toggle();
+        Trap2_NO_Toggle();//This should be NO_SW2_Toggle
     }
 //    SW1_COM_Clear();
 //    SW2_COM_Clear();
