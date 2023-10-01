@@ -148,11 +148,11 @@ void SYS_Initialize ( void* data )
 
 
 
-    NVMCTRL_Initialize( );
+    //NVMCTRL_Initialize( );
 
    // SERCOM1_I2C_Initialize();
 
-    EVSYS_Initialize();
+    //EVSYS_Initialize();
 
     //SERCOM0_USART_Initialize();
 
@@ -169,7 +169,7 @@ void SYS_Initialize ( void* data )
 
     //TC0_CompareInitialize();
 
-	RSTC_Initialize();
+	//RSTC_Initialize();
 
     /* Initialize delay routines */
     delay_init();

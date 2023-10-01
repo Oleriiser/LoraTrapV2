@@ -284,14 +284,21 @@ if(Trap1_COM_Get())
     trapped = sw1+sw2;
     return trapped;
 }
-
+uint8_t loraCRC(uint8_t *message)
+{ uint8_t crc =0;
+    for(int i =0;i<4;i++)
+    {
+        crc^=message[i];
+    }
+return crc;
+}
 void buildLoraMessage(uint8_t *message)
 {
     message[0]=appData.unitId;
     message[1]=MESSAGE_ID;
     message[2]=appData.trappedMice;
     message[3]=appData.batteryVoltage;
-    message[4]=222;//appData.sleepTime;
+    message[4]=loraCRC(message);//appData.sleepTime;
 }
 
 PMM_Status_t MlsAppSleep(void)
