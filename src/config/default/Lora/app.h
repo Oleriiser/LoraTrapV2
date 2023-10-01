@@ -191,6 +191,7 @@ void APP_Tasks( void );
 void buildLoraMessage(uint8_t *message);
 uint8_t readMouseTraps(void);
 PMM_Status_t MlsAppSleep(void);
+uint8_t loraCRC(uint8_t *message);
 void MlsAppSleepCallback(uint32_t sleptDuration);
 void MlsAppSleepCallbackNotifySet(SleepCallback_t func);
 void MlsAppResourceInitialize(void);
